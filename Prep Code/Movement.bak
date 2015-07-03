@@ -1,0 +1,37 @@
+//OUT_A is left
+//OUT_C is right
+
+void move(int spd,int time);
+void turn(int dir, int spd, int time);
+void reset();
+
+task main(){
+     move(75,1500);
+     move(-75,1500);
+     turn(1,75,1000);
+     move(75,1500);
+     turn(0,75,1000);
+     move(-75,1500);
+}
+
+void move(int spd,int time){
+     OnFwd(OUT_AC,spd);
+     Wait(time);
+     reset()
+}
+
+void turn(int dir, int spd, int time){ //0 - left, 1 - right
+     if(dir == 0){
+            OnFwd(OUT_C,spd);
+            Wait(time);
+     }
+     else if(dir == 1){
+            OnFwd(OUT_A,spd);
+            Wait(time);
+     }
+     reset();
+}
+
+void reset(){
+     OnFwd(OUT_AC,0);
+}

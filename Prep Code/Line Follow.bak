@@ -1,0 +1,54 @@
+#define MAX -60
+#define RATIO 1
+
+void displayNum(int n);
+
+task main(){
+     int black, white, avg;
+
+     //callibration of black and white
+     SetSensorLight(S1,1);
+     TextOut(0,2,"Set black");
+     Wait(3000);
+     black = SENSOR_1;
+     ClearScreen();
+     TextOut(0,2,"Set white");
+     Wait(3000);
+     white = SENSOR_1;
+     ClearScreen();
+     
+     avg = (black + white) / 2;
+     displayNum(black);
+     displayNum(white);
+     displayNum(avg);
+     
+     TextOut(0,2,"3");
+     Wait(1000);
+     ClearScreen();
+     TextOut(0,2,"2");
+     Wait(1000);
+     ClearScreen();
+     TextOut(0,2,"1");
+     Wait(1000);
+     ClearScreen();
+     TextOut(0,2,"GO!");
+     Wait(1000);
+     ClearScreen();
+
+     while(1){
+          if(SENSOR_1 > avg){
+               OnFwd(OUT_A,MAX - MAX*RATIO*(SENSOR_1 - avg)/(white-avg));
+               OnFwd(OUT_C,MAX);
+          }
+          else if(SENSOR_1 <= avg){
+               OnFwd(OUT_C,MAX - MAX*RATIO*(SENSOR_1 - avg)/(black-avg));
+               OnFwd(OUT_A,MAX);
+          }
+     }
+}
+
+void displayNum(int n){
+     ClearScreen();
+     TextOut(0,2,NumToStr(n));
+     Wait(1500);
+}

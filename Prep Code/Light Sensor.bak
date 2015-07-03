@@ -1,0 +1,6 @@
+task main(){
+     SetSensorLight(S1,1);
+     string val = SENSOR_1;
+     TextOut(0,2,val);
+     Wait(20000);
+}
