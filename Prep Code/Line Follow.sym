@@ -75,15 +75,15 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 72	__constStr0011.__constStr0011_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	6	0	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	6	0	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	7	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	6	2	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	9	2	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	6	2	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	9	2	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	10	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
-0	9	5	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	9	5	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	9	5	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	9	5	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	10	5		set __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, 1
-0	9	8	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	9	8	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	3729	8	#line 3729 "NXCDefs.h"
 0	3730	8		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	10	#line 3729 "NXCDefs.h"
@@ -124,44 +124,44 @@ Clump	Line	PC	Source
 0	3843	45	#line 3843 "NXCDefs.h"
 0	3694	45	#line 3694 "NXCDefs.h"
 0	3732	45	#line 3732 "NXCDefs.h"
-0	10	45	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	10	45	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	10	45	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	10	45	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	11	45		set __signed_stack_001main, 0
-0	10	48	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	10	48	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	10	48	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	10	48	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	11	48		set __signed_stack_002main, 2
-0	10	51	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	10	51	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	10	51	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	10	51	#line 10 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	11	51		strcat __strbufmain, __constStr0009
-0	11	55	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	55	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	55		acquire __TextOutMutex
-0	11	56	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	56	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	56		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	11	58	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	58	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	58		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	11	60	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	60	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	60		set __TextOutArgs.Options, 0
-0	11	63	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	63	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	63		mov __TextOutArgs.Text, __strbufmain
-0	11	65	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	65	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	65		syscall 13, __TextOutArgs
-0	11	68	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	68	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	68		mov __D0main, __TextOutArgs.Result
-0	11	70	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	70	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	70		release __TextOutMutex
-0	11	71	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	11	71	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	71	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	11	71	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	12	71		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
-0	11	74	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	11	74	#line 11 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	7921	74	#line 7921 "NXCDefs.h"
 0	7922	74		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	7921	77	#line 7921 "NXCDefs.h"
-0	12	77	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	12	77	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	12	77	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	12	77	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	13	77		getin __main_7qG2_black_7qG2_000, __constVal0, 4
-0	12	81	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	12	81	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	12	81	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	12	81	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	12	81	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	12	81	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	6069	81	#line 6069 "NXCDefs.h"
 0	6070	81	#pragma macro 6
 0	6070	81		acquire __PointOutMutex
@@ -172,44 +172,44 @@ Clump	Line	PC	Source
 0	6070	91		release __PointOutMutex
 0	3901	92	#line 3901 "NXCDefs.h"
 0	6069	92	#line 6069 "NXCDefs.h"
-0	14	92	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	14	92	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	14	92	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	14	92	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	15	92		set __signed_stack_001main, 0
-0	14	95	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	14	95	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	14	95	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	14	95	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	15	95		set __signed_stack_002main, 2
-0	14	98	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	14	98	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	14	98	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	14	98	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	15	98		strcat __strbufmain, __constStr0010
-0	15	102	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	102	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	102		acquire __TextOutMutex
-0	15	103	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	103	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	103		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	15	105	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	105	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	105		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	15	107	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	107	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	107		set __TextOutArgs.Options, 0
-0	15	110	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	110	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	110		mov __TextOutArgs.Text, __strbufmain
-0	15	112	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	112	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	112		syscall 13, __TextOutArgs
-0	15	115	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	115	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	115		mov __D0main, __TextOutArgs.Result
-0	15	117	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	117	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	117		release __TextOutMutex
-0	15	118	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	15	118	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	118	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	15	118	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	16	118		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
-0	15	121	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	15	121	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	7921	121	#line 7921 "NXCDefs.h"
 0	7922	121		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	7921	124	#line 7921 "NXCDefs.h"
-0	16	124	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	16	124	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	16	124	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	16	124	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	17	124		getin __main_7qG2_white_7qG2_000, __constVal0, 4
-0	16	128	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	16	128	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	16	128	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	16	128	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	16	128	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	16	128	#line 16 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	6069	128	#line 6069 "NXCDefs.h"
 0	6070	128	#pragma macro 6
 0	6070	128		acquire __PointOutMutex
@@ -220,68 +220,68 @@ Clump	Line	PC	Source
 0	6070	138		release __PointOutMutex
 0	3954	139	#line 3954 "NXCDefs.h"
 0	6069	139	#line 6069 "NXCDefs.h"
-0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	19	139	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	20	139		add __signed_stack_001main, __main_7qG2_black_7qG2_000, __main_7qG2_white_7qG2_000
-0	19	143	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	20	143	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	20	143	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	19	143	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	20	143	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	20	143	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	21	143		div __main_7qG2_avg_7qG2_000, __signed_stack_001main, __constVal2
-0	20	147	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	20	147	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	20	147	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	20	147	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	20	147	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	20	147	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	21	147		mov __displayNum_7qG2_n_7qG2_000, __main_7qG2_black_7qG2_000
-0	20	149	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	21	149	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	20	149	#line 20 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	21	149	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	22	149		subcall displayNum, __displayNum_return
-0	21	151	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	21	151	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	21	151	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	21	151	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	22	151		mov __displayNum_7qG2_n_7qG2_000, __main_7qG2_white_7qG2_000
-0	21	153	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	22	153	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	21	153	#line 21 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	22	153	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	23	153		subcall displayNum, __displayNum_return
-0	22	155	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	22	155	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	22	155	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	22	155	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	23	155		mov __displayNum_7qG2_n_7qG2_000, __main_7qG2_avg_7qG2_000
-0	22	157	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	24	157	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	22	157	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	24	157	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	25	157		subcall displayNum, __displayNum_return
-0	24	159	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	24	159	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	24	159	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	24	159	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	25	159		set __signed_stack_001main, 0
-0	24	162	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	24	162	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	24	162	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	24	162	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	25	162		set __signed_stack_002main, 2
-0	24	165	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	24	165	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	24	165	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	24	165	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	25	165		strcat __strbufmain, __constStr0011
-0	25	169	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	169	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	169		acquire __TextOutMutex
-0	25	170	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	170	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	170		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	25	172	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	172	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	172		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	25	174	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	174	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	174		set __TextOutArgs.Options, 0
-0	25	177	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	177	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	177		mov __TextOutArgs.Text, __strbufmain
-0	25	179	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	179	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	179		syscall 13, __TextOutArgs
-0	25	182	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	182	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	182		mov __D0main, __TextOutArgs.Result
-0	25	184	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	184	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	184		release __TextOutMutex
-0	25	185	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	25	185	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	185	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	25	185	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	26	185		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
-0	25	188	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	25	188	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	7921	188	#line 7921 "NXCDefs.h"
 0	7922	188		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	7921	191	#line 7921 "NXCDefs.h"
-0	26	191	#line 26 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	26	191	#line 26 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	6069	191	#line 6069 "NXCDefs.h"
 0	6070	191	#pragma macro 6
 0	6070	191		acquire __PointOutMutex
@@ -292,39 +292,39 @@ Clump	Line	PC	Source
 0	6070	201		release __PointOutMutex
 0	4047	202	#line 4047 "NXCDefs.h"
 0	6069	202	#line 6069 "NXCDefs.h"
-0	27	202	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	27	202	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	27	202	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	27	202	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	28	202		set __signed_stack_001main, 0
-0	27	205	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	27	205	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	27	205	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	27	205	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	28	205		set __signed_stack_002main, 2
-0	27	208	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	27	208	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	27	208	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	27	208	#line 27 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	28	208		strcat __strbufmain, __constStr0012
-0	28	212	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	212	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	212		acquire __TextOutMutex
-0	28	213	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	213	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	213		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	28	215	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	215	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	215		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	28	217	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	217	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	217		set __TextOutArgs.Options, 0
-0	28	220	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	220	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	220		mov __TextOutArgs.Text, __strbufmain
-0	28	222	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	222	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	222		syscall 13, __TextOutArgs
-0	28	225	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	225	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	225		mov __D0main, __TextOutArgs.Result
-0	28	227	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	227	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	227		release __TextOutMutex
-0	28	228	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	28	228	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	228	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	28	228	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	29	228		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
-0	28	231	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	28	231	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	7921	231	#line 7921 "NXCDefs.h"
 0	7922	231		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	7921	234	#line 7921 "NXCDefs.h"
-0	29	234	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	29	234	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	6069	234	#line 6069 "NXCDefs.h"
 0	6070	234	#pragma macro 6
 0	6070	234		acquire __PointOutMutex
@@ -335,39 +335,39 @@ Clump	Line	PC	Source
 0	6070	244		release __PointOutMutex
 0	4092	245	#line 4092 "NXCDefs.h"
 0	6069	245	#line 6069 "NXCDefs.h"
-0	30	245	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	30	245	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	30	245	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	30	245	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	31	245		set __signed_stack_001main, 0
-0	30	248	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	30	248	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	30	248	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	30	248	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	31	248		set __signed_stack_002main, 2
-0	30	251	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	30	251	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	30	251	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	30	251	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	31	251		strcat __strbufmain, __constStr0013
-0	31	255	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	255	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	255		acquire __TextOutMutex
-0	31	256	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	256	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	256		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	31	258	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	258	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	258		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	31	260	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	260	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	260		set __TextOutArgs.Options, 0
-0	31	263	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	263	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	263		mov __TextOutArgs.Text, __strbufmain
-0	31	265	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	265	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	265		syscall 13, __TextOutArgs
-0	31	268	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	268	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	268		mov __D0main, __TextOutArgs.Result
-0	31	270	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	270	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	270		release __TextOutMutex
-0	31	271	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	31	271	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	271	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	31	271	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	32	271		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
-0	31	274	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	31	274	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	7921	274	#line 7921 "NXCDefs.h"
 0	7922	274		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	7921	277	#line 7921 "NXCDefs.h"
-0	32	277	#line 32 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	32	277	#line 32 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	6069	277	#line 6069 "NXCDefs.h"
 0	6070	277	#pragma macro 6
 0	6070	277		acquire __PointOutMutex
@@ -378,39 +378,39 @@ Clump	Line	PC	Source
 0	6070	287		release __PointOutMutex
 0	4137	288	#line 4137 "NXCDefs.h"
 0	6069	288	#line 6069 "NXCDefs.h"
-0	33	288	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	33	288	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	33	288	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	33	288	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	34	288		set __signed_stack_001main, 0
-0	33	291	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	33	291	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	33	291	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	33	291	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	34	291		set __signed_stack_002main, 2
-0	33	294	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	33	294	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	33	294	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	33	294	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	34	294		strcat __strbufmain, __constStr0014
-0	34	298	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	298	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	298		acquire __TextOutMutex
-0	34	299	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	299	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	299		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	34	301	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	301	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	301		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	34	303	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	303	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	303		set __TextOutArgs.Options, 0
-0	34	306	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	306	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	306		mov __TextOutArgs.Text, __strbufmain
-0	34	308	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	308	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	308		syscall 13, __TextOutArgs
-0	34	311	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	311	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	311		mov __D0main, __TextOutArgs.Result
-0	34	313	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	313	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	313		release __TextOutMutex
-0	34	314	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	34	314	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	314	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	34	314	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	35	314		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
-0	34	317	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	34	317	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	7921	317	#line 7921 "NXCDefs.h"
 0	7922	317		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	7921	320	#line 7921 "NXCDefs.h"
-0	35	320	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	35	320	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	6069	320	#line 6069 "NXCDefs.h"
 0	6070	320	#pragma macro 6
 0	6070	320		acquire __PointOutMutex
@@ -421,128 +421,128 @@ Clump	Line	PC	Source
 0	6070	330		release __PointOutMutex
 0	4182	331	#line 4182 "NXCDefs.h"
 0	6069	331	#line 6069 "NXCDefs.h"
-0	37	331	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	37	331	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	37	331	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	37	331	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	38	331		set __D0main, 1
-0	38	334	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	38	334	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	39	334		tst 5, __zfmain, __D0main
-0	38	337	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	38	337	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	39	337		brtst 4, __NXC_Label_544, __zfmain
-0	38	340	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	38	340	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	39	340		getin __signed_stack_001main, __constVal0, 4
-0	38	344	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	38	344	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	38	344	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	38	344	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	39	344		mov __D0main, __main_7qG2_avg_7qG2_000
-0	38	346	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	38	346	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	39	346		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	38	350	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	38	350	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	39	350		mov __D0main, __zfmain
-0	39	352	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	352	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	352		brtst 4, __NXC_Label_549, __zfmain
-0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	355	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	355		sub __signed_stack_001main, __constVal0, __constVal60
-0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	359	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	359		mul __signed_stack_002main, __constValNeg60, __constVal2
-0	39	363	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	363	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	363	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	363	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	363		getin __signed_stack_003main, __constVal0, 4
-0	39	367	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	367	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	367	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	367	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	367	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	367	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	367		sub __D0main, __signed_stack_003main, __main_7qG2_avg_7qG2_000
-0	39	371	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	371	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	371		mul __signed_stack_002main, __signed_stack_002main, __D0main
-0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	39	375	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	375		sub __D0main, __main_7qG2_white_7qG2_000, __main_7qG2_avg_7qG2_000
-0	39	379	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	379	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	379		div __D0main, __signed_stack_002main, __D0main
-0	39	383	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	39	383	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	40	383		sub __D0main, __signed_stack_001main, __D0main
-0	40	387	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	40	387	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	41	387	#pragma macro 7
 0	41	387		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4259	410	#line 4259 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	40	410	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	40	410	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	40	410	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	4259	410	#line 4259 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	40	410	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	40	410	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	40	410	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	41	410		mov __D0main, __constValNeg60
-0	41	412	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	41	412	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	42	412	#pragma macro 7
 0	42	412		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4267	435	#line 4267 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	41	435	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	42	435	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	4267	435	#line 4267 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	41	435	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	42	435	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	43	435		jmp __NXC_Label_558
-0	42	437	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	42	437	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	43	437		getin __signed_stack_001main, __constVal0, 4
-0	42	441	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	42	441	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	42	441	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	42	441	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	43	441		mov __D0main, __main_7qG2_avg_7qG2_000
-0	42	443	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	42	443	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	43	443		cmp 2, __zfmain, __signed_stack_001main, __D0main
-0	42	447	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	42	447	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	43	447		mov __D0main, __zfmain
-0	43	449	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	449	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	449		brtst 4, __NXC_Label_561, __zfmain
-0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	452	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	452		sub __signed_stack_001main, __constVal0, __constVal60
-0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	456	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	456		mul __signed_stack_002main, __constValNeg60, __constVal2
-0	43	460	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	460	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	460	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	460	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	460		getin __signed_stack_003main, __constVal0, 4
-0	43	464	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	464	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	464	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	464	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	464	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	464	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	464		sub __D0main, __signed_stack_003main, __main_7qG2_avg_7qG2_000
-0	43	468	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	468	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	468		mul __signed_stack_002main, __signed_stack_002main, __D0main
-0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	43	472	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	472		sub __D0main, __main_7qG2_black_7qG2_000, __main_7qG2_avg_7qG2_000
-0	43	476	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	476	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	476		div __D0main, __signed_stack_002main, __D0main
-0	43	480	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	43	480	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	44	480		sub __D0main, __signed_stack_001main, __D0main
-0	44	484	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	44	484	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	45	484	#pragma macro 7
 0	45	484		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4337	507	#line 4337 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	44	507	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	44	507	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	44	507	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	4337	507	#line 4337 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	44	507	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	44	507	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	44	507	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	45	507		mov __D0main, __constValNeg60
-0	45	509	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	45	509	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	46	509	#pragma macro 7
 0	46	509		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4345	532	#line 4345 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	45	532	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	47	532	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	47	532	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-0	49	532	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	4345	532	#line 4345 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	45	532	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	47	532	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	47	532	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+0	49	532	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	50	532		jmp __NXC_Label_543
-0	49	534	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+0	49	534	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 0	50	534		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
@@ -558,50 +558,50 @@ Clump	Line	PC	Source
 2	6070	10		release __PointOutMutex
 2	4359	11	#line 4359 "NXCDefs.h"
 2	6069	11	#line 6069 "NXCDefs.h"
-2	51	11	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-2	51	11	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	51	11	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+2	51	11	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	52	11		set __signed_stack_001displayNum, 0
-2	51	14	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-2	51	14	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	51	14	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+2	51	14	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	52	14		set __signed_stack_002displayNum, 2
-2	51	17	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-2	51	17	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	51	17	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+2	51	17	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	52	17		mov __D0displayNum, __displayNum_7qG2_n_7qG2_000
-2	51	19	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	51	19	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	52	19		numtostr __strretvaldisplayNum, __D0displayNum
-2	51	22	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	51	22	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	52	22		strcat __strbufdisplayNum, __strretvaldisplayNum
-2	52	26	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	26	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	26		acquire __TextOutMutex
-2	52	27	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	27	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	27		mov __TextOutArgs.Location.X, __signed_stack_001displayNum
-2	52	29	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	29	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	29		mov __TextOutArgs.Location.Y, __signed_stack_002displayNum
-2	52	31	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	31	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	31		set __TextOutArgs.Options, 0
-2	52	34	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	34	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	34		mov __TextOutArgs.Text, __strbufdisplayNum
-2	52	36	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	36	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	36		syscall 13, __TextOutArgs
-2	52	39	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	39	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	39		mov __D0displayNum, __TextOutArgs.Result
-2	52	41	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	41	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	41		release __TextOutMutex
-2	52	42	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-2	52	42	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	42	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+2	52	42	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	53	42		set __Wait_7qG2_ms_7qG2_000_inline_displayNum, 1500
-2	52	45	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	52	45	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	7921	45	#line 7921 "NXCDefs.h"
 2	7922	45		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_displayNum
 2	7921	48	#line 7921 "NXCDefs.h"
-2	53	48	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
-2	55	48	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+2	53	48	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
+2	55	48	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 2	56	48		subret __displayNum_return
-3	56	0	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc"
+3	56	0	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc"
 3	57	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc
+0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc
 1	__ResetSensorSubroutine	537	NXTDefs.h
-2	displayNum	550	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc
-3	__initialize_global_data	600	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\Code\Line Follow.nxc
+2	displayNum	550	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc
+3	__initialize_global_data	600	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Line Follow.nxc

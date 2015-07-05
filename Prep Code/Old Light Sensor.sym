@@ -1,0 +1,89 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	0	4	2
+1	__signed_stack_001main	6	1	4	4	2
+2	__signed_stack_002main	6	1	8	4	2
+3	__D0main	6	1	12	4	4
+4	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	16	1	2
+5	__constVal0	2	1	17	1	1
+6	____initialize_global_data_return	1	1	18	1	3
+7	__zfmain	1	1	19	1	2
+8	__PFTmp	1	1	20	1	1
+9	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	21	1	2
+10	__TextOutArgs	8	0	4	16	5
+11	__TextOutArgs.Result	2	1	24	1	5
+12	__TextOutArgs.Location	8	0	2	4	5
+13	__TextOutArgs.Location.X	4	1	28	2	5
+14	__TextOutArgs.Location.Y	4	1	30	2	5
+15	__TextOutArgs.Text	7	0	32	4	5
+16	__TextOutArgs.Text.Text_type	1	0	0	1	0
+17	__TextOutArgs.Options	5	1	36	4	5
+18	__strbufmain	7	0	40	4	2
+19	__strbufmain.__strbufmain_type	1	0	0	1	0
+20	__strretvalmain	7	0	42	4	2
+21	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	1	0	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	2	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	1	2	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	1	2	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	2	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	1	5	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	1	5	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	2	5		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 3
+0	1	8	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	3663	8	#line 3663 "NXCDefs.h"
+0	3664	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	12	#line 3663 "NXCDefs.h"
+0	2	12	#line 2 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	2	12	#line 2 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	3	12		set __D0main, 1
+0	3	15	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	15		tst 5, __zfmain, __D0main
+0	3	18	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	18		brtst 4, __NXC_Label_494, __zfmain
+0	3	21	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	21		set __signed_stack_001main, 0
+0	3	24	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	3	24	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	24		set __signed_stack_002main, 2
+0	3	27	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	3	27	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	27		getin __D0main, __constVal0, 4
+0	3	31	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	31		numtostr __strretvalmain, __D0main
+0	3	34	#line 3 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	34		strcat __strbufmain, __strretvalmain
+0	4	38	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	38	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	5	38		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	4	40	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	5	40		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	4	42	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	5	42		set __TextOutArgs.Options, 0
+0	4	45	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	5	45		mov __TextOutArgs.Text, __strbufmain
+0	4	47	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	5	47		syscall 13, __TextOutArgs
+0	4	50	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	50	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	50	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	50	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	4	50	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	5	50		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	4	53	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	7921	53	#line 7921 "NXCDefs.h"
+0	7922	53		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	56	#line 7921 "NXCDefs.h"
+0	5	56	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	8	56	#line 8 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	9	56		jmp __NXC_Label_493
+0	8	58	#line 8 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+0	9	58		exit -1, -1
+1	9	0	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc"
+1	10	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc
+1	__initialize_global_data	61	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Old Light Sensor.nxc

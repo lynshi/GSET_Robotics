@@ -1,0 +1,599 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0checkIR	5	1	0	4	2
+1	__D0PlaySound	6	1	4	4	48
+2	__D0checkIR	6	1	8	4	4
+3	__WDSCmutex	9	0	12	4	2
+4	__SPTArgsMutex	9	0	16	4	14
+5	__D0SetSensorLowspeed_inline_checkIR	6	1	20	4	3
+6	__signed_stack_002PlaySound	6	1	24	4	14
+7	__signed_stack_003PlaySound	6	1	28	4	14
+8	__signed_stack_001PlaySound	6	1	32	4	38
+9	__DU0SetSensorLowspeed_inline_checkIR	5	1	36	4	2
+10	__signed_stack_001checkIR	6	1	40	4	2
+11	__CLSCSMutex3	9	0	44	4	2
+12	__CLSCSMutex0	9	0	48	4	2
+13	__CLSCSMutex2	9	0	52	4	2
+14	__CLSCSMutex1	9	0	56	4	2
+15	__PlaySound_7qG2_i_7qG2_001	4	1	60	2	15
+16	__checkIR_7qG2_dir_7qG2_000	4	1	62	2	1
+17	__constVal200	4	0	64	2	1
+18	__constVal500	4	0	66	2	1
+19	__PlaySound_7qG2_aCode_7qG2_000	4	1	68	2	7
+20	__constVal523	4	0	70	2	3
+21	__constVal150	4	0	72	2	1
+22	__constVal50	2	0	74	1	1
+23	__constVal0	2	1	75	1	2
+24	__PlaySound_return	1	1	76	1	3
+25	__constVal1	2	0	77	1	5
+26	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_checkIR	1	1	78	1	2
+27	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_checkIR	1	1	79	1	2
+28	____initialize_global_data_return	1	1	80	1	3
+29	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_checkIR	1	1	81	1	2
+30	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_checkIR	1	1	82	1	4
+31	__checkIR_return	1	1	83	1	5
+32	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_checkIR	1	1	84	1	2
+33	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_checkIR	1	1	85	1	2
+34	__constVal4	2	0	86	1	3
+35	__WDSC_LSStatus	2	1	87	1	3
+36	__WDSC_SensorRegister	1	1	88	1	2
+37	__constVal16	2	0	89	1	1
+38	____MSWriteBytesSub_return	1	1	90	1	3
+39	__PFTmp	1	1	91	1	1
+40	__constVal100	2	0	92	1	2
+41	__WDSC_SensorAddress	1	1	93	1	2
+42	__WDSC_Port	1	1	94	1	3
+43	__ResetSensorTmp	1	1	95	1	2
+44	__zfPlaySound	1	1	96	1	27
+45	__zfSetSensorLowspeed_inline_checkIR	1	1	97	1	2
+46	__ResetSensorPort	1	1	98	1	3
+47	____ResetSensorSubroutine_return	1	1	99	1	3
+48	__zfcheckIR	1	1	100	1	3
+49	__CLSCSArgs0	8	0	3	4	3
+50	__CLSCSArgs0.Result	2	1	104	1	3
+51	__CLSCSArgs0.Port	1	1	105	1	3
+52	__CLSCSArgs0.BytesReady	1	1	106	1	3
+53	__SPTArgs	8	0	5	8	42
+54	__SPTArgs.Result	2	1	108	1	42
+55	__SPTArgs.Frequency	3	1	110	2	42
+56	__SPTArgs.Duration	3	1	112	2	42
+57	__SPTArgs.Loop	1	1	114	1	42
+58	__SPTArgs.Volume	1	1	115	1	42
+59	__WDSC_lswArgs	8	0	4	12	4
+60	__WDSC_lswArgs.Result	2	1	116	1	4
+61	__WDSC_lswArgs.Port	1	1	117	1	4
+62	__WDSC_lswArgs.Buffer	7	0	118	4	4
+63	__WDSC_lswArgs.Buffer.Buffer_type	1	0	0	1	0
+64	__WDSC_lswArgs.ReturnLen	1	1	120	1	4
+65	__WDSC_WriteBytes	7	0	122	4	2
+66	__WDSC_WriteBytes.__WDSC_WriteBytes_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	74	0	#line 74 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+0	75	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	74	2	#line 74 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+0	75	2	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+0	76	2		subcall checkIR, __checkIR_return
+0	75	4	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+0	75	4	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+0	76	4		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	11554	0		mov __WDSC_lswArgs.Port, __WDSC_Port
+2	11555	2		arrbuild __WDSC_lswArgs.Buffer, __WDSC_SensorAddress, __WDSC_SensorRegister, __WDSC_WriteBytes
+2	11556	8		set __WDSC_lswArgs.ReturnLen, 0
+2	11557	11		syscall 21, __WDSC_lswArgs
+2	11559	14	#pragma macro 21
+2	11559	14		acquire __CLSCSMutex0
+2	11559	15		acquire __CLSCSMutex1
+2	11559	16		acquire __CLSCSMutex2
+2	11559	17		acquire __CLSCSMutex3
+2	11559	18		mov __CLSCSArgs0.Port, __WDSC_Port
+2	11559	20		syscall 23, __CLSCSArgs0
+2	11559	23		mov __WDSC_LSStatus, __CLSCSArgs0.Result
+2	11559	25		release __CLSCSMutex0
+2	11559	26		release __CLSCSMutex1
+2	11559	27		release __CLSCSMutex2
+2	11559	28		release __CLSCSMutex3
+2	11559	29	#line 11559 "NXTDefs.h"
+2	11560	29		brtst 1, __WDSC_StatusLoop, __WDSC_LSStatus
+2	11561	32		subret ____MSWriteBytesSub_return
+3	6518	0	#line 6518 "NXCDefs.h"
+3	6519	0		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6518	2	#line 6518 "NXCDefs.h"
+3	6519	2	#line 6519 "NXCDefs.h"
+3	6520	2		set __D0PlaySound, 0
+3	6519	5	#line 6519 "NXCDefs.h"
+3	6520	5		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6519	9	#line 6519 "NXCDefs.h"
+3	6520	9		mov __D0PlaySound, __zfPlaySound
+3	6519	11	#line 6519 "NXCDefs.h"
+3	6520	11		brtst 4, __NXC_Label_56, __zfPlaySound
+3	6519	14	#line 6519 "NXCDefs.h"
+3	6520	14		set __signed_stack_001PlaySound, 600
+3	6519	17	#line 6519 "NXCDefs.h"
+3	6519	17	#line 6519 "NXCDefs.h"
+3	6520	17		set __signed_stack_002PlaySound, 200
+3	6519	20	#line 6519 "NXCDefs.h"
+3	6519	20	#line 6519 "NXCDefs.h"
+3	6520	20		set __signed_stack_003PlaySound, 4
+3	6519	23	#line 6519 "NXCDefs.h"
+3	6519	23	#line 6519 "NXCDefs.h"
+3	6520	23		set __D0PlaySound, 0
+3	6520	26	#line 6520 "NXCDefs.h"
+3	6521	26		acquire __SPTArgsMutex
+3	6520	27	#line 6520 "NXCDefs.h"
+3	6521	27		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6520	29	#line 6520 "NXCDefs.h"
+3	6521	29		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6520	31	#line 6520 "NXCDefs.h"
+3	6521	31		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6520	33	#line 6520 "NXCDefs.h"
+3	6521	33		mov __SPTArgs.Loop, __D0PlaySound
+3	6520	35	#line 6520 "NXCDefs.h"
+3	6521	35		syscall 10, __SPTArgs
+3	6520	38	#line 6520 "NXCDefs.h"
+3	6521	38		mov __D0PlaySound, __SPTArgs.Result
+3	6520	40	#line 6520 "NXCDefs.h"
+3	6521	40		release __SPTArgsMutex
+3	6520	41	#line 6520 "NXCDefs.h"
+3	6520	41	#line 6520 "NXCDefs.h"
+3	6521	41		jmp __NXC_Label_65
+3	6520	43	#line 6520 "NXCDefs.h"
+3	6521	43		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6520	45	#line 6520 "NXCDefs.h"
+3	6521	45	#line 6521 "NXCDefs.h"
+3	6522	45		set __D0PlaySound, 1
+3	6521	48	#line 6521 "NXCDefs.h"
+3	6522	48		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6521	52	#line 6521 "NXCDefs.h"
+3	6522	52		mov __D0PlaySound, __zfPlaySound
+3	6522	54	#line 6522 "NXCDefs.h"
+3	6523	54		brtst 4, __NXC_Label_68, __zfPlaySound
+3	6522	57	#line 6522 "NXCDefs.h"
+3	6523	57		set __signed_stack_001PlaySound, 600
+3	6522	60	#line 6522 "NXCDefs.h"
+3	6522	60	#line 6522 "NXCDefs.h"
+3	6523	60		set __signed_stack_002PlaySound, 150
+3	6522	63	#line 6522 "NXCDefs.h"
+3	6522	63	#line 6522 "NXCDefs.h"
+3	6523	63		set __signed_stack_003PlaySound, 4
+3	6522	66	#line 6522 "NXCDefs.h"
+3	6522	66	#line 6522 "NXCDefs.h"
+3	6523	66		set __D0PlaySound, 0
+3	6523	69	#line 6523 "NXCDefs.h"
+3	6524	69		acquire __SPTArgsMutex
+3	6523	70	#line 6523 "NXCDefs.h"
+3	6524	70		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6523	72	#line 6523 "NXCDefs.h"
+3	6524	72		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6523	74	#line 6523 "NXCDefs.h"
+3	6524	74		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6523	76	#line 6523 "NXCDefs.h"
+3	6524	76		mov __SPTArgs.Loop, __D0PlaySound
+3	6523	78	#line 6523 "NXCDefs.h"
+3	6524	78		syscall 10, __SPTArgs
+3	6523	81	#line 6523 "NXCDefs.h"
+3	6524	81		mov __D0PlaySound, __SPTArgs.Result
+3	6523	83	#line 6523 "NXCDefs.h"
+3	6524	83		release __SPTArgsMutex
+3	6523	84	#line 6523 "NXCDefs.h"
+3	6523	84	#line 6523 "NXCDefs.h"
+3	6524	84		wait2 NA, __constVal200
+3	6523	87	#line 6523 "NXCDefs.h"
+3	6523	87	#line 6523 "NXCDefs.h"
+3	6524	87	#line 6524 "NXCDefs.h"
+3	6525	87		set __signed_stack_001PlaySound, 600
+3	6524	90	#line 6524 "NXCDefs.h"
+3	6524	90	#line 6524 "NXCDefs.h"
+3	6525	90		set __signed_stack_002PlaySound, 150
+3	6524	93	#line 6524 "NXCDefs.h"
+3	6524	93	#line 6524 "NXCDefs.h"
+3	6525	93		set __signed_stack_003PlaySound, 4
+3	6524	96	#line 6524 "NXCDefs.h"
+3	6524	96	#line 6524 "NXCDefs.h"
+3	6525	96		set __D0PlaySound, 0
+3	6525	99	#line 6525 "NXCDefs.h"
+3	6526	99		acquire __SPTArgsMutex
+3	6525	100	#line 6525 "NXCDefs.h"
+3	6526	100		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6525	102	#line 6525 "NXCDefs.h"
+3	6526	102		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6525	104	#line 6525 "NXCDefs.h"
+3	6526	104		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6525	106	#line 6525 "NXCDefs.h"
+3	6526	106		mov __SPTArgs.Loop, __D0PlaySound
+3	6525	108	#line 6525 "NXCDefs.h"
+3	6526	108		syscall 10, __SPTArgs
+3	6525	111	#line 6525 "NXCDefs.h"
+3	6526	111		mov __D0PlaySound, __SPTArgs.Result
+3	6525	113	#line 6525 "NXCDefs.h"
+3	6526	113		release __SPTArgsMutex
+3	6525	114	#line 6525 "NXCDefs.h"
+3	6525	114	#line 6525 "NXCDefs.h"
+3	6526	114		wait2 NA, __constVal150
+3	6525	117	#line 6525 "NXCDefs.h"
+3	6525	117	#line 6525 "NXCDefs.h"
+3	6527	117	#line 6527 "NXCDefs.h"
+3	6528	117		jmp __NXC_Label_85
+3	6527	119	#line 6527 "NXCDefs.h"
+3	6528	119		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6527	121	#line 6527 "NXCDefs.h"
+3	6528	121	#line 6528 "NXCDefs.h"
+3	6529	121		set __D0PlaySound, 3
+3	6528	124	#line 6528 "NXCDefs.h"
+3	6529	124		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6528	128	#line 6528 "NXCDefs.h"
+3	6529	128		mov __D0PlaySound, __zfPlaySound
+3	6528	130	#line 6528 "NXCDefs.h"
+3	6529	130		brtst 4, __NXC_Label_88, __zfPlaySound
+3	6528	133	#line 6528 "NXCDefs.h"
+3	6529	133		set __PlaySound_7qG2_i_7qG2_001, 4
+3	6528	136	#line 6528 "NXCDefs.h"
+3	6528	136	#line 6528 "NXCDefs.h"
+3	6529	136		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6528	138	#line 6528 "NXCDefs.h"
+3	6528	138	#line 6528 "NXCDefs.h"
+3	6529	138		set __D0PlaySound, 8
+3	6528	141	#line 6528 "NXCDefs.h"
+3	6529	141		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6528	145	#line 6528 "NXCDefs.h"
+3	6529	145		mov __D0PlaySound, __zfPlaySound
+3	6528	147	#line 6528 "NXCDefs.h"
+3	6529	147		brtst 4, __NXC_Label_90, __zfPlaySound
+3	6528	150	#line 6528 "NXCDefs.h"
+3	6529	150		jmp __NXC_Label_91
+3	6529	152	#line 6529 "NXCDefs.h"
+3	6530	152		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6530	156	#line 6530 "NXCDefs.h"
+3	6531	156		jmp __NXC_Label_89
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6531	158		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6530	162	#line 6530 "NXCDefs.h"
+3	6530	162	#line 6530 "NXCDefs.h"
+3	6530	162	#line 6530 "NXCDefs.h"
+3	6531	162		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6530	166	#line 6530 "NXCDefs.h"
+3	6530	166	#line 6530 "NXCDefs.h"
+3	6531	166		set __signed_stack_002PlaySound, 100
+3	6530	169	#line 6530 "NXCDefs.h"
+3	6530	169	#line 6530 "NXCDefs.h"
+3	6531	169		set __signed_stack_003PlaySound, 4
+3	6530	172	#line 6530 "NXCDefs.h"
+3	6530	172	#line 6530 "NXCDefs.h"
+3	6531	172		set __D0PlaySound, 0
+3	6531	175	#line 6531 "NXCDefs.h"
+3	6532	175		acquire __SPTArgsMutex
+3	6531	176	#line 6531 "NXCDefs.h"
+3	6532	176		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6531	178	#line 6531 "NXCDefs.h"
+3	6532	178		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6531	180	#line 6531 "NXCDefs.h"
+3	6532	180		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6531	182	#line 6531 "NXCDefs.h"
+3	6532	182		mov __SPTArgs.Loop, __D0PlaySound
+3	6531	184	#line 6531 "NXCDefs.h"
+3	6532	184		syscall 10, __SPTArgs
+3	6531	187	#line 6531 "NXCDefs.h"
+3	6532	187		mov __D0PlaySound, __SPTArgs.Result
+3	6531	189	#line 6531 "NXCDefs.h"
+3	6532	189		release __SPTArgsMutex
+3	6531	190	#line 6531 "NXCDefs.h"
+3	6531	190	#line 6531 "NXCDefs.h"
+3	6532	190		wait2 NA, __constVal100
+3	6531	193	#line 6531 "NXCDefs.h"
+3	6531	193	#line 6531 "NXCDefs.h"
+3	6533	193	#line 6533 "NXCDefs.h"
+3	6534	193		jmp __NXC_Label_92
+3	6533	195	#line 6533 "NXCDefs.h"
+3	6533	195	#line 6533 "NXCDefs.h"
+3	6534	195		jmp __NXC_Label_105
+3	6533	197	#line 6533 "NXCDefs.h"
+3	6534	197		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6533	199	#line 6533 "NXCDefs.h"
+3	6534	199	#line 6534 "NXCDefs.h"
+3	6535	199		set __D0PlaySound, 2
+3	6534	202	#line 6534 "NXCDefs.h"
+3	6535	202		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6534	206	#line 6534 "NXCDefs.h"
+3	6535	206		mov __D0PlaySound, __zfPlaySound
+3	6534	208	#line 6534 "NXCDefs.h"
+3	6535	208		brtst 4, __NXC_Label_108, __zfPlaySound
+3	6534	211	#line 6534 "NXCDefs.h"
+3	6535	211		set __PlaySound_7qG2_i_7qG2_001, 7
+3	6534	214	#line 6534 "NXCDefs.h"
+3	6534	214	#line 6534 "NXCDefs.h"
+3	6535	214		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6534	216	#line 6534 "NXCDefs.h"
+3	6534	216	#line 6534 "NXCDefs.h"
+3	6535	216		set __D0PlaySound, 3
+3	6534	219	#line 6534 "NXCDefs.h"
+3	6535	219		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6534	223	#line 6534 "NXCDefs.h"
+3	6535	223		mov __D0PlaySound, __zfPlaySound
+3	6534	225	#line 6534 "NXCDefs.h"
+3	6535	225		brtst 4, __NXC_Label_110, __zfPlaySound
+3	6534	228	#line 6534 "NXCDefs.h"
+3	6535	228		jmp __NXC_Label_111
+3	6535	230	#line 6535 "NXCDefs.h"
+3	6536	230		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6536	234	#line 6536 "NXCDefs.h"
+3	6537	234		jmp __NXC_Label_109
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6537	236		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6536	240	#line 6536 "NXCDefs.h"
+3	6536	240	#line 6536 "NXCDefs.h"
+3	6536	240	#line 6536 "NXCDefs.h"
+3	6537	240		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6536	244	#line 6536 "NXCDefs.h"
+3	6536	244	#line 6536 "NXCDefs.h"
+3	6537	244		set __signed_stack_002PlaySound, 100
+3	6536	247	#line 6536 "NXCDefs.h"
+3	6536	247	#line 6536 "NXCDefs.h"
+3	6537	247		set __signed_stack_003PlaySound, 4
+3	6536	250	#line 6536 "NXCDefs.h"
+3	6536	250	#line 6536 "NXCDefs.h"
+3	6537	250		set __D0PlaySound, 0
+3	6537	253	#line 6537 "NXCDefs.h"
+3	6538	253		acquire __SPTArgsMutex
+3	6537	254	#line 6537 "NXCDefs.h"
+3	6538	254		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6537	256	#line 6537 "NXCDefs.h"
+3	6538	256		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6537	258	#line 6537 "NXCDefs.h"
+3	6538	258		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6537	260	#line 6537 "NXCDefs.h"
+3	6538	260		mov __SPTArgs.Loop, __D0PlaySound
+3	6537	262	#line 6537 "NXCDefs.h"
+3	6538	262		syscall 10, __SPTArgs
+3	6537	265	#line 6537 "NXCDefs.h"
+3	6538	265		mov __D0PlaySound, __SPTArgs.Result
+3	6537	267	#line 6537 "NXCDefs.h"
+3	6538	267		release __SPTArgsMutex
+3	6537	268	#line 6537 "NXCDefs.h"
+3	6537	268	#line 6537 "NXCDefs.h"
+3	6538	268		wait2 NA, __constVal100
+3	6537	271	#line 6537 "NXCDefs.h"
+3	6537	271	#line 6537 "NXCDefs.h"
+3	6539	271	#line 6539 "NXCDefs.h"
+3	6540	271		jmp __NXC_Label_112
+3	6539	273	#line 6539 "NXCDefs.h"
+3	6539	273	#line 6539 "NXCDefs.h"
+3	6540	273		jmp __NXC_Label_125
+3	6539	275	#line 6539 "NXCDefs.h"
+3	6540	275		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6539	277	#line 6539 "NXCDefs.h"
+3	6540	277	#line 6540 "NXCDefs.h"
+3	6541	277		set __D0PlaySound, 4
+3	6540	280	#line 6540 "NXCDefs.h"
+3	6541	280		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6540	284	#line 6540 "NXCDefs.h"
+3	6541	284		mov __D0PlaySound, __zfPlaySound
+3	6541	286	#line 6541 "NXCDefs.h"
+3	6542	286		brtst 4, __NXC_Label_128, __zfPlaySound
+3	6541	289	#line 6541 "NXCDefs.h"
+3	6542	289		set __signed_stack_001PlaySound, 100
+3	6541	292	#line 6541 "NXCDefs.h"
+3	6541	292	#line 6541 "NXCDefs.h"
+3	6542	292		set __signed_stack_002PlaySound, 500
+3	6541	295	#line 6541 "NXCDefs.h"
+3	6541	295	#line 6541 "NXCDefs.h"
+3	6542	295		set __signed_stack_003PlaySound, 4
+3	6541	298	#line 6541 "NXCDefs.h"
+3	6541	298	#line 6541 "NXCDefs.h"
+3	6542	298		set __D0PlaySound, 0
+3	6542	301	#line 6542 "NXCDefs.h"
+3	6543	301		acquire __SPTArgsMutex
+3	6542	302	#line 6542 "NXCDefs.h"
+3	6543	302		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6542	304	#line 6542 "NXCDefs.h"
+3	6543	304		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6542	306	#line 6542 "NXCDefs.h"
+3	6543	306		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6542	308	#line 6542 "NXCDefs.h"
+3	6543	308		mov __SPTArgs.Loop, __D0PlaySound
+3	6542	310	#line 6542 "NXCDefs.h"
+3	6543	310		syscall 10, __SPTArgs
+3	6542	313	#line 6542 "NXCDefs.h"
+3	6543	313		mov __D0PlaySound, __SPTArgs.Result
+3	6542	315	#line 6542 "NXCDefs.h"
+3	6543	315		release __SPTArgsMutex
+3	6542	316	#line 6542 "NXCDefs.h"
+3	6542	316	#line 6542 "NXCDefs.h"
+3	6543	316		wait2 NA, __constVal500
+3	6542	319	#line 6542 "NXCDefs.h"
+3	6542	319	#line 6542 "NXCDefs.h"
+3	6544	319	#line 6544 "NXCDefs.h"
+3	6545	319		jmp __NXC_Label_137
+3	6544	321	#line 6544 "NXCDefs.h"
+3	6545	321		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6544	323	#line 6544 "NXCDefs.h"
+3	6545	323	#line 6545 "NXCDefs.h"
+3	6546	323		set __D0PlaySound, 5
+3	6545	326	#line 6545 "NXCDefs.h"
+3	6546	326		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6545	330	#line 6545 "NXCDefs.h"
+3	6546	330		mov __D0PlaySound, __zfPlaySound
+3	6545	332	#line 6545 "NXCDefs.h"
+3	6546	332		brtst 4, __NXC_Label_140, __zfPlaySound
+3	6545	335	#line 6545 "NXCDefs.h"
+3	6546	335		set __PlaySound_7qG2_i_7qG2_001, 4
+3	6545	338	#line 6545 "NXCDefs.h"
+3	6545	338	#line 6545 "NXCDefs.h"
+3	6546	338		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6545	340	#line 6545 "NXCDefs.h"
+3	6545	340	#line 6545 "NXCDefs.h"
+3	6546	340		set __D0PlaySound, 8
+3	6545	343	#line 6545 "NXCDefs.h"
+3	6546	343		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6545	347	#line 6545 "NXCDefs.h"
+3	6546	347		mov __D0PlaySound, __zfPlaySound
+3	6545	349	#line 6545 "NXCDefs.h"
+3	6546	349		brtst 4, __NXC_Label_142, __zfPlaySound
+3	6545	352	#line 6545 "NXCDefs.h"
+3	6546	352		jmp __NXC_Label_143
+3	6546	354	#line 6546 "NXCDefs.h"
+3	6547	354		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6547	358	#line 6547 "NXCDefs.h"
+3	6548	358		jmp __NXC_Label_141
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6548	360		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6547	364	#line 6547 "NXCDefs.h"
+3	6547	364	#line 6547 "NXCDefs.h"
+3	6547	364	#line 6547 "NXCDefs.h"
+3	6548	364		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6547	368	#line 6547 "NXCDefs.h"
+3	6547	368	#line 6547 "NXCDefs.h"
+3	6548	368		set __signed_stack_002PlaySound, 50
+3	6547	371	#line 6547 "NXCDefs.h"
+3	6547	371	#line 6547 "NXCDefs.h"
+3	6548	371		set __signed_stack_003PlaySound, 4
+3	6547	374	#line 6547 "NXCDefs.h"
+3	6547	374	#line 6547 "NXCDefs.h"
+3	6548	374		set __D0PlaySound, 0
+3	6548	377	#line 6548 "NXCDefs.h"
+3	6549	377		acquire __SPTArgsMutex
+3	6548	378	#line 6548 "NXCDefs.h"
+3	6549	378		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6548	380	#line 6548 "NXCDefs.h"
+3	6549	380		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6548	382	#line 6548 "NXCDefs.h"
+3	6549	382		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6548	384	#line 6548 "NXCDefs.h"
+3	6549	384		mov __SPTArgs.Loop, __D0PlaySound
+3	6548	386	#line 6548 "NXCDefs.h"
+3	6549	386		syscall 10, __SPTArgs
+3	6548	389	#line 6548 "NXCDefs.h"
+3	6549	389		mov __D0PlaySound, __SPTArgs.Result
+3	6548	391	#line 6548 "NXCDefs.h"
+3	6549	391		release __SPTArgsMutex
+3	6548	392	#line 6548 "NXCDefs.h"
+3	6548	392	#line 6548 "NXCDefs.h"
+3	6549	392		wait2 NA, __constVal50
+3	6548	395	#line 6548 "NXCDefs.h"
+3	6548	395	#line 6548 "NXCDefs.h"
+3	6560	395	#line 6560 "NXCDefs.h"
+3	6561	395		jmp __NXC_Label_144
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6561	397		subret __PlaySound_return
+4	62	0	#line 62 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	63	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_checkIR, 0
+4	62	3	#line 62 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	63	3	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	64	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_checkIR, __constVal1
+4	3758	5	#line 3758 "NXCDefs.h"
+4	3759	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_checkIR
+4	3758	7	#line 3758 "NXCDefs.h"
+4	3758	7	#line 3758 "NXCDefs.h"
+4	3759	7		mov __DU0SetSensorLowspeed_inline_checkIR, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_checkIR
+4	3758	9	#line 3758 "NXCDefs.h"
+4	3759	9		tst 5, __zfSetSensorLowspeed_inline_checkIR, __DU0SetSensorLowspeed_inline_checkIR
+4	3758	12	#line 3758 "NXCDefs.h"
+4	3759	12		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_checkIR
+4	3758	15	#line 3758 "NXCDefs.h"
+4	3759	15		set __D0SetSensorLowspeed_inline_checkIR, 11
+4	3758	18	#line 3758 "NXCDefs.h"
+4	3759	18		jmp __004__NXC_Label_37
+4	3758	20	#line 3758 "NXCDefs.h"
+4	3759	20		set __D0SetSensorLowspeed_inline_checkIR, 10
+4	3758	23	#line 3758 "NXCDefs.h"
+4	3759	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, __D0SetSensorLowspeed_inline_checkIR
+4	3663	25	#line 3663 "NXCDefs.h"
+4	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, 0
+4	3663	29	#line 3663 "NXCDefs.h"
+4	3759	29	#line 3759 "NXCDefs.h"
+4	3759	29	#line 3759 "NXCDefs.h"
+4	3760	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_checkIR
+4	3759	31	#line 3759 "NXCDefs.h"
+4	3759	31	#line 3759 "NXCDefs.h"
+4	3760	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, 0
+4	3759	34	#line 3759 "NXCDefs.h"
+4	3676	34	#line 3676 "NXCDefs.h"
+4	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_checkIR, 1
+4	3676	38	#line 3676 "NXCDefs.h"
+4	3760	38	#line 3760 "NXCDefs.h"
+4	3760	38	#line 3760 "NXCDefs.h"
+4	3760	38	#line 3760 "NXCDefs.h"
+4	3694	38	#line 3694 "NXCDefs.h"
+4	3695	38	#pragma macro 4
+4	3695	38		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_checkIR
+4	3695	40		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	4306	42	#line 4306 "NXCDefs.h"
+4	3694	42	#line 3694 "NXCDefs.h"
+4	3761	42	#line 3761 "NXCDefs.h"
+4	63	42	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	63	42	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	64	42	#pragma macro 8
+4	64	42		acquire __WDSCmutex
+4	64	43		mov __WDSC_Port, __constVal0
+4	64	45		mov __WDSC_SensorAddress, __constVal16
+4	64	47		set __WDSC_SensorRegister, 65
+4	64	50		arrbuild __WDSC_WriteBytes, __constVal0
+4	64	54		subcall __MSWriteBytesSub, ____MSWriteBytesSub_return
+4	64	56		mov __D0checkIR, __WDSC_LSStatus
+4	64	58		release __WDSCmutex
+4	4311	59	#line 4311 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	63	59	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	63	59	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	65	59	#line 65 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	66	59		mov __signed_stack_001checkIR, __checkIR_7qG2_dir_7qG2_000
+4	65	61	#line 65 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	65	61	#line 65 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	66	61		set __D0checkIR, 0
+4	65	64	#line 65 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	66	64		cmp 5, __zfcheckIR, __signed_stack_001checkIR, __D0checkIR
+4	65	68	#line 65 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	66	68		mov __D0checkIR, __zfcheckIR
+4	66	70	#line 66 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	67	70		brtst 4, __NXC_Label_612, __zfcheckIR
+4	66	73	#line 66 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	67	73		set __PlaySound_7qG2_aCode_7qG2_000, 1
+4	66	76	#line 66 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	67	76	#line 67 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	68	76		subcall PlaySound, __PlaySound_return
+4	67	78	#line 67 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	68	78	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	69	78		set __DU0checkIR, 1
+4	68	81	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	68	81	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	69	81		subret __checkIR_return
+4	68	83	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	70	83	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	71	83		jmp __NXC_Label_617
+4	71	85	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	72	85		set __DU0checkIR, 0
+4	71	88	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	71	88	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	72	88		subret __checkIR_return
+4	71	90	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	71	90	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	73	90	#line 73 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+4	74	90		subret __checkIR_return
+5	78	0	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
+5	79	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc
+1	__ResetSensorSubroutine	7	NXTDefs.h
+2	__MSWriteBytesSub	20	NXTDefs.h
+3	PlaySound	54	NXCDefs.h
+4	checkIR	453	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc
+5	__initialize_global_data	545	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc

@@ -1,4 +1,4 @@
-#define MAX -100
+#define MAX -60
 #define RATIO 2
 
 void displayNum(int n);
@@ -7,7 +7,7 @@ task main(){
      int black, white, avg;
 
      //callibration of black and white
-     SetSensorLight(S1,1);
+     SetSensorType(S1,SENSOR_TYPE_LIGHT);
      TextOut(0,2,"Set black");
      Wait(3000);
      black = SENSOR_1;
@@ -16,12 +16,12 @@ task main(){
      Wait(3000);
      white = SENSOR_1;
      ClearScreen();
-     
+
      avg = (black + white) / 2;
      displayNum(black);
      displayNum(white);
      displayNum(avg);
-     
+
      TextOut(0,2,"3");
      Wait(1000);
      ClearScreen();

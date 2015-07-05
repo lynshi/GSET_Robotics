@@ -1,0 +1,97 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	9
+1	__signed_stack_001main	6	1	4	4	8
+2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	4
+3	__main_7qG2_i_7qG2_001	4	1	12	2	5
+4	____initialize_global_data_return	1	1	14	1	3
+5	__constVal32	2	0	15	1	6
+6	__constValNeg75	2	0	16	1	1
+7	__constVal63	2	0	17	1	2
+8	__constVal96	2	0	18	1	2
+9	__zfmain	1	1	19	1	3
+10	__constVal2	2	0	20	1	2
+11	__constVal3	2	0	21	1	1
+12	__constVal0	2	1	22	1	2
+13	__constVal1	2	0	23	1	1
+14	__constVal7	2	0	24	1	2
+15	__PFTmp	1	1	25	1	1
+16	__OUT_AC	7	0	26	4	2
+17	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	12	0	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	12	2	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	12	2	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	2		set __main_7qG2_i_7qG2_001, 1
+0	12	5	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	12	5	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	5		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
+0	12	7	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	12	7	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	7		set __D0main, 25
+0	12	10	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	10		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	12	14	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	14		mov __D0main, __zfmain
+0	12	16	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	16		brtst 4, __NXC_Label_490, __zfmain
+0	12	19	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	19		jmp __NXC_Label_491
+0	12	21	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	21		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
+0	13	25	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	14	25		jmp __NXC_Label_489
+0	13	27	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	14	27		set __signed_stack_001main, 0
+0	13	30	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	30	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	30	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	30	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	30	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	14	30		mul __D0main, __constVal3, __main_7qG2_i_7qG2_001
+0	13	34	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	14	34		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	13	38	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	13	38	#line 13 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	14	38		set __D0main, 0
+0	14	41	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	15	41	#pragma macro 7
+0	15	41		setout __OUT_AC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3578	64	#line 3578 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	14	64	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	14	64	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	15	64		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	14	67	#line 14 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	7921	67	#line 7921 "NXCDefs.h"
+0	7922	67		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	70	#line 7921 "NXCDefs.h"
+0	15	70	#line 15 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	17	70	#line 17 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	18	70		jmp __NXC_Label_492
+0	17	72	#line 17 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	17	72	#line 17 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	18	72		mov __signed_stack_001main, __constValNeg75
+0	17	74	#line 17 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	17	74	#line 17 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	18	74		set __D0main, 0
+0	18	77	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	19	77	#pragma macro 7
+0	19	77		setout __OUT_AC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3609	100	#line 3609 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	18	100	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	18	100	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	19	100		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
+0	18	103	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	7921	103	#line 7921 "NXCDefs.h"
+0	7922	103		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	106	#line 7921 "NXCDefs.h"
+0	19	106	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+0	20	106		exit -1, -1
+1	22	0	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc"
+1	23	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc
+1	__initialize_global_data	109	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\SyncMove.nxc

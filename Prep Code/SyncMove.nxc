@@ -1,3 +1,20 @@
 task main(){
-     OnFwd();
+     /*OnFwdSync(OUT_AC,75,0);
+     Wait(15000);
+     OnFwdSync(OUT_AC,75,100);
+     Wait(1000);
+     OnFwdSync(OUT_AC,75,0);
+     Wait(2000);
+     OnFwdSync(OUT_AC,75,-100);
+     Wait(1000);
+     OnFwdSync(OUT_AC,-75,0);
+     Wait(2000);*/
+
+     for(int i = 1; i <= 25; i++){
+          OnFwdSync(OUT_AC,-3*i,0);
+          Wait(250);
+     }
+     
+     OnFwdSync(OUT_AC,-75,0);
+     Wait(10000);
 }
