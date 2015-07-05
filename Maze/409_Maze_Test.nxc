@@ -16,13 +16,12 @@ task enterMaze();
 
 task main(){
      calibration();
-     StartTask(lineFollow);
-     StartTask(enterMaze);
+     Precedes(lineFollow,enterMaze);
 }
 
 task enterMaze(){
      while(1){
-         if(SENSOR_2 == usAvg){
+         if(SensorUS(S2) == usAvg){
               break;
          }
      }
@@ -39,15 +38,16 @@ task enterMaze(){
 task lineFollow(){
      while(1){
           if(SENSOR_1 > lightAvg && dir == -1){
-               OnFwd(OUT_A,MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
-               OnFwd(OUT_C,MAX);
+               OnFwd(OUT_A,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
+               OnFwd(OUT_C,dir*MAX);
           }
           else if(SENSOR_1 <= lightAvg && dir == -1){
-               OnFwd(OUT_C,MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(black - lightAvg));
-               OnFwd(OUT_A,MAX);
+               OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(black - lightAvg));
+               OnFwd(OUT_A,dir*MAX);
           }
           else if (dir == 1){
                OnFwd(OUT_AC,0);
+               Wait(500);
                break;
           }
      }
@@ -90,14 +90,15 @@ void calibration(){ //calibration of black, white, ultrasonic distance
      
      SetSensorUltrasonic(S2);
      TextOut(0,2,"Set distance");
+     Wait(3000);
 
      usAvg = 0;
 
      for(int i = 0; i < 5; i++){
-             usAvg += SENSOR_2;
+             usAvg += SensorUS(S2);
      }
 
-     usAvg /= 5.0;
+     usAvg = usAvg / 5.0;
 
      displayNum(usAvg);
 

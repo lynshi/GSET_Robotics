@@ -3,64 +3,106 @@ Room 409
 Maze Code
 */
 
-#define MAX -60
+#define MAX 60
 #define RATIO 2
 
-int black, white, lightAvg;
+int black, white, lightAvg, usAvg, dir; //if dir == 1, back; dir == -1, fwd
 
 void displayNum(int n);
 void calibration();
+void switchDir();
 task lineFollow();
 task enterMaze();
 
 task main(){
      calibration();
-     StartTask(lineFollow);
-     StartTask(enterMaze);
+     Precedes(lineFollow,enterMaze);
 }
 
 task enterMaze(){
      while(1){
-         ;
+         if(SensorUS(S2) == usAvg){
+              break;
+         }
      }
+
+     switchDir();
+     OnFwdSync(OUT_AC,dir*50,0);
+     Wait(5000);
+
+     switchDir();
+     OnFwdSync(OUT_AC,dir*50,0);
+     Wait(3000);
 }
 
 task lineFollow(){
      while(1){
-          if(SENSOR_1 > lightAvg){
-               OnFwd(OUT_A,MAX - MAX*RATIO*(SENSOR_1 - avg)/(white-avg));
-               OnFwd(OUT_C,MAX);
+          if(SENSOR_1 > lightAvg && dir == -1){
+               OnFwd(OUT_A,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
+               OnFwd(OUT_C,dir*MAX);
           }
-          else if(SENSOR_1 <= lightAvg){
-               OnFwd(OUT_C,MAX - MAX*RATIO*(SENSOR_1 - avg)/(black-avg));
-               OnFwd(OUT_A,MAX);
+          else if(SENSOR_1 <= lightAvg && dir == -1){
+               OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(black - lightAvg));
+               OnFwd(OUT_A,dir*MAX);
+          }
+          else if (dir == 1){
+               OnFwd(OUT_AC,0);
+               Wait(500);
+               break;
           }
      }
 }
 
-void displayNum(int n){
+void switchDir(){
+     if(dir == -1){
+          dir = 1;
+          RotateMotor(OUT_B,30,-180);
+
+     }
+     else if(dir == 1){
+          dir = -1;
+          RotateMotor(OUT_B,30,180);
+     }
+
+}
+
+void displayNum(int n){ //displays a number
      ClearScreen();
      TextOut(0,2,NumToStr(n));
      Wait(1500);
+     ClearScreen();
 }
 
-void calibration(){ //calibration of black and white
+void calibration(){ //calibration of black, white, ultrasonic distance
+     dir = -1;
      SetSensorLight(S1,1);
      TextOut(0,2,"Set black");
      Wait(3000);
      black = SENSOR_1;
-     ClearScreen();
+     displayNum(black);
      TextOut(0,2,"Set white");
      Wait(3000);
      white = SENSOR_1;
-     ClearScreen();
+     displayNum(white);
 
      lightAvg = (black + white) / 2;
-     displayNum(black);
-     displayNum(white);
      displayNum(lightAvg);
 
-     TextOut(0,2,"3");
+     SetSensorUltrasonic(S2);
+     TextOut(0,2,"Set distance");
+     Wait(3000);
+
+     usAvg = 0;
+
+     for(int i = 0; i < 5; i++){
+             usAvg += SensorUS(S2);
+     }
+
+     usAvg = usAvg / 5.0;
+
+     displayNum(usAvg);
+
+     TextOut(0,2,"3"); //Here we go
      Wait(1000);
      ClearScreen();
      TextOut(0,2,"2");

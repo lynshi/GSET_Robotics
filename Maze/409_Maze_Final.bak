@@ -27,11 +27,11 @@ task enterMaze(){
 
 task lineFollow(){
      while(1){
-          if(SENSOR_1 > avg){
+          if(SENSOR_1 > lightAvg){
                OnFwd(OUT_A,MAX - MAX*RATIO*(SENSOR_1 - avg)/(white-avg));
                OnFwd(OUT_C,MAX);
           }
-          else if(SENSOR_1 <= avg){
+          else if(SENSOR_1 <= lightAvg){
                OnFwd(OUT_C,MAX - MAX*RATIO*(SENSOR_1 - avg)/(black-avg));
                OnFwd(OUT_A,MAX);
           }

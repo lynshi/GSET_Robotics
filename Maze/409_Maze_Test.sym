@@ -1,970 +1,1151 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001lineFollow	6	1	0	4	8
-1	__D0calibration	6	1	4	4	12
-2	__signed_stack_002lineFollow	6	1	8	4	12
-3	__signed_stack_002displayNum	6	1	12	4	2
-4	__D0displayNum	6	1	16	4	3
-5	__signed_stack_001enterMaze	6	1	20	4	6
-6	__signed_stack_001switchDir	6	1	24	4	8
-7	__PointOutMutex	9	0	28	4	12
-8	__TextOutMutex	9	0	32	4	16
-9	__rotate_theAngle1	5	1	36	4	2
-10	__Wait_7qG2_ms_7qG2_000_inline_enterMaze	5	1	40	4	2
-11	__signed_stack_003lineFollow	6	1	44	4	4
-12	__DU0SetSensorLight_inline_calibration	5	1	48	4	2
-13	__D0SetSensorLight_inline_calibration	6	1	52	4	3
-14	__D0switchDir	6	1	56	4	10
-15	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	60	4	3
-16	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	64	4	2
-17	__rotate_angle1	6	1	68	4	5
-18	__signed_stack_001calibration	6	1	72	4	18
-19	__Wait_7qG2_ms_7qG2_000_inline_calibration	5	1	76	4	6
-20	__D0enterMaze	6	1	80	4	9
-21	__signed_stack_001displayNum	6	1	84	4	2
-22	__D0lineFollow	6	1	88	4	28
-23	__signed_stack_002calibration	6	1	92	4	14
-24	__constVal200	4	0	96	2	12
-25	lightAvg	4	1	98	2	8
-26	black	4	1	100	2	4
-27	white	4	1	102	2	4
-28	usAvg	4	1	104	2	7
-29	__calibration_7qG2_i_7qG2_001	4	1	106	2	4
-30	__rotate_OldRotCount1	4	1	108	2	2
-31	__rotate_RotCount1	4	1	110	2	4
-32	dir	4	1	112	2	9
-33	__displayNum_7qG2_n_7qG2_000	4	1	114	2	5
-34	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	116	1	2
-35	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	117	1	2
-36	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	118	1	4
-37	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	119	1	2
-38	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	120	1	2
-39	__constVal60	2	0	121	1	2
-40	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	122	1	2
-41	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	123	1	2
-42	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	124	1	2
-43	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	125	1	2
-44	__constVal96	2	0	126	1	8
-45	__constVal63	2	0	127	1	6
-46	__switchDir_return	1	1	128	1	4
-47	____initialize_global_data_return	1	1	129	1	3
-48	__calibration_return	1	1	130	1	3
-49	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	131	1	2
-50	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	132	1	2
-51	__SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration	1	1	133	1	2
-52	__displayNum_return	1	1	134	1	6
-53	__SetSensorLight_7qG2_port_7qG2_000_inline_calibration	1	1	135	1	4
-54	__rotate_theRVD1	1	1	136	1	3
-55	__rotate_rs1	1	1	137	1	2
-56	__rotate_theRVP1	1	1	138	1	3
-57	__rotate_theRVI1	1	1	139	1	3
-58	__rotate_thePower1	2	1	140	1	4
-59	__constVal1	2	0	141	1	18
-60	__constVal0	2	1	142	1	31
-61	__rotate_theTurnPct1	2	1	143	1	4
-62	__constVal32	2	0	144	1	23
-63	__rotate_sync1	1	1	145	1	3
-64	__rotate_stop1	1	1	146	1	3
-65	__rotate_power1	1	1	147	1	5
-66	__rotate_firstPort1	1	1	148	1	5
-67	__rotate_turnpct1	2	1	149	1	4
-68	__rotate_theRM1	1	1	150	1	4
-69	__rotate_theRS1	1	1	151	1	3
-70	__rotate_theUF1	1	1	152	1	6
-71	__rotate_theOM1	1	1	153	1	7
-72	____RotateMotor1_return	1	1	154	1	4
-73	__zfcalibration	1	1	155	1	3
-74	__constVal50	2	0	156	1	2
-75	__constVal7	2	0	157	1	2
-76	__zfenterMaze	1	1	158	1	5
-77	__zfSetSensorLight_inline_calibration	1	1	159	1	2
-78	__zfswitchDir	1	1	160	1	6
-79	__zflineFollow	1	1	161	1	8
-80	__constVal2	2	0	162	1	7
-81	__constVal5	2	0	163	1	1
-82	__ResetSensorPort	1	1	164	1	4
-83	__ResetSensorTmp	1	1	165	1	2
-84	__constVal3	2	0	166	1	4
-85	____ResetSensorSubroutine_return	1	1	167	1	4
-86	__PointOutArgs	8	0	3	12	24
-87	__PointOutArgs.Result	2	1	168	1	24
-88	__PointOutArgs.Location	8	0	2	4	24
-89	__PointOutArgs.Location.X	4	1	172	2	24
-90	__PointOutArgs.Location.Y	4	1	174	2	24
-91	__PointOutArgs.Options	5	1	176	4	24
-92	__TextOutArgs	8	0	4	16	48
-93	__TextOutArgs.Result	2	1	180	1	48
-94	__TextOutArgs.Location	8	0	2	4	48
-95	__TextOutArgs.Location.X	4	1	184	2	48
-96	__TextOutArgs.Location.Y	4	1	186	2	48
-97	__TextOutArgs.Text	7	0	188	4	48
-98	__TextOutArgs.Text.Text_type	1	0	0	1	0
-99	__TextOutArgs.Options	5	1	192	4	48
-100	__constStr0012	7	0	196	4	1
-101	__constStr0012.__constStr0012_type	1	1	0	1	0
-102	__constStr0015	7	0	198	4	1
-103	__constStr0015.__constStr0015_type	1	1	0	1	0
-104	__OUT_AC	7	0	200	4	2
-105	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-106	__constStr0013	7	0	202	4	1
-107	__constStr0013.__constStr0013_type	1	1	0	1	0
-108	__constStr0014	7	0	204	4	1
-109	__constStr0014.__constStr0014_type	1	1	0	1	0
-110	__constStr0011	7	0	206	4	1
-111	__constStr0011.__constStr0011_type	1	1	0	1	0
-112	__constStr0010	7	0	208	4	1
-113	__constStr0010.__constStr0010_type	1	1	0	1	0
-114	__strbufcalibration	7	0	210	4	14
-115	__strbufcalibration.__strbufcalibration_type	1	0	0	1	0
-116	__constStr0009	7	0	212	4	1
-117	__constStr0009.__constStr0009_type	1	1	0	1	0
-118	__rotate_ports1	7	0	214	4	7
-119	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
-120	__strretvaldisplayNum	7	0	216	4	2
-121	__strretvaldisplayNum.__strretvaldisplayNum_type	1	0	0	1	0
-122	__strbufdisplayNum	7	0	218	4	2
-123	__strbufdisplayNum.__strbufdisplayNum_type	1	0	0	1	0
+0	__D0lineFollow	6	1	0	4	43
+1	__D0enterMaze	6	1	4	4	11
+2	__D0displayNum	6	1	8	4	3
+3	__D0switchDir	6	1	12	4	10
+4	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	16	4	3
+5	__DU0SetSensorLight_inline_calibration	5	1	20	4	2
+6	__D0SetSensorLight_inline_calibration	6	1	24	4	3
+7	__CLSRMutex1	9	0	28	4	2
+8	__CLSWMutex1	9	0	32	4	2
+9	__CLSCSMutex1	9	0	36	4	2
+10	__TextOutMutex	9	0	40	4	16
+11	__D0calibration	6	1	44	4	12
+12	__RLSBmutex1	9	0	48	4	4
+13	__PointOutMutex	9	0	52	4	12
+14	__signed_stack_001switchDir	6	1	56	4	8
+15	__signed_stack_003lineFollow	6	1	60	4	4
+16	__signed_stack_002lineFollow	6	1	64	4	16
+17	__Wait_7qG2_ms_7qG2_000_inline_enterMaze	5	1	68	4	4
+18	__Wait_7qG2_ms_7qG2_000_inline_calibration	5	1	72	4	14
+19	__Wait_7qG2_ms_7qG2_000_inline_displayNum	5	1	76	4	2
+20	__Wait_7qG2_ms_7qG2_000_inline_lineFollow	5	1	80	4	2
+21	__signed_stack_002calibration	6	1	84	4	14
+22	__signed_stack_001calibration	6	1	88	4	18
+23	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	92	4	2
+24	__signed_stack_001displayNum	6	1	96	4	2
+25	__signed_stack_001lineFollow	6	1	100	4	14
+26	__signed_stack_001enterMaze	6	1	104	4	6
+27	__signed_stack_002displayNum	6	1	108	4	2
+28	__rotate_angle1	6	1	112	4	6
+29	__rotate_theAngle1	5	1	116	4	2
+30	black	4	1	120	2	4
+31	white	4	1	122	2	4
+32	__constValNeg180	4	0	124	2	1
+33	__calibration_7qG2_i_7qG2_001	4	1	126	2	4
+34	__constVal200	4	0	128	2	12
+35	usAvg	4	1	130	2	7
+36	dir	4	1	132	2	16
+37	__displayNum_7qG2_n_7qG2_000	4	1	134	2	5
+38	__rotate_RotCount1	4	1	136	2	4
+39	lightAvg	4	1	138	2	8
+40	__rotate_OldRotCount1	4	1	140	2	2
+41	__rotate_theRM1	1	1	142	1	4
+42	__rotate_theOM1	1	1	143	1	7
+43	__rotate_theRS1	1	1	144	1	3
+44	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	145	1	2
+45	__rotate_theRVP1	1	1	146	1	3
+46	__rotate_sync1	1	1	147	1	3
+47	__rotate_firstPort1	1	1	148	1	5
+48	__rotate_stop1	1	1	149	1	3
+49	__rotate_theUF1	1	1	150	1	6
+50	__rotate_turnpct1	2	1	151	1	4
+51	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	152	1	2
+52	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	153	1	2
+53	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	154	1	2
+54	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	155	1	2
+55	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	156	1	2
+56	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	157	1	2
+57	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	158	1	2
+58	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	159	1	4
+59	__constVal60	2	0	160	1	6
+60	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	161	1	2
+61	__constVal96	2	0	162	1	9
+62	__constVal63	2	0	163	1	7
+63	__switchDir_return	1	1	164	1	4
+64	____initialize_global_data_return	1	1	165	1	3
+65	__calibration_return	1	1	166	1	3
+66	__SetSensorLight_7qG2_port_7qG2_000_inline_calibration	1	1	167	1	4
+67	__SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration	1	1	168	1	2
+68	__rotate_power1	1	1	169	1	5
+69	__constValNeg1	2	0	170	1	5
+70	__displayNum_return	1	1	171	1	6
+71	__rotate_theRVI1	1	1	172	1	3
+72	__ResetSensorTmp	1	1	173	1	2
+73	__constVal1	2	0	174	1	17
+74	____ResetSensorSubroutine_return	1	1	175	1	4
+75	__RLSBResult1	2	1	176	1	7
+76	__ResetSensorPort	1	1	177	1	4
+77	__RLSBIterations1	1	1	178	1	4
+78	__RLSBytesCount1	1	1	179	1	8
+79	____RotateMotor1_return	1	1	180	1	4
+80	____RotateMotor1_sign_tmp	2	1	181	1	4
+81	__constVal3	2	0	182	1	5
+82	__constVal50	2	0	183	1	3
+83	____ReadLSBytes1_return	1	1	184	1	4
+84	__constVal15	2	0	185	1	5
+85	__constVal0	2	1	186	1	35
+86	__constVal2	2	0	187	1	7
+87	__rotate_theRVD1	1	1	188	1	3
+88	__rotate_thePower1	2	1	189	1	4
+89	__zfenterMaze	1	1	190	1	5
+90	__zflineFollow	1	1	191	1	19
+91	__rotate_rs1	1	1	192	1	2
+92	__zfswitchDir	1	1	193	1	6
+93	__zfSetSensorLight_inline_calibration	1	1	194	1	2
+94	__constVal32	2	0	195	1	26
+95	__constVal7	2	0	196	1	2
+96	__PFTmp	1	1	197	1	1
+97	__zfcalibration	1	1	198	1	3
+98	__constVal5	2	0	199	1	1
+99	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	200	1	2
+100	__rotate_theTurnPct1	2	1	201	1	4
+101	__CLSWArgs1	8	0	4	12	5
+102	__CLSWArgs1.Result	2	1	204	1	5
+103	__CLSWArgs1.Port	1	1	205	1	5
+104	__CLSWArgs1.Buffer	7	0	206	4	5
+105	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+106	__CLSWArgs1.ReturnLen	1	1	208	1	5
+107	__CLSRArgs1	8	0	4	12	5
+108	__CLSRArgs1.Result	2	1	212	1	5
+109	__CLSRArgs1.Port	1	1	213	1	5
+110	__CLSRArgs1.Buffer	7	0	214	4	5
+111	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+112	__CLSRArgs1.BufferLen	1	1	216	1	5
+113	__CLSCSArgs1	8	0	3	4	4
+114	__CLSCSArgs1.Result	2	1	220	1	4
+115	__CLSCSArgs1.Port	1	1	221	1	4
+116	__CLSCSArgs1.BytesReady	1	1	222	1	4
+117	__PointOutArgs	8	0	3	12	24
+118	__PointOutArgs.Result	2	1	224	1	24
+119	__PointOutArgs.Location	8	0	2	4	24
+120	__PointOutArgs.Location.X	4	1	228	2	24
+121	__PointOutArgs.Location.Y	4	1	230	2	24
+122	__PointOutArgs.Options	5	1	232	4	24
+123	__TextOutArgs	8	0	4	16	48
+124	__TextOutArgs.Result	2	1	236	1	48
+125	__TextOutArgs.Location	8	0	2	4	48
+126	__TextOutArgs.Location.X	4	1	240	2	48
+127	__TextOutArgs.Location.Y	4	1	242	2	48
+128	__TextOutArgs.Text	7	0	244	4	48
+129	__TextOutArgs.Text.Text_type	1	0	0	1	0
+130	__TextOutArgs.Options	5	1	248	4	48
+131	__constStr0012	7	0	252	4	1
+132	__constStr0012.__constStr0012_type	1	1	0	1	0
+133	__constStr0011	7	0	254	4	1
+134	__constStr0011.__constStr0011_type	1	1	0	1	0
+135	__constStr0013	7	0	256	4	1
+136	__constStr0013.__constStr0013_type	1	1	0	1	0
+137	__constStr0014	7	0	258	4	1
+138	__constStr0014.__constStr0014_type	1	1	0	1	0
+139	__constStr0015	7	0	260	4	1
+140	__constStr0015.__constStr0015_type	1	1	0	1	0
+141	__RLSLastGoodRead1	7	0	262	4	2
+142	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+143	__RLSReadBuf1	7	0	264	4	10
+144	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+145	__RLSBbufLSWrite1	7	0	266	4	2
+146	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+147	__OUT_AC	7	0	268	4	3
+148	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+149	__rotate_ports1	7	0	270	4	7
+150	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+151	__constStr0009	7	0	272	4	1
+152	__constStr0009.__constStr0009_type	1	1	0	1	0
+153	__constStr0010	7	0	274	4	1
+154	__constStr0010.__constStr0010_type	1	1	0	1	0
+155	__strretvaldisplayNum	7	0	276	4	2
+156	__strretvaldisplayNum.__strretvaldisplayNum_type	1	0	0	1	0
+157	__strbufcalibration	7	0	278	4	14
+158	__strbufcalibration.__strbufcalibration_type	1	0	0	1	0
+159	__strbufdisplayNum	7	0	280	4	2
+160	__strbufdisplayNum.__strbufdisplayNum_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	17	0	#line 17 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	17	0	#line 17 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
 0	18	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	17	2	#line 17 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-0	18	2	#line 18 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	17	2	#line 17 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	18	2	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
 0	19	2		subcall calibration, __calibration_return
-0	18	4	#line 18 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-0	19	4	#line 19 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-0	20	4		start lineFollow
-0	19	6	#line 19 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-0	20	6	#line 20 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-0	21	6		start enterMaze
-0	20	8	#line 20 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-0	21	8		exit -1, -1
+0	18	4	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	19	4	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	19	4	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	20	4		exit 0, 1
 1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
-1	4530	3		sign __rotate_thePower1, __rotate_angle1
-1	4531	6		abs __rotate_theAngle1, __rotate_angle1
-1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
-1	4534	13		set __rotate_theUF1, 23
-1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
-1	4536	19		set __rotate_theOM1, 7
-1	4537	22		set __rotate_theRM1, 2
-1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
-1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
-1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
-1	4541	34		jmp __rotate_Start1
-1	4543	36		set __rotate_theOM1, 3
-1	4544	39		set __rotate_theRM1, 0
-1	4545	42		set __rotate_theTurnPct1, 0
-1	4547	45		set __rotate_theRS1, 32
-1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
-1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
-1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
-1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
-1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
-1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
-1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
-1	4560	93		set __rotate_theOM1, 7
-1	4561	96		set __rotate_theUF1, 7
-1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
-1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
-1	4567	120		wait 50
-1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
-1	4571	130		set __rotate_theOM1, 4
-1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
-1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
-1	4576	147		setout __rotate_ports1, 0, __constVal32
-1	4578	152		subret ____RotateMotor1_return
+1	4530	3		set ____RotateMotor1_sign_tmp, 0
+1	4530	6		brtst EQ, __sign_1, __rotate_angle1
+1	4530	9		set ____RotateMotor1_sign_tmp, -1
+1	4530	12		brtst LT, __sign_1, __rotate_angle1
+1	4530	15		set ____RotateMotor1_sign_tmp, 1
+1	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+1	4531	20		abs __rotate_theAngle1, __rotate_angle1
+1	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	27		set __rotate_theUF1, 23
+1	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	33		set __rotate_theOM1, 7
+1	4537	36		set __rotate_theRM1, 2
+1	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	48		jmp __rotate_Start1
+1	4543	50		set __rotate_theOM1, 3
+1	4544	53		set __rotate_theRM1, 0
+1	4545	56		set __rotate_theTurnPct1, 0
+1	4547	59		set __rotate_theRS1, 32
+1	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	107		set __rotate_theOM1, 7
+1	4561	110		set __rotate_theUF1, 7
+1	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	134		wait2 NA, __constVal50
+1	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	145		set __rotate_theOM1, 4
+1	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	162		setout __rotate_ports1, 0, __constVal32
+1	4578	167		subret ____RotateMotor1_return
 2	4885	0		setin __constVal1, __ResetSensorPort, 5
 2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 2	4889	11		subret ____ResetSensorSubroutine_return
-3	23	0	#line 23 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	24	0		set __D0enterMaze, 1
-3	24	3	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	25	3		tst 5, __zfenterMaze, __D0enterMaze
-3	24	6	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	25	6		brtst 4, __NXC_Label_605, __zfenterMaze
-3	24	9	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	25	9		getin __signed_stack_001enterMaze, __constVal1, 4
-3	24	13	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	24	13	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	25	13		mov __D0enterMaze, usAvg
-3	24	15	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	25	15		cmp 4, __zfenterMaze, __signed_stack_001enterMaze, __D0enterMaze
-3	24	19	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	25	19		mov __D0enterMaze, __zfenterMaze
-3	25	21	#line 25 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	26	21		brtst 4, __NXC_Label_610, __zfenterMaze
-3	26	24	#line 26 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	27	24		stopthread lineFollow
-3	26	26	#line 26 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	27	26	#line 27 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	28	26		jmp __NXC_Label_605
-3	27	28	#line 27 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	30	28	#line 30 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	30	28	#line 30 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	31	28		jmp __NXC_Label_604
-3	30	30	#line 30 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	31	30	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	32	30		subcall switchDir, __switchDir_return
-3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	32	32		mul __signed_stack_001enterMaze, dir, __constVal50
-3	31	36	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	31	36	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	32	36		set __D0enterMaze, 0
-3	32	39	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	33	39	#pragma macro 7
-3	33	39		setout __OUT_AC, 2, __signed_stack_001enterMaze, 1, __constVal7, 8, __constVal2, 7, __D0enterMaze, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	6734	62	#line 6734 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	32	62	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	32	62	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	33	62		set __Wait_7qG2_ms_7qG2_000_inline_enterMaze, 5000
-3	32	65	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	7921	65	#line 7921 "NXCDefs.h"
-3	7922	65		wait 5000
-3	7921	67	#line 7921 "NXCDefs.h"
-3	34	67	#line 34 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	35	67	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	36	67		subcall switchDir, __switchDir_return
-3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	36	69		mul __signed_stack_001enterMaze, dir, __constVal50
-3	35	73	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	35	73	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	36	73		set __D0enterMaze, 0
-3	36	76	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	37	76	#pragma macro 7
-3	37	76		setout __OUT_AC, 2, __signed_stack_001enterMaze, 1, __constVal7, 8, __constVal2, 7, __D0enterMaze, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	6770	99	#line 6770 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	36	99	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	36	99	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	37	99		set __Wait_7qG2_ms_7qG2_000_inline_enterMaze, 3000
-3	36	102	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	7921	102	#line 7921 "NXCDefs.h"
-3	7922	102		wait 3000
-3	7921	104	#line 7921 "NXCDefs.h"
-3	37	104	#line 37 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-3	38	104		exit -1, -1
-4	40	0	#line 40 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	41	0		set __D0lineFollow, 1
-4	41	3	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	3		tst 5, __zflineFollow, __D0lineFollow
-4	41	6	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	6		brtst 4, __NXC_Label_624, __zflineFollow
-4	41	9	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	9		getin __signed_stack_001lineFollow, __constVal0, 4
-4	41	13	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	41	13	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	13		mov __D0lineFollow, lightAvg
-4	41	15	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	15		cmp 1, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
-4	41	19	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	19		mov __D0lineFollow, __zflineFollow
-4	42	21	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	21		brtst 4, __NXC_Label_629, __zflineFollow
-4	42	24	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	24		set __signed_stack_001lineFollow, 60
-4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	27		mul __signed_stack_002lineFollow, dir, __constVal60
-4	42	31	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	31	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	31	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	31		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
-4	42	35	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	35	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	35		getin __signed_stack_003lineFollow, __constVal0, 4
-4	42	39	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	39	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	39	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	39		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
-4	42	43	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	43		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	47		sub __D0lineFollow, white, lightAvg
-4	42	51	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	51		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-4	42	55	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	55		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
-4	43	59	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	44	59	#pragma macro 7
-4	44	59		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6859	82	#line 6859 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	82	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	82	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	43	82	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	44	82		set __D0lineFollow, 60
-4	44	85	#line 44 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	45	85	#pragma macro 7
-4	45	85		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6867	108	#line 6867 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	44	108	#line 44 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	45	108	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	108		jmp __NXC_Label_638
-4	45	110	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	110		getin __signed_stack_001lineFollow, __constVal0, 4
-4	45	114	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	45	114	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	114		mov __D0lineFollow, lightAvg
-4	45	116	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	116		cmp 2, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
-4	45	120	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	120		mov __D0lineFollow, __zflineFollow
-4	46	122	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	122		brtst 4, __NXC_Label_641, __zflineFollow
-4	46	125	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	125		set __signed_stack_001lineFollow, 60
-4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	128		mul __signed_stack_002lineFollow, dir, __constVal60
-4	46	132	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	132	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	132	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	132		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
-4	46	136	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	136	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	136		getin __signed_stack_003lineFollow, __constVal0, 4
-4	46	140	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	140	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	140	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	140		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
-4	46	144	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	144		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	148		sub __D0lineFollow, black, lightAvg
-4	46	152	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	152		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-4	46	156	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	156		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
-4	47	160	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	48	160	#pragma macro 7
-4	48	160		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6937	183	#line 6937 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	183	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	183	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	47	183	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	48	183		set __D0lineFollow, 60
-4	48	186	#line 48 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	49	186	#pragma macro 7
-4	49	186		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6945	209	#line 6945 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	48	209	#line 48 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	50	209	#line 50 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	50	209	#line 50 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	52	209	#line 52 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	53	209		jmp __NXC_Label_623
-4	52	211	#line 52 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-4	53	211		exit -1, -1
-5	53	0	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	54	0		mov __signed_stack_001switchDir, dir
-5	53	2	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	53	2	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	54	2		set __D0switchDir, -1
-5	53	5	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	54	5		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
-5	53	9	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	54	9		mov __D0switchDir, __zfswitchDir
-5	54	11	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	55	11		brtst 4, __NXC_Label_652, __zfswitchDir
-5	54	14	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	55	14		set __signed_stack_001switchDir, 30
-5	54	17	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	54	17	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	55	17		set __D0switchDir, -180
-5	55	20	#line 55 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	56	20	#pragma macro 33
-5	56	20		arrbuild __rotate_ports1, __constVal1
-5	56	24		mov __rotate_power1, __signed_stack_001switchDir
-5	56	26		mov __rotate_angle1, __D0switchDir
-5	56	28		mov __rotate_turnpct1, __constVal0
-5	56	30		mov __rotate_sync1, __constVal0
-5	56	32		mov __rotate_stop1, __constVal1
-5	56	34		mov __rotate_theRVP1, __constVal32
-5	56	36		mov __rotate_theRVI1, __constVal0
-5	56	38		mov __rotate_theRVD1, __constVal96
-5	56	40		subcall __RotateMotor1, ____RotateMotor1_return
-5	6983	42	#line 6983 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	55	42	#line 55 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	56	42	#line 56 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	57	42		set dir, 1
-5	56	45	#line 56 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	56	45	#line 56 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	57	45	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	58	45		jmp __NXC_Label_659
-5	57	47	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	58	47		mov __signed_stack_001switchDir, dir
-5	57	49	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	57	49	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	58	49		set __D0switchDir, 1
-5	57	52	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	58	52		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
-5	57	56	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	58	56		mov __D0switchDir, __zfswitchDir
-5	58	58	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	59	58		brtst 4, __NXC_Label_662, __zfswitchDir
-5	58	61	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	59	61		set __signed_stack_001switchDir, 30
-5	58	64	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	58	64	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	59	64		set __D0switchDir, 180
-5	59	67	#line 59 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	60	67	#pragma macro 33
-5	60	67		arrbuild __rotate_ports1, __constVal1
-5	60	71		mov __rotate_power1, __signed_stack_001switchDir
-5	60	73		mov __rotate_angle1, __D0switchDir
-5	60	75		mov __rotate_turnpct1, __constVal0
-5	60	77		mov __rotate_sync1, __constVal0
-5	60	79		mov __rotate_stop1, __constVal1
-5	60	81		mov __rotate_theRVP1, __constVal32
-5	60	83		mov __rotate_theRVI1, __constVal0
-5	60	85		mov __rotate_theRVD1, __constVal96
-5	60	87		subcall __RotateMotor1, ____RotateMotor1_return
-5	7020	89	#line 7020 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	59	89	#line 59 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	60	89	#line 60 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	61	89		set dir, -1
-5	60	92	#line 60 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	60	92	#line 60 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	64	92	#line 64 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	64	92	#line 64 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	64	92	#line 64 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-5	65	92		subret __switchDir_return
-6	6069	0	#line 6069 "NXCDefs.h"
-6	6070	0	#pragma macro 6
-6	6070	0		acquire __PointOutMutex
-6	6070	1		mov __PointOutArgs.Location.X, __constVal200
-6	6070	3		mov __PointOutArgs.Location.Y, __constVal200
-6	6070	5		mov __PointOutArgs.Options, __constVal1
-6	6070	7		syscall 14, __PointOutArgs
-6	6070	10		release __PointOutMutex
-6	7039	11	#line 7039 "NXCDefs.h"
-6	6069	11	#line 6069 "NXCDefs.h"
-6	66	11	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	66	11	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	67	11		set __signed_stack_001displayNum, 0
-6	66	14	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	66	14	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	67	14		set __signed_stack_002displayNum, 2
-6	66	17	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	66	17	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	67	17		mov __D0displayNum, __displayNum_7qG2_n_7qG2_000
-6	66	19	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	67	19		numtostr __strretvaldisplayNum, __D0displayNum
-6	66	22	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	67	22		strcat __strbufdisplayNum, __strretvaldisplayNum
-6	67	26	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	26		acquire __TextOutMutex
-6	67	27	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	27		mov __TextOutArgs.Location.X, __signed_stack_001displayNum
-6	67	29	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	29		mov __TextOutArgs.Location.Y, __signed_stack_002displayNum
-6	67	31	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	31		set __TextOutArgs.Options, 0
-6	67	34	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	34		mov __TextOutArgs.Text, __strbufdisplayNum
-6	67	36	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	36		syscall 13, __TextOutArgs
-6	67	39	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	39		mov __D0displayNum, __TextOutArgs.Result
-6	67	41	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	68	41		release __TextOutMutex
-6	67	42	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	67	42	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	67	42	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	7921	42	#line 7921 "NXCDefs.h"
-6	7922	42		wait 1500
-6	7921	44	#line 7921 "NXCDefs.h"
-6	68	44	#line 68 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	6069	44	#line 6069 "NXCDefs.h"
-6	6070	44	#pragma macro 6
-6	6070	44		acquire __PointOutMutex
-6	6070	45		mov __PointOutArgs.Location.X, __constVal200
-6	6070	47		mov __PointOutArgs.Location.Y, __constVal200
-6	6070	49		mov __PointOutArgs.Options, __constVal1
-6	6070	51		syscall 14, __PointOutArgs
-6	6070	54		release __PointOutMutex
-6	7094	55	#line 7094 "NXCDefs.h"
-6	6069	55	#line 6069 "NXCDefs.h"
-6	69	55	#line 69 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	71	55	#line 71 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-6	72	55		subret __displayNum_return
-7	73	0	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	74	0		set dir, -1
-7	73	3	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	73	3	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	73	3	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	74	3		set __SetSensorLight_7qG2_port_7qG2_000_inline_calibration, 0
-7	73	6	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	73	6	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	74	6		set __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration, 1
-7	73	9	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	3729	9	#line 3729 "NXCDefs.h"
-7	3730	9		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
-7	3729	11	#line 3729 "NXCDefs.h"
-7	3729	11	#line 3729 "NXCDefs.h"
-7	3730	11		mov __DU0SetSensorLight_inline_calibration, __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration
-7	3729	13	#line 3729 "NXCDefs.h"
-7	3730	13		tst 5, __zfSetSensorLight_inline_calibration, __DU0SetSensorLight_inline_calibration
-7	3729	16	#line 3729 "NXCDefs.h"
-7	3730	16		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_calibration
-7	3729	19	#line 3729 "NXCDefs.h"
-7	3730	19		set __D0SetSensorLight_inline_calibration, 5
-7	3729	22	#line 3729 "NXCDefs.h"
-7	3730	22		jmp __001__NXC_Label_5
-7	3729	24	#line 3729 "NXCDefs.h"
-7	3730	24		set __D0SetSensorLight_inline_calibration, 6
-7	3729	27	#line 3729 "NXCDefs.h"
-7	3730	27		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __D0SetSensorLight_inline_calibration
-7	3663	29	#line 3663 "NXCDefs.h"
-7	3664	29		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 0
-7	3663	33	#line 3663 "NXCDefs.h"
-7	3730	33	#line 3730 "NXCDefs.h"
-7	3730	33	#line 3730 "NXCDefs.h"
-7	3731	33		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
-7	3730	35	#line 3730 "NXCDefs.h"
-7	3730	35	#line 3730 "NXCDefs.h"
-7	3731	35		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, 128
-7	3730	38	#line 3730 "NXCDefs.h"
-7	3676	38	#line 3676 "NXCDefs.h"
-7	3677	38		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 1
-7	3676	42	#line 3676 "NXCDefs.h"
-7	3731	42	#line 3731 "NXCDefs.h"
-7	3731	42	#line 3731 "NXCDefs.h"
-7	3731	42	#line 3731 "NXCDefs.h"
-7	3694	42	#line 3694 "NXCDefs.h"
-7	3695	42	#pragma macro 4
-7	3695	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
-7	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-7	7204	46	#line 7204 "NXCDefs.h"
-7	3694	46	#line 3694 "NXCDefs.h"
-7	3732	46	#line 3732 "NXCDefs.h"
-7	74	46	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	74	46	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	75	46		set __signed_stack_001calibration, 0
-7	74	49	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	74	49	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	75	49		set __signed_stack_002calibration, 2
-7	74	52	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	74	52	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	75	52		strcat __strbufcalibration, __constStr0009
-7	75	56	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	56		acquire __TextOutMutex
-7	75	57	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	57		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-7	75	59	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	59		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-7	75	61	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	61		set __TextOutArgs.Options, 0
-7	75	64	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	64		mov __TextOutArgs.Text, __strbufcalibration
-7	75	66	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	66		syscall 13, __TextOutArgs
-7	75	69	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	69		mov __D0calibration, __TextOutArgs.Result
-7	75	71	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	71		release __TextOutMutex
-7	75	72	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	75	72	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	72		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
-7	75	75	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	7921	75	#line 7921 "NXCDefs.h"
-7	7922	75		wait 3000
-7	7921	77	#line 7921 "NXCDefs.h"
-7	76	77	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	77	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	77	77		getin black, __constVal0, 4
-7	76	81	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	81	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	76	81	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	77	81	#line 77 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	78	81		mov __displayNum_7qG2_n_7qG2_000, black
-7	77	83	#line 77 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	78	83	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	79	83		subcall displayNum, __displayNum_return
-7	78	85	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	78	85	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	79	85		set __signed_stack_001calibration, 0
-7	78	88	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	78	88	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	79	88		set __signed_stack_002calibration, 2
-7	78	91	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	78	91	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	79	91		strcat __strbufcalibration, __constStr0010
-7	79	95	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	95		acquire __TextOutMutex
-7	79	96	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	96		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-7	79	98	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	98		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-7	79	100	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	100		set __TextOutArgs.Options, 0
-7	79	103	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	103		mov __TextOutArgs.Text, __strbufcalibration
-7	79	105	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	105		syscall 13, __TextOutArgs
-7	79	108	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	108		mov __D0calibration, __TextOutArgs.Result
-7	79	110	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	110		release __TextOutMutex
-7	79	111	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	79	111	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	111		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
-7	79	114	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	7921	114	#line 7921 "NXCDefs.h"
-7	7922	114		wait 3000
-7	7921	116	#line 7921 "NXCDefs.h"
-7	80	116	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	116	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	81	116		getin white, __constVal0, 4
-7	80	120	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	120	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	80	120	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	81	120	#line 81 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	82	120		mov __displayNum_7qG2_n_7qG2_000, white
-7	81	122	#line 81 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	83	122	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	84	122		subcall displayNum, __displayNum_return
-7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	84	124		add __signed_stack_001calibration, black, white
-7	83	128	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	84	128	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	84	128	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	85	128		div lightAvg, __signed_stack_001calibration, __constVal2
-7	84	132	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	84	132	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	84	132	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	85	132		mov __displayNum_7qG2_n_7qG2_000, lightAvg
-7	84	134	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	86	134	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	87	134		subcall displayNum, __displayNum_return
-7	86	136	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	86	136	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	86	136	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	3768	136	#line 3768 "NXCDefs.h"
-7	3769	136		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
-7	3768	138	#line 3768 "NXCDefs.h"
-7	3768	138	#line 3768 "NXCDefs.h"
-7	3769	138		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
-7	3758	140	#line 3758 "NXCDefs.h"
-7	3759	140		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-7	3758	142	#line 3758 "NXCDefs.h"
-7	3758	142	#line 3758 "NXCDefs.h"
-7	3759	142		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-7	3758	144	#line 3758 "NXCDefs.h"
-7	3759	144		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
-7	3758	147	#line 3758 "NXCDefs.h"
-7	3759	147		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
-7	3758	150	#line 3758 "NXCDefs.h"
-7	3759	150		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
-7	3758	153	#line 3758 "NXCDefs.h"
-7	3759	153		jmp __001__001__NXC_Label_37
-7	3758	155	#line 3758 "NXCDefs.h"
-7	3759	155		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
-7	3758	158	#line 3758 "NXCDefs.h"
-7	3759	158		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
-7	3663	160	#line 3663 "NXCDefs.h"
-7	3664	160		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
-7	3663	164	#line 3663 "NXCDefs.h"
-7	3759	164	#line 3759 "NXCDefs.h"
-7	3759	164	#line 3759 "NXCDefs.h"
-7	3760	164		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-7	3759	166	#line 3759 "NXCDefs.h"
-7	3759	166	#line 3759 "NXCDefs.h"
-7	3760	166		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
-7	3759	169	#line 3759 "NXCDefs.h"
-7	3676	169	#line 3676 "NXCDefs.h"
-7	3677	169		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 1
-7	3676	173	#line 3676 "NXCDefs.h"
-7	3760	173	#line 3760 "NXCDefs.h"
-7	3760	173	#line 3760 "NXCDefs.h"
-7	3760	173	#line 3760 "NXCDefs.h"
-7	3694	173	#line 3694 "NXCDefs.h"
-7	3695	173	#pragma macro 4
-7	3695	173		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-7	3695	175		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-7	7459	177	#line 7459 "NXCDefs.h"
-7	3694	177	#line 3694 "NXCDefs.h"
-7	3761	177	#line 3761 "NXCDefs.h"
-7	3768	177	#line 3768 "NXCDefs.h"
-7	87	177	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	87	177	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	88	177		set __signed_stack_001calibration, 0
-7	87	180	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	87	180	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	88	180		set __signed_stack_002calibration, 2
-7	87	183	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	87	183	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	88	183		strcat __strbufcalibration, __constStr0011
-7	89	187	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	187		acquire __TextOutMutex
-7	89	188	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	188		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-7	89	190	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	190		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-7	89	192	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	192		set __TextOutArgs.Options, 0
-7	89	195	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	195		mov __TextOutArgs.Text, __strbufcalibration
-7	89	197	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	197		syscall 13, __TextOutArgs
-7	89	200	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	200		mov __D0calibration, __TextOutArgs.Result
-7	89	202	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	90	202		release __TextOutMutex
-7	89	203	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	91	203	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	203		set usAvg, 0
-7	91	206	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	91	206	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	91	206	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	206		set __calibration_7qG2_i_7qG2_001, 0
-7	91	209	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	91	209	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	209		mov __signed_stack_001calibration, __calibration_7qG2_i_7qG2_001
-7	91	211	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	91	211	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	211		set __D0calibration, 5
-7	91	214	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	214		cmp 0, __zfcalibration, __signed_stack_001calibration, __D0calibration
-7	91	218	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	218		mov __D0calibration, __zfcalibration
-7	91	220	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	220		brtst 4, __NXC_Label_718, __zfcalibration
-7	91	223	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	223		jmp __NXC_Label_719
-7	91	225	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	225		add __calibration_7qG2_i_7qG2_001, __calibration_7qG2_i_7qG2_001, __constVal1
-7	92	229	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	93	229		jmp __NXC_Label_717
-7	92	231	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	93	231		getin __D0calibration, __constVal1, 4
-7	92	235	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	93	235		add usAvg, usAvg, __D0calibration
-7	92	239	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	92	239	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	95	239	#line 95 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	96	239		jmp __NXC_Label_720
-7	95	241	#line 95 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	97	241	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	97	241	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	98	241		div usAvg, usAvg, __constVal5
-7	97	245	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	97	245	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	98	245		mov __displayNum_7qG2_n_7qG2_000, usAvg
-7	97	247	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	99	247	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	100	247		subcall displayNum, __displayNum_return
-7	99	249	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	99	249	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	100	249		set __signed_stack_001calibration, 0
-7	99	252	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	99	252	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	100	252		set __signed_stack_002calibration, 2
-7	99	255	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	99	255	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	100	255		strcat __strbufcalibration, __constStr0012
-7	100	259	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	259		acquire __TextOutMutex
-7	100	260	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	260		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-7	100	262	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	262		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-7	100	264	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	264		set __TextOutArgs.Options, 0
-7	100	267	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	267		mov __TextOutArgs.Text, __strbufcalibration
-7	100	269	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	269		syscall 13, __TextOutArgs
-7	100	272	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	272		mov __D0calibration, __TextOutArgs.Result
-7	100	274	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	274		release __TextOutMutex
-7	100	275	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	100	275	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	101	275		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-7	100	278	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	7921	278	#line 7921 "NXCDefs.h"
-7	7922	278		wait 1000
-7	7921	280	#line 7921 "NXCDefs.h"
-7	101	280	#line 101 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	6069	280	#line 6069 "NXCDefs.h"
-7	6070	280	#pragma macro 6
-7	6070	280		acquire __PointOutMutex
-7	6070	281		mov __PointOutArgs.Location.X, __constVal200
-7	6070	283		mov __PointOutArgs.Location.Y, __constVal200
-7	6070	285		mov __PointOutArgs.Options, __constVal1
-7	6070	287		syscall 14, __PointOutArgs
-7	6070	290		release __PointOutMutex
-7	7605	291	#line 7605 "NXCDefs.h"
-7	6069	291	#line 6069 "NXCDefs.h"
-7	102	291	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	102	291	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	103	291		set __signed_stack_001calibration, 0
-7	102	294	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	102	294	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	103	294		set __signed_stack_002calibration, 2
-7	102	297	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	102	297	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	103	297		strcat __strbufcalibration, __constStr0013
-7	103	301	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	301		acquire __TextOutMutex
-7	103	302	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	302		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-7	103	304	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	304		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-7	103	306	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	306		set __TextOutArgs.Options, 0
-7	103	309	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	309		mov __TextOutArgs.Text, __strbufcalibration
-7	103	311	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	311		syscall 13, __TextOutArgs
-7	103	314	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	314		mov __D0calibration, __TextOutArgs.Result
-7	103	316	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	316		release __TextOutMutex
-7	103	317	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	103	317	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	104	317		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-7	103	320	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	7921	320	#line 7921 "NXCDefs.h"
-7	7922	320		wait 1000
-7	7921	322	#line 7921 "NXCDefs.h"
-7	104	322	#line 104 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	6069	322	#line 6069 "NXCDefs.h"
-7	6070	322	#pragma macro 6
-7	6070	322		acquire __PointOutMutex
-7	6070	323		mov __PointOutArgs.Location.X, __constVal200
-7	6070	325		mov __PointOutArgs.Location.Y, __constVal200
-7	6070	327		mov __PointOutArgs.Options, __constVal1
-7	6070	329		syscall 14, __PointOutArgs
-7	6070	332		release __PointOutMutex
-7	7650	333	#line 7650 "NXCDefs.h"
-7	6069	333	#line 6069 "NXCDefs.h"
-7	105	333	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	105	333	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	106	333		set __signed_stack_001calibration, 0
-7	105	336	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	105	336	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	106	336		set __signed_stack_002calibration, 2
-7	105	339	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	105	339	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	106	339		strcat __strbufcalibration, __constStr0014
-7	106	343	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	343		acquire __TextOutMutex
-7	106	344	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	344		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-7	106	346	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	346		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-7	106	348	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	348		set __TextOutArgs.Options, 0
-7	106	351	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	351		mov __TextOutArgs.Text, __strbufcalibration
-7	106	353	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	353		syscall 13, __TextOutArgs
-7	106	356	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	356		mov __D0calibration, __TextOutArgs.Result
-7	106	358	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	358		release __TextOutMutex
-7	106	359	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	106	359	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	107	359		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-7	106	362	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	7921	362	#line 7921 "NXCDefs.h"
-7	7922	362		wait 1000
-7	7921	364	#line 7921 "NXCDefs.h"
-7	107	364	#line 107 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	6069	364	#line 6069 "NXCDefs.h"
-7	6070	364	#pragma macro 6
-7	6070	364		acquire __PointOutMutex
-7	6070	365		mov __PointOutArgs.Location.X, __constVal200
-7	6070	367		mov __PointOutArgs.Location.Y, __constVal200
-7	6070	369		mov __PointOutArgs.Options, __constVal1
-7	6070	371		syscall 14, __PointOutArgs
-7	6070	374		release __PointOutMutex
-7	7695	375	#line 7695 "NXCDefs.h"
-7	6069	375	#line 6069 "NXCDefs.h"
-7	108	375	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	108	375	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	109	375		set __signed_stack_001calibration, 0
-7	108	378	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	108	378	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	109	378		set __signed_stack_002calibration, 2
-7	108	381	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	108	381	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	109	381		strcat __strbufcalibration, __constStr0015
-7	109	385	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	385		acquire __TextOutMutex
-7	109	386	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	386		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-7	109	388	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	388		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-7	109	390	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	390		set __TextOutArgs.Options, 0
-7	109	393	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	393		mov __TextOutArgs.Text, __strbufcalibration
-7	109	395	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	395		syscall 13, __TextOutArgs
-7	109	398	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	398		mov __D0calibration, __TextOutArgs.Result
-7	109	400	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	400		release __TextOutMutex
-7	109	401	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	109	401	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	110	401		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-7	109	404	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	7921	404	#line 7921 "NXCDefs.h"
-7	7922	404		wait 1000
-7	7921	406	#line 7921 "NXCDefs.h"
-7	110	406	#line 110 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	6069	406	#line 6069 "NXCDefs.h"
-7	6070	406	#pragma macro 6
-7	6070	406		acquire __PointOutMutex
-7	6070	407		mov __PointOutArgs.Location.X, __constVal200
-7	6070	409		mov __PointOutArgs.Location.Y, __constVal200
-7	6070	411		mov __PointOutArgs.Options, __constVal1
-7	6070	413		syscall 14, __PointOutArgs
-7	6070	416		release __PointOutMutex
-7	7740	417	#line 7740 "NXCDefs.h"
-7	6069	417	#line 6069 "NXCDefs.h"
-7	111	417	#line 111 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	113	417	#line 113 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-7	114	417		subret __calibration_return
-8	114	0	#line 114 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
-8	115	0		subret ____initialize_global_data_return
+3	5710	0	#pragma macro 25
+3	5710	0		acquire __CLSWMutex1
+3	5710	1		set __CLSWArgs1.Port, 1
+3	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+3	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+3	5710	8		syscall 21, __CLSWArgs1
+3	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+3	5710	13		release __CLSWMutex1
+3	5710	14	#line 5710 "NXTDefs.h"
+3	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+3	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+3	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+3	5714	24		set __RLSBIterations1, 4
+3	5716	27	#pragma macro 23
+3	5716	27		acquire __CLSCSMutex1
+3	5716	28		set __CLSCSArgs1.Port, 1
+3	5716	31		syscall 23, __CLSCSArgs1
+3	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+3	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+3	5716	38		release __CLSCSMutex1
+3	5716	39	#line 5716 "NXTDefs.h"
+3	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+3	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+3	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+3	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+3	5722	52		wait2 NA, __constVal15
+3	5723	55		jmp __RLSBDoCheckStatus1
+3	5726	57	#pragma macro 25
+3	5726	57		acquire __CLSRMutex1
+3	5726	58		set __CLSRArgs1.Port, 1
+3	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+3	5726	63		syscall 22, __CLSRArgs1
+3	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+3	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+3	5726	70		release __CLSRMutex1
+3	5726	71	#line 5726 "NXTDefs.h"
+3	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+3	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+3	5729	76		jmp __RLSBDone1
+3	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+3	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+3	5735	83		subret ____ReadLSBytes1_return
+4	22	0	#line 22 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	23	0		set __D0enterMaze, 1
+4	23	3	#line 23 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	24	3		tst 5, __zfenterMaze, __D0enterMaze
+4	23	6	#line 23 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	24	6		brtst 4, __NXC_Label_490, __zfenterMaze
+4	23	9	#line 23 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	24	9	#pragma macro 26
+4	24	9		acquire __RLSBmutex1
+4	24	10		mov __RLSReadBuf1, __RLSBbufLSWrite1
+4	24	12		set __RLSBytesCount1, 1
+4	24	15		wait2 NA, __constVal15
+4	24	18		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+4	24	20		index __D0enterMaze, __RLSReadBuf1, 65535
+4	24	24		release __RLSBmutex1
+4	4069	25	#line 4069 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	23	25	#line 23 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	24	25		mov __signed_stack_001enterMaze, __D0enterMaze
+4	23	27	#line 23 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	24	27		mov __D0enterMaze, usAvg
+4	23	29	#line 23 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	24	29		cmp 4, __zfenterMaze, __signed_stack_001enterMaze, __D0enterMaze
+4	23	33	#line 23 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	24	33		mov __D0enterMaze, __zfenterMaze
+4	24	35	#line 24 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	25	35		brtst 4, __NXC_Label_495, __zfenterMaze
+4	25	38	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	26	38		jmp __NXC_Label_490
+4	25	40	#line 25 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	28	40	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	28	40	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	29	40		jmp __NXC_Label_489
+4	28	42	#line 28 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	29	42	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	30	42		subcall switchDir, __switchDir_return
+4	29	44	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	29	44	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	29	44	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	29	44	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	29	44	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	30	44		mul __signed_stack_001enterMaze, dir, __constVal50
+4	29	48	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	29	48	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	30	48		set __D0enterMaze, 0
+4	30	51	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	31	51	#pragma macro 7
+4	31	51		setout __OUT_AC, 2, __signed_stack_001enterMaze, 1, __constVal7, 8, __constVal2, 7, __D0enterMaze, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4111	74	#line 4111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	30	74	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	30	74	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	31	74		set __Wait_7qG2_ms_7qG2_000_inline_enterMaze, 5000
+4	30	77	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	7921	77	#line 7921 "NXCDefs.h"
+4	7922	77		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_enterMaze
+4	7921	80	#line 7921 "NXCDefs.h"
+4	32	80	#line 32 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	33	80	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	34	80		subcall switchDir, __switchDir_return
+4	33	82	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	33	82	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	33	82	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	33	82	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	33	82	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	34	82		mul __signed_stack_001enterMaze, dir, __constVal50
+4	33	86	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	33	86	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	34	86		set __D0enterMaze, 0
+4	34	89	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	35	89	#pragma macro 7
+4	35	89		setout __OUT_AC, 2, __signed_stack_001enterMaze, 1, __constVal7, 8, __constVal2, 7, __D0enterMaze, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4147	112	#line 4147 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	34	112	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	34	112	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	35	112		set __Wait_7qG2_ms_7qG2_000_inline_enterMaze, 3000
+4	34	115	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	7921	115	#line 7921 "NXCDefs.h"
+4	7922	115		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_enterMaze
+4	7921	118	#line 7921 "NXCDefs.h"
+4	35	118	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+4	36	118		exit -1, -1
+5	38	0	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	39	0		set __D0lineFollow, 1
+5	39	3	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	3		tst 5, __zflineFollow, __D0lineFollow
+5	39	6	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	6		brtst 4, __NXC_Label_509, __zflineFollow
+5	39	9	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	9		getin __signed_stack_001lineFollow, __constVal0, 4
+5	39	13	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	39	13	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	13		mov __D0lineFollow, lightAvg
+5	39	15	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	15		cmp 1, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
+5	39	19	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	19		mov __D0lineFollow, __zflineFollow
+5	39	21	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	21		brtst 4, __NXC_Label_513, __zflineFollow
+5	39	24	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	24		mov __signed_stack_001lineFollow, __D0lineFollow
+5	39	26	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	26		mov __signed_stack_002lineFollow, dir
+5	39	28	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	39	28	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	28		mov __D0lineFollow, __constValNeg1
+5	39	30	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	30		cmp 4, __zflineFollow, __signed_stack_002lineFollow, __D0lineFollow
+5	39	34	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	39	34	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	34		and __D0lineFollow, __signed_stack_001lineFollow, __zflineFollow
+5	40	38	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	38		tst 5, __zflineFollow, __D0lineFollow
+5	40	41	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	41		brtst 4, __NXC_Label_514, __zflineFollow
+5	40	44	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	44	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	44	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	44	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	44		mul __signed_stack_001lineFollow, dir, __constVal60
+5	40	48	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	48	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	48	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	48	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	48	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	48		mul __signed_stack_002lineFollow, dir, __constVal60
+5	40	52	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	52	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	52	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	52		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
+5	40	56	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	56	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	56		getin __signed_stack_003lineFollow, __constVal0, 4
+5	40	60	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	60	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	60	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	60		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
+5	40	64	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	64		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+5	40	68	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	68	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	68	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	68	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	40	68	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	68		sub __D0lineFollow, white, lightAvg
+5	40	72	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	72		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+5	40	76	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	76		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
+5	41	80	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	42	80	#pragma macro 7
+5	42	80		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4260	103	#line 4260 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	103	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	103	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	103	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	103	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	103	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	41	103	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	42	103		mul __D0lineFollow, dir, __constVal60
+5	42	107	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	43	107	#pragma macro 7
+5	43	107		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4274	130	#line 4274 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	42	130	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	43	130	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	130		jmp __NXC_Label_523
+5	43	132	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	132		getin __signed_stack_001lineFollow, __constVal0, 4
+5	43	136	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	43	136	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	136		mov __D0lineFollow, lightAvg
+5	43	138	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	138		cmp 2, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
+5	43	142	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	142		mov __D0lineFollow, __zflineFollow
+5	43	144	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	144		brtst 4, __NXC_Label_525, __zflineFollow
+5	43	147	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	147		mov __signed_stack_001lineFollow, __D0lineFollow
+5	43	149	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	149		mov __signed_stack_002lineFollow, dir
+5	43	151	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	43	151	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	151		mov __D0lineFollow, __constValNeg1
+5	43	153	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	153		cmp 4, __zflineFollow, __signed_stack_002lineFollow, __D0lineFollow
+5	43	157	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	43	157	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	157		and __D0lineFollow, __signed_stack_001lineFollow, __zflineFollow
+5	44	161	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	161		tst 5, __zflineFollow, __D0lineFollow
+5	44	164	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	164		brtst 4, __NXC_Label_526, __zflineFollow
+5	44	167	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	167	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	167	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	167	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	167		mul __signed_stack_001lineFollow, dir, __constVal60
+5	44	171	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	171	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	171	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	171	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	171	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	171		mul __signed_stack_002lineFollow, dir, __constVal60
+5	44	175	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	175	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	175	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	175		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
+5	44	179	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	179	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	179		getin __signed_stack_003lineFollow, __constVal0, 4
+5	44	183	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	183	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	183	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	183		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
+5	44	187	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	187		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+5	44	191	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	191	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	191	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	191	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	44	191	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	191		sub __D0lineFollow, black, lightAvg
+5	44	195	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	195		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+5	44	199	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	199		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
+5	45	203	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	46	203	#pragma macro 7
+5	46	203		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4368	226	#line 4368 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	226	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	226	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	226	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	226	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	226	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	45	226	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	46	226		mul __D0lineFollow, dir, __constVal60
+5	46	230	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	47	230	#pragma macro 7
+5	47	230		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4382	253	#line 4382 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	46	253	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	47	253	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	48	253		jmp __NXC_Label_535
+5	47	255	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	48	255		mov __signed_stack_001lineFollow, dir
+5	47	257	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	47	257	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	48	257		set __D0lineFollow, 1
+5	47	260	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	48	260		cmp 4, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
+5	47	264	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	48	264		mov __D0lineFollow, __zflineFollow
+5	48	266	#line 48 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	49	266		brtst 4, __NXC_Label_538, __zflineFollow
+5	48	269	#line 48 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	49	269		set __D0lineFollow, 0
+5	49	272	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	50	272	#pragma macro 7
+5	50	272		setout __OUT_AC, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4406	295	#line 4406 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	49	295	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	49	295	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	50	295		set __Wait_7qG2_ms_7qG2_000_inline_lineFollow, 500
+5	49	298	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	7921	298	#line 7921 "NXCDefs.h"
+5	7922	298		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lineFollow
+5	7921	301	#line 7921 "NXCDefs.h"
+5	50	301	#line 50 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	51	301	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	52	301		jmp __NXC_Label_509
+5	51	303	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	53	303	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	53	303	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	53	303	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	55	303	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	56	303		jmp __NXC_Label_508
+5	55	305	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	56	305		exit -1, -1
+6	56	0	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	57	0		mov __signed_stack_001switchDir, dir
+6	56	2	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	56	2	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	57	2		mov __D0switchDir, __constValNeg1
+6	56	4	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	57	4		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
+6	56	8	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	57	8		mov __D0switchDir, __zfswitchDir
+6	57	10	#line 57 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	58	10		brtst 4, __NXC_Label_545, __zfswitchDir
+6	58	13	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	59	13		set dir, 1
+6	58	16	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	58	16	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	58	16	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	59	16		set __signed_stack_001switchDir, 30
+6	58	19	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	58	19	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	59	19		mov __D0switchDir, __constValNeg180
+6	60	21	#line 60 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	61	21	#pragma macro 33
+6	61	21		arrbuild __rotate_ports1, __constVal1
+6	61	25		mov __rotate_power1, __signed_stack_001switchDir
+6	61	27		mov __rotate_angle1, __D0switchDir
+6	61	29		mov __rotate_turnpct1, __constVal0
+6	61	31		mov __rotate_sync1, __constVal0
+6	61	33		mov __rotate_stop1, __constVal1
+6	61	35		mov __rotate_theRVP1, __constVal32
+6	61	37		mov __rotate_theRVI1, __constVal0
+6	61	39		mov __rotate_theRVD1, __constVal96
+6	61	41		subcall __RotateMotor1, ____RotateMotor1_return
+6	4470	43	#line 4470 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	60	43	#line 60 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	61	43	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	62	43		jmp __NXC_Label_552
+6	61	45	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	62	45		mov __signed_stack_001switchDir, dir
+6	61	47	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	61	47	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	62	47		set __D0switchDir, 1
+6	61	50	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	62	50		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
+6	61	54	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	62	54		mov __D0switchDir, __zfswitchDir
+6	62	56	#line 62 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	63	56		brtst 4, __NXC_Label_555, __zfswitchDir
+6	63	59	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	64	59		mov dir, __constValNeg1
+6	63	61	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	63	61	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	63	61	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	64	61		set __signed_stack_001switchDir, 30
+6	63	64	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	63	64	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	64	64		set __D0switchDir, 180
+6	64	67	#line 64 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	65	67	#pragma macro 33
+6	65	67		arrbuild __rotate_ports1, __constVal1
+6	65	71		mov __rotate_power1, __signed_stack_001switchDir
+6	65	73		mov __rotate_angle1, __D0switchDir
+6	65	75		mov __rotate_turnpct1, __constVal0
+6	65	77		mov __rotate_sync1, __constVal0
+6	65	79		mov __rotate_stop1, __constVal1
+6	65	81		mov __rotate_theRVP1, __constVal32
+6	65	83		mov __rotate_theRVI1, __constVal0
+6	65	85		mov __rotate_theRVD1, __constVal96
+6	65	87		subcall __RotateMotor1, ____RotateMotor1_return
+6	4507	89	#line 4507 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	64	89	#line 64 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	68	89	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	68	89	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	68	89	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	69	89		subret __switchDir_return
+7	6069	0	#line 6069 "NXCDefs.h"
+7	6070	0	#pragma macro 6
+7	6070	0		acquire __PointOutMutex
+7	6070	1		mov __PointOutArgs.Location.X, __constVal200
+7	6070	3		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	5		mov __PointOutArgs.Options, __constVal1
+7	6070	7		syscall 14, __PointOutArgs
+7	6070	10		release __PointOutMutex
+7	4519	11	#line 4519 "NXCDefs.h"
+7	6069	11	#line 6069 "NXCDefs.h"
+7	70	11	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	70	11	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	71	11		set __signed_stack_001displayNum, 0
+7	70	14	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	70	14	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	71	14		set __signed_stack_002displayNum, 2
+7	70	17	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	70	17	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	71	17		mov __D0displayNum, __displayNum_7qG2_n_7qG2_000
+7	70	19	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	71	19		numtostr __strretvaldisplayNum, __D0displayNum
+7	70	22	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	71	22		strcat __strbufdisplayNum, __strretvaldisplayNum
+7	71	26	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	26		acquire __TextOutMutex
+7	71	27	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	27		mov __TextOutArgs.Location.X, __signed_stack_001displayNum
+7	71	29	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	29		mov __TextOutArgs.Location.Y, __signed_stack_002displayNum
+7	71	31	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	31		set __TextOutArgs.Options, 0
+7	71	34	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	34		mov __TextOutArgs.Text, __strbufdisplayNum
+7	71	36	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	36		syscall 13, __TextOutArgs
+7	71	39	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	39		mov __D0displayNum, __TextOutArgs.Result
+7	71	41	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	41		release __TextOutMutex
+7	71	42	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	71	42	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	72	42		set __Wait_7qG2_ms_7qG2_000_inline_displayNum, 1500
+7	71	45	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	7921	45	#line 7921 "NXCDefs.h"
+7	7922	45		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_displayNum
+7	7921	48	#line 7921 "NXCDefs.h"
+7	72	48	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	6069	48	#line 6069 "NXCDefs.h"
+7	6070	48	#pragma macro 6
+7	6070	48		acquire __PointOutMutex
+7	6070	49		mov __PointOutArgs.Location.X, __constVal200
+7	6070	51		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	53		mov __PointOutArgs.Options, __constVal1
+7	6070	55		syscall 14, __PointOutArgs
+7	6070	58		release __PointOutMutex
+7	4574	59	#line 4574 "NXCDefs.h"
+7	6069	59	#line 6069 "NXCDefs.h"
+7	73	59	#line 73 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	75	59	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	76	59		subret __displayNum_return
+8	77	0	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	78	0		mov dir, __constValNeg1
+8	77	2	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	77	2	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	77	2	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	78	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_calibration, 0
+8	77	5	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	77	5	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	78	5		set __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration, 1
+8	77	8	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	3729	8	#line 3729 "NXCDefs.h"
+8	3730	8		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
+8	3729	10	#line 3729 "NXCDefs.h"
+8	3729	10	#line 3729 "NXCDefs.h"
+8	3730	10		mov __DU0SetSensorLight_inline_calibration, __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration
+8	3729	12	#line 3729 "NXCDefs.h"
+8	3730	12		tst 5, __zfSetSensorLight_inline_calibration, __DU0SetSensorLight_inline_calibration
+8	3729	15	#line 3729 "NXCDefs.h"
+8	3730	15		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_calibration
+8	3729	18	#line 3729 "NXCDefs.h"
+8	3730	18		set __D0SetSensorLight_inline_calibration, 5
+8	3729	21	#line 3729 "NXCDefs.h"
+8	3730	21		jmp __001__NXC_Label_5
+8	3729	23	#line 3729 "NXCDefs.h"
+8	3730	23		set __D0SetSensorLight_inline_calibration, 6
+8	3729	26	#line 3729 "NXCDefs.h"
+8	3730	26		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __D0SetSensorLight_inline_calibration
+8	3663	28	#line 3663 "NXCDefs.h"
+8	3664	28		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 0
+8	3663	32	#line 3663 "NXCDefs.h"
+8	3730	32	#line 3730 "NXCDefs.h"
+8	3730	32	#line 3730 "NXCDefs.h"
+8	3731	32		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
+8	3730	34	#line 3730 "NXCDefs.h"
+8	3730	34	#line 3730 "NXCDefs.h"
+8	3731	34		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, 128
+8	3730	37	#line 3730 "NXCDefs.h"
+8	3676	37	#line 3676 "NXCDefs.h"
+8	3677	37		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 1
+8	3676	41	#line 3676 "NXCDefs.h"
+8	3731	41	#line 3731 "NXCDefs.h"
+8	3731	41	#line 3731 "NXCDefs.h"
+8	3731	41	#line 3731 "NXCDefs.h"
+8	3694	41	#line 3694 "NXCDefs.h"
+8	3695	41	#pragma macro 4
+8	3695	41		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
+8	3695	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+8	4684	45	#line 4684 "NXCDefs.h"
+8	3694	45	#line 3694 "NXCDefs.h"
+8	3732	45	#line 3732 "NXCDefs.h"
+8	78	45	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	78	45	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	79	45		set __signed_stack_001calibration, 0
+8	78	48	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	78	48	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	79	48		set __signed_stack_002calibration, 2
+8	78	51	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	78	51	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	79	51		strcat __strbufcalibration, __constStr0009
+8	79	55	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	55		acquire __TextOutMutex
+8	79	56	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	56		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+8	79	58	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	58		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+8	79	60	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	60		set __TextOutArgs.Options, 0
+8	79	63	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	63		mov __TextOutArgs.Text, __strbufcalibration
+8	79	65	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	65		syscall 13, __TextOutArgs
+8	79	68	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	68		mov __D0calibration, __TextOutArgs.Result
+8	79	70	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	70		release __TextOutMutex
+8	79	71	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	79	71	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	71		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
+8	79	74	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	7921	74	#line 7921 "NXCDefs.h"
+8	7922	74		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
+8	7921	77	#line 7921 "NXCDefs.h"
+8	80	77	#line 80 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	77	#line 80 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	81	77		getin black, __constVal0, 4
+8	80	81	#line 80 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	81	#line 80 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	80	81	#line 80 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	81	81	#line 81 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	82	81		mov __displayNum_7qG2_n_7qG2_000, black
+8	81	83	#line 81 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	82	83	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	83	83		subcall displayNum, __displayNum_return
+8	82	85	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	82	85	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	83	85		set __signed_stack_001calibration, 0
+8	82	88	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	82	88	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	83	88		set __signed_stack_002calibration, 2
+8	82	91	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	82	91	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	83	91		strcat __strbufcalibration, __constStr0010
+8	83	95	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	95		acquire __TextOutMutex
+8	83	96	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	96		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+8	83	98	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	98		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+8	83	100	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	100		set __TextOutArgs.Options, 0
+8	83	103	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	103		mov __TextOutArgs.Text, __strbufcalibration
+8	83	105	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	105		syscall 13, __TextOutArgs
+8	83	108	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	108		mov __D0calibration, __TextOutArgs.Result
+8	83	110	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	110		release __TextOutMutex
+8	83	111	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	83	111	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	111		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
+8	83	114	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	7921	114	#line 7921 "NXCDefs.h"
+8	7922	114		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
+8	7921	117	#line 7921 "NXCDefs.h"
+8	84	117	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	117	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	85	117		getin white, __constVal0, 4
+8	84	121	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	121	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	84	121	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	85	121	#line 85 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	86	121		mov __displayNum_7qG2_n_7qG2_000, white
+8	85	123	#line 85 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	87	123	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	88	123		subcall displayNum, __displayNum_return
+8	87	125	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	87	125	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	87	125	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	87	125	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	87	125	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	88	125		add __signed_stack_001calibration, black, white
+8	87	129	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	88	129	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	88	129	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	89	129		div lightAvg, __signed_stack_001calibration, __constVal2
+8	88	133	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	88	133	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	88	133	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	89	133		mov __displayNum_7qG2_n_7qG2_000, lightAvg
+8	88	135	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	90	135	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	91	135		subcall displayNum, __displayNum_return
+8	90	137	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	90	137	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	90	137	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	3768	137	#line 3768 "NXCDefs.h"
+8	3769	137		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
+8	3768	139	#line 3768 "NXCDefs.h"
+8	3768	139	#line 3768 "NXCDefs.h"
+8	3769	139		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
+8	3758	141	#line 3758 "NXCDefs.h"
+8	3759	141		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+8	3758	143	#line 3758 "NXCDefs.h"
+8	3758	143	#line 3758 "NXCDefs.h"
+8	3759	143		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+8	3758	145	#line 3758 "NXCDefs.h"
+8	3759	145		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+8	3758	148	#line 3758 "NXCDefs.h"
+8	3759	148		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+8	3758	151	#line 3758 "NXCDefs.h"
+8	3759	151		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+8	3758	154	#line 3758 "NXCDefs.h"
+8	3759	154		jmp __001__001__NXC_Label_37
+8	3758	156	#line 3758 "NXCDefs.h"
+8	3759	156		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+8	3758	159	#line 3758 "NXCDefs.h"
+8	3759	159		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+8	3663	161	#line 3663 "NXCDefs.h"
+8	3664	161		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
+8	3663	165	#line 3663 "NXCDefs.h"
+8	3759	165	#line 3759 "NXCDefs.h"
+8	3759	165	#line 3759 "NXCDefs.h"
+8	3760	165		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+8	3759	167	#line 3759 "NXCDefs.h"
+8	3759	167	#line 3759 "NXCDefs.h"
+8	3760	167		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
+8	3759	170	#line 3759 "NXCDefs.h"
+8	3676	170	#line 3676 "NXCDefs.h"
+8	3677	170		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 1
+8	3676	174	#line 3676 "NXCDefs.h"
+8	3760	174	#line 3760 "NXCDefs.h"
+8	3760	174	#line 3760 "NXCDefs.h"
+8	3760	174	#line 3760 "NXCDefs.h"
+8	3694	174	#line 3694 "NXCDefs.h"
+8	3695	174	#pragma macro 4
+8	3695	174		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+8	3695	176		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+8	4939	178	#line 4939 "NXCDefs.h"
+8	3694	178	#line 3694 "NXCDefs.h"
+8	3761	178	#line 3761 "NXCDefs.h"
+8	3768	178	#line 3768 "NXCDefs.h"
+8	91	178	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	91	178	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	92	178		set __signed_stack_001calibration, 0
+8	91	181	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	91	181	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	92	181		set __signed_stack_002calibration, 2
+8	91	184	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	91	184	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	92	184		strcat __strbufcalibration, __constStr0011
+8	92	188	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	188		acquire __TextOutMutex
+8	92	189	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	189		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+8	92	191	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	191		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+8	92	193	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	193		set __TextOutArgs.Options, 0
+8	92	196	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	196		mov __TextOutArgs.Text, __strbufcalibration
+8	92	198	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	198		syscall 13, __TextOutArgs
+8	92	201	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	201		mov __D0calibration, __TextOutArgs.Result
+8	92	203	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	203		release __TextOutMutex
+8	92	204	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	92	204	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	93	204		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
+8	92	207	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	7921	207	#line 7921 "NXCDefs.h"
+8	7922	207		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
+8	7921	210	#line 7921 "NXCDefs.h"
+8	94	210	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	96	210	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	210		set usAvg, 0
+8	96	213	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	96	213	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	96	213	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	213		set __calibration_7qG2_i_7qG2_001, 0
+8	96	216	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	96	216	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	216		mov __signed_stack_001calibration, __calibration_7qG2_i_7qG2_001
+8	96	218	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	96	218	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	218		set __D0calibration, 5
+8	96	221	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	221		cmp 0, __zfcalibration, __signed_stack_001calibration, __D0calibration
+8	96	225	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	225		mov __D0calibration, __zfcalibration
+8	96	227	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	227		brtst 4, __NXC_Label_613, __zfcalibration
+8	96	230	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	230		jmp __NXC_Label_614
+8	96	232	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	232		add __calibration_7qG2_i_7qG2_001, __calibration_7qG2_i_7qG2_001, __constVal1
+8	97	236	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	98	236		jmp __NXC_Label_612
+8	97	238	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	98	238	#pragma macro 26
+8	98	238		acquire __RLSBmutex1
+8	98	239		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	98	241		set __RLSBytesCount1, 1
+8	98	244		wait2 NA, __constVal15
+8	98	247		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	98	249		index __D0calibration, __RLSReadBuf1, 65535
+8	98	253		release __RLSBmutex1
+8	5026	254	#line 5026 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	254	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	98	254		add usAvg, usAvg, __D0calibration
+8	97	258	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	97	258	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	100	258	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	101	258		jmp __NXC_Label_615
+8	100	260	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	100	260	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	100	260	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	102	260	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	102	260	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	103	260		div usAvg, usAvg, __constVal5
+8	102	264	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	102	264	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	102	264	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	103	264		mov __displayNum_7qG2_n_7qG2_000, usAvg
+8	102	266	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	104	266	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	105	266		subcall displayNum, __displayNum_return
+8	104	268	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	104	268	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	105	268		set __signed_stack_001calibration, 0
+8	104	271	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	104	271	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	105	271		set __signed_stack_002calibration, 2
+8	104	274	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	104	274	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	105	274		strcat __strbufcalibration, __constStr0012
+8	105	278	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	278		acquire __TextOutMutex
+8	105	279	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	279		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+8	105	281	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	281		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+8	105	283	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	283		set __TextOutArgs.Options, 0
+8	105	286	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	286		mov __TextOutArgs.Text, __strbufcalibration
+8	105	288	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	288		syscall 13, __TextOutArgs
+8	105	291	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	291		mov __D0calibration, __TextOutArgs.Result
+8	105	293	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	293		release __TextOutMutex
+8	105	294	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	105	294	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	106	294		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+8	105	297	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	7921	297	#line 7921 "NXCDefs.h"
+8	7922	297		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
+8	7921	300	#line 7921 "NXCDefs.h"
+8	106	300	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	6069	300	#line 6069 "NXCDefs.h"
+8	6070	300	#pragma macro 6
+8	6070	300		acquire __PointOutMutex
+8	6070	301		mov __PointOutArgs.Location.X, __constVal200
+8	6070	303		mov __PointOutArgs.Location.Y, __constVal200
+8	6070	305		mov __PointOutArgs.Options, __constVal1
+8	6070	307		syscall 14, __PointOutArgs
+8	6070	310		release __PointOutMutex
+8	5101	311	#line 5101 "NXCDefs.h"
+8	6069	311	#line 6069 "NXCDefs.h"
+8	107	311	#line 107 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	107	311	#line 107 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	108	311		set __signed_stack_001calibration, 0
+8	107	314	#line 107 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	107	314	#line 107 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	108	314		set __signed_stack_002calibration, 2
+8	107	317	#line 107 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	107	317	#line 107 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	108	317		strcat __strbufcalibration, __constStr0013
+8	108	321	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	321		acquire __TextOutMutex
+8	108	322	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	322		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+8	108	324	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	324		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+8	108	326	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	326		set __TextOutArgs.Options, 0
+8	108	329	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	329		mov __TextOutArgs.Text, __strbufcalibration
+8	108	331	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	331		syscall 13, __TextOutArgs
+8	108	334	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	334		mov __D0calibration, __TextOutArgs.Result
+8	108	336	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	336		release __TextOutMutex
+8	108	337	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	108	337	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	109	337		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+8	108	340	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	7921	340	#line 7921 "NXCDefs.h"
+8	7922	340		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
+8	7921	343	#line 7921 "NXCDefs.h"
+8	109	343	#line 109 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	6069	343	#line 6069 "NXCDefs.h"
+8	6070	343	#pragma macro 6
+8	6070	343		acquire __PointOutMutex
+8	6070	344		mov __PointOutArgs.Location.X, __constVal200
+8	6070	346		mov __PointOutArgs.Location.Y, __constVal200
+8	6070	348		mov __PointOutArgs.Options, __constVal1
+8	6070	350		syscall 14, __PointOutArgs
+8	6070	353		release __PointOutMutex
+8	5146	354	#line 5146 "NXCDefs.h"
+8	6069	354	#line 6069 "NXCDefs.h"
+8	110	354	#line 110 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	110	354	#line 110 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	111	354		set __signed_stack_001calibration, 0
+8	110	357	#line 110 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	110	357	#line 110 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	111	357		set __signed_stack_002calibration, 2
+8	110	360	#line 110 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	110	360	#line 110 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	111	360		strcat __strbufcalibration, __constStr0014
+8	111	364	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	364		acquire __TextOutMutex
+8	111	365	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	365		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+8	111	367	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	367		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+8	111	369	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	369		set __TextOutArgs.Options, 0
+8	111	372	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	372		mov __TextOutArgs.Text, __strbufcalibration
+8	111	374	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	374		syscall 13, __TextOutArgs
+8	111	377	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	377		mov __D0calibration, __TextOutArgs.Result
+8	111	379	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	379		release __TextOutMutex
+8	111	380	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	111	380	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	112	380		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+8	111	383	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	7921	383	#line 7921 "NXCDefs.h"
+8	7922	383		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
+8	7921	386	#line 7921 "NXCDefs.h"
+8	112	386	#line 112 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	6069	386	#line 6069 "NXCDefs.h"
+8	6070	386	#pragma macro 6
+8	6070	386		acquire __PointOutMutex
+8	6070	387		mov __PointOutArgs.Location.X, __constVal200
+8	6070	389		mov __PointOutArgs.Location.Y, __constVal200
+8	6070	391		mov __PointOutArgs.Options, __constVal1
+8	6070	393		syscall 14, __PointOutArgs
+8	6070	396		release __PointOutMutex
+8	5191	397	#line 5191 "NXCDefs.h"
+8	6069	397	#line 6069 "NXCDefs.h"
+8	113	397	#line 113 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	113	397	#line 113 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	114	397		set __signed_stack_001calibration, 0
+8	113	400	#line 113 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	113	400	#line 113 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	114	400		set __signed_stack_002calibration, 2
+8	113	403	#line 113 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	113	403	#line 113 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	114	403		strcat __strbufcalibration, __constStr0015
+8	114	407	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	407		acquire __TextOutMutex
+8	114	408	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	408		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+8	114	410	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	410		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+8	114	412	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	412		set __TextOutArgs.Options, 0
+8	114	415	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	415		mov __TextOutArgs.Text, __strbufcalibration
+8	114	417	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	417		syscall 13, __TextOutArgs
+8	114	420	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	420		mov __D0calibration, __TextOutArgs.Result
+8	114	422	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	422		release __TextOutMutex
+8	114	423	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	114	423	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	115	423		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+8	114	426	#line 114 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	7921	426	#line 7921 "NXCDefs.h"
+8	7922	426		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
+8	7921	429	#line 7921 "NXCDefs.h"
+8	115	429	#line 115 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	6069	429	#line 6069 "NXCDefs.h"
+8	6070	429	#pragma macro 6
+8	6070	429		acquire __PointOutMutex
+8	6070	430		mov __PointOutArgs.Location.X, __constVal200
+8	6070	432		mov __PointOutArgs.Location.Y, __constVal200
+8	6070	434		mov __PointOutArgs.Options, __constVal1
+8	6070	436		syscall 14, __PointOutArgs
+8	6070	439		release __PointOutMutex
+8	5236	440	#line 5236 "NXCDefs.h"
+8	6069	440	#line 6069 "NXCDefs.h"
+8	116	440	#line 116 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	118	440	#line 118 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	119	440		subret __calibration_return
+9	119	0	#line 119 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+9	120	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
-1	__RotateMotor1	11	NXTDefs.h
-2	__ResetSensorSubroutine	165	NXTDefs.h
-3	enterMaze	178	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
-4	lineFollow	285	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
-5	switchDir	499	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
-6	displayNum	593	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
-7	calibration	650	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
-8	__initialize_global_data	1069	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+1	__RotateMotor1	7	NXTDefs.h
+2	__ResetSensorSubroutine	176	NXTDefs.h
+3	__ReadLSBytes1	189	NXTDefs.h
+4	enterMaze	274	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+5	lineFollow	395	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+6	switchDir	703	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+7	displayNum	794	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+8	calibration	855	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+9	__initialize_global_data	1297	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
