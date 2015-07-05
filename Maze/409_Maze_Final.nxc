@@ -6,7 +6,7 @@ Maze Code
 #define MAX -60
 #define RATIO 2
 
-int black, white, avg;
+int black, white, lightAvg;
 
 void displayNum(int n);
 void calibration();
@@ -27,11 +27,11 @@ task enterMaze(){
 
 task lineFollow(){
      while(1){
-          if(SENSOR_1 > avg){
+          if(SENSOR_1 > lightAvg){
                OnFwd(OUT_A,MAX - MAX*RATIO*(SENSOR_1 - avg)/(white-avg));
                OnFwd(OUT_C,MAX);
           }
-          else if(SENSOR_1 <= avg){
+          else if(SENSOR_1 <= lightAvg){
                OnFwd(OUT_C,MAX - MAX*RATIO*(SENSOR_1 - avg)/(black-avg));
                OnFwd(OUT_A,MAX);
           }
@@ -55,10 +55,10 @@ void calibration(){ //calibration of black and white
      white = SENSOR_1;
      ClearScreen();
 
-     avg = (black + white) / 2;
+     lightAvg = (black + white) / 2;
      displayNum(black);
      displayNum(white);
-     displayNum(avg);
+     displayNum(lightAvg);
 
      TextOut(0,2,"3");
      Wait(1000);
