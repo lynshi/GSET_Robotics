@@ -1,144 +1,970 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__rotate_theAngle1	5	1	0	4	2
-1	__D0enterMaze	6	1	4	4	4
-2	__signed_stack_001enterMaze	6	1	8	4	4
-3	__rotate_angle1	6	1	12	4	5
-4	__Wait_7qG2_ms_7qG2_000_inline_enterMaze	5	1	16	4	2
-5	__rotateMutex1	9	0	20	4	2
-6	__rotate_OldRotCount1	4	1	24	2	2
-7	__rotate_RotCount1	4	1	26	2	4
-8	__constValNeg180	4	0	28	2	1
-9	____RotateMotor1_return	1	1	30	1	3
-10	__constVal50	2	0	31	1	1
-11	__constVal0	2	1	32	1	7
-12	__constVal32	2	0	33	1	7
-13	__constVal1	2	0	34	1	4
-14	__enterMaze_Spawner_return	1	1	35	1	1
-15	____initialize_global_data_return	1	1	36	1	3
-16	__constVal63	2	0	37	1	1
-17	__constVal96	2	0	38	1	2
-18	__constVal2	2	0	39	1	1
-19	____RotateMotor1_sign_tmp	2	1	40	1	4
-20	__constVal7	2	0	41	1	1
-21	__PFTmp	1	1	42	1	1
-22	__rotate_turnpct1	2	1	43	1	3
-23	__rotate_theUF1	1	1	44	1	6
-24	__rotate_theOM1	1	1	45	1	7
-25	__rotate_stop1	1	1	46	1	2
-26	__rotate_power1	1	1	47	1	4
-27	__rotate_firstPort1	1	1	48	1	5
-28	__rotate_sync1	1	1	49	1	2
-29	__rotate_theRM1	1	1	50	1	4
-30	__rotate_rs1	1	1	51	1	2
-31	__rotate_thePower1	2	1	52	1	4
-32	__rotate_theTurnPct1	2	1	53	1	4
-33	__rotate_theRVD1	1	1	54	1	2
-34	__rotate_theRS1	1	1	55	1	3
-35	__rotate_theRVP1	1	1	56	1	2
-36	__rotate_theRVI1	1	1	57	1	2
-37	__OUT_AC	7	0	58	4	1
-38	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-39	__rotate_ports1	7	0	60	4	6
-40	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+0	__signed_stack_001lineFollow	6	1	0	4	8
+1	__D0calibration	6	1	4	4	12
+2	__signed_stack_002lineFollow	6	1	8	4	12
+3	__signed_stack_002displayNum	6	1	12	4	2
+4	__D0displayNum	6	1	16	4	3
+5	__signed_stack_001enterMaze	6	1	20	4	6
+6	__signed_stack_001switchDir	6	1	24	4	8
+7	__PointOutMutex	9	0	28	4	12
+8	__TextOutMutex	9	0	32	4	16
+9	__rotate_theAngle1	5	1	36	4	2
+10	__Wait_7qG2_ms_7qG2_000_inline_enterMaze	5	1	40	4	2
+11	__signed_stack_003lineFollow	6	1	44	4	4
+12	__DU0SetSensorLight_inline_calibration	5	1	48	4	2
+13	__D0SetSensorLight_inline_calibration	6	1	52	4	3
+14	__D0switchDir	6	1	56	4	10
+15	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	60	4	3
+16	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	64	4	2
+17	__rotate_angle1	6	1	68	4	5
+18	__signed_stack_001calibration	6	1	72	4	18
+19	__Wait_7qG2_ms_7qG2_000_inline_calibration	5	1	76	4	6
+20	__D0enterMaze	6	1	80	4	9
+21	__signed_stack_001displayNum	6	1	84	4	2
+22	__D0lineFollow	6	1	88	4	28
+23	__signed_stack_002calibration	6	1	92	4	14
+24	__constVal200	4	0	96	2	12
+25	lightAvg	4	1	98	2	8
+26	black	4	1	100	2	4
+27	white	4	1	102	2	4
+28	usAvg	4	1	104	2	7
+29	__calibration_7qG2_i_7qG2_001	4	1	106	2	4
+30	__rotate_OldRotCount1	4	1	108	2	2
+31	__rotate_RotCount1	4	1	110	2	4
+32	dir	4	1	112	2	9
+33	__displayNum_7qG2_n_7qG2_000	4	1	114	2	5
+34	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	116	1	2
+35	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	117	1	2
+36	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	118	1	4
+37	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	119	1	2
+38	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	120	1	2
+39	__constVal60	2	0	121	1	2
+40	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	122	1	2
+41	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	123	1	2
+42	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	124	1	2
+43	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	125	1	2
+44	__constVal96	2	0	126	1	8
+45	__constVal63	2	0	127	1	6
+46	__switchDir_return	1	1	128	1	4
+47	____initialize_global_data_return	1	1	129	1	3
+48	__calibration_return	1	1	130	1	3
+49	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	131	1	2
+50	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	132	1	2
+51	__SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration	1	1	133	1	2
+52	__displayNum_return	1	1	134	1	6
+53	__SetSensorLight_7qG2_port_7qG2_000_inline_calibration	1	1	135	1	4
+54	__rotate_theRVD1	1	1	136	1	3
+55	__rotate_rs1	1	1	137	1	2
+56	__rotate_theRVP1	1	1	138	1	3
+57	__rotate_theRVI1	1	1	139	1	3
+58	__rotate_thePower1	2	1	140	1	4
+59	__constVal1	2	0	141	1	18
+60	__constVal0	2	1	142	1	31
+61	__rotate_theTurnPct1	2	1	143	1	4
+62	__constVal32	2	0	144	1	23
+63	__rotate_sync1	1	1	145	1	3
+64	__rotate_stop1	1	1	146	1	3
+65	__rotate_power1	1	1	147	1	5
+66	__rotate_firstPort1	1	1	148	1	5
+67	__rotate_turnpct1	2	1	149	1	4
+68	__rotate_theRM1	1	1	150	1	4
+69	__rotate_theRS1	1	1	151	1	3
+70	__rotate_theUF1	1	1	152	1	6
+71	__rotate_theOM1	1	1	153	1	7
+72	____RotateMotor1_return	1	1	154	1	4
+73	__zfcalibration	1	1	155	1	3
+74	__constVal50	2	0	156	1	2
+75	__constVal7	2	0	157	1	2
+76	__zfenterMaze	1	1	158	1	5
+77	__zfSetSensorLight_inline_calibration	1	1	159	1	2
+78	__zfswitchDir	1	1	160	1	6
+79	__zflineFollow	1	1	161	1	8
+80	__constVal2	2	0	162	1	7
+81	__constVal5	2	0	163	1	1
+82	__ResetSensorPort	1	1	164	1	4
+83	__ResetSensorTmp	1	1	165	1	2
+84	__constVal3	2	0	166	1	4
+85	____ResetSensorSubroutine_return	1	1	167	1	4
+86	__PointOutArgs	8	0	3	12	24
+87	__PointOutArgs.Result	2	1	168	1	24
+88	__PointOutArgs.Location	8	0	2	4	24
+89	__PointOutArgs.Location.X	4	1	172	2	24
+90	__PointOutArgs.Location.Y	4	1	174	2	24
+91	__PointOutArgs.Options	5	1	176	4	24
+92	__TextOutArgs	8	0	4	16	48
+93	__TextOutArgs.Result	2	1	180	1	48
+94	__TextOutArgs.Location	8	0	2	4	48
+95	__TextOutArgs.Location.X	4	1	184	2	48
+96	__TextOutArgs.Location.Y	4	1	186	2	48
+97	__TextOutArgs.Text	7	0	188	4	48
+98	__TextOutArgs.Text.Text_type	1	0	0	1	0
+99	__TextOutArgs.Options	5	1	192	4	48
+100	__constStr0012	7	0	196	4	1
+101	__constStr0012.__constStr0012_type	1	1	0	1	0
+102	__constStr0015	7	0	198	4	1
+103	__constStr0015.__constStr0015_type	1	1	0	1	0
+104	__OUT_AC	7	0	200	4	2
+105	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+106	__constStr0013	7	0	202	4	1
+107	__constStr0013.__constStr0013_type	1	1	0	1	0
+108	__constStr0014	7	0	204	4	1
+109	__constStr0014.__constStr0014_type	1	1	0	1	0
+110	__constStr0011	7	0	206	4	1
+111	__constStr0011.__constStr0011_type	1	1	0	1	0
+112	__constStr0010	7	0	208	4	1
+113	__constStr0010.__constStr0010_type	1	1	0	1	0
+114	__strbufcalibration	7	0	210	4	14
+115	__strbufcalibration.__strbufcalibration_type	1	0	0	1	0
+116	__constStr0009	7	0	212	4	1
+117	__constStr0009.__constStr0009_type	1	1	0	1	0
+118	__rotate_ports1	7	0	214	4	7
+119	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+120	__strretvaldisplayNum	7	0	216	4	2
+121	__strretvaldisplayNum.__strretvaldisplayNum_type	1	0	0	1	0
+122	__strbufdisplayNum	7	0	218	4	2
+123	__strbufdisplayNum.__strbufdisplayNum_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	18	0	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	19	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	18	2	#line 18 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	19	2	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	20	2		subcall __enterMaze_Spawner, __enterMaze_Spawner_return
-0	19	4	#line 19 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	20	4		exit -1, -1
+0	17	0	#line 17 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	18	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	17	2	#line 17 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	18	2	#line 18 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	19	2		subcall calibration, __calibration_return
+0	18	4	#line 18 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	19	4	#line 19 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	20	4		start lineFollow
+0	19	6	#line 19 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	20	6	#line 20 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	21	6		start enterMaze
+0	20	8	#line 20 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+0	21	8		exit -1, -1
 1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
-1	4530	3		set ____RotateMotor1_sign_tmp, 0
-1	4530	6		brtst EQ, __sign_1, __rotate_angle1
-1	4530	9		set ____RotateMotor1_sign_tmp, -1
-1	4530	12		brtst LT, __sign_1, __rotate_angle1
-1	4530	15		set ____RotateMotor1_sign_tmp, 1
-1	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
-1	4531	20		abs __rotate_theAngle1, __rotate_angle1
-1	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
-1	4534	27		set __rotate_theUF1, 23
-1	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
-1	4536	33		set __rotate_theOM1, 7
-1	4537	36		set __rotate_theRM1, 2
-1	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
-1	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
-1	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
-1	4541	48		jmp __rotate_Start1
-1	4543	50		set __rotate_theOM1, 3
-1	4544	53		set __rotate_theRM1, 0
-1	4545	56		set __rotate_theTurnPct1, 0
-1	4547	59		set __rotate_theRS1, 32
-1	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
-1	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
-1	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
-1	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
-1	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
-1	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
-1	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
-1	4560	107		set __rotate_theOM1, 7
-1	4561	110		set __rotate_theUF1, 7
-1	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
-1	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
-1	4567	134		wait2 NA, __constVal50
-1	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
-1	4571	145		set __rotate_theOM1, 4
-1	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
-1	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
-1	4576	162		setout __rotate_ports1, 0, __constVal32
-1	4578	167		subret ____RotateMotor1_return
-2	0	0		subret __enterMaze_Spawner_return
-3	0	0		exit 0, 1
-4	29	0	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	30	0		set __signed_stack_001enterMaze, 30
-4	29	3	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	29	3	#line 29 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	30	3		mov __D0enterMaze, __constValNeg180
-4	30	5	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	31	5	#pragma macro 33
-4	31	5		acquire __rotateMutex1
-4	31	6		arrbuild __rotate_ports1, __constVal1
-4	31	10		mov __rotate_power1, __signed_stack_001enterMaze
-4	31	12		mov __rotate_angle1, __D0enterMaze
-4	31	14		mov __rotate_turnpct1, __constVal0
-4	31	16		mov __rotate_sync1, __constVal0
-4	31	18		mov __rotate_stop1, __constVal1
-4	31	20		mov __rotate_theRVP1, __constVal32
-4	31	22		mov __rotate_theRVI1, __constVal0
-4	31	24		mov __rotate_theRVD1, __constVal96
-4	31	26		subcall __RotateMotor1, ____RotateMotor1_return
-4	31	28		release __rotateMutex1
-4	3979	29	#line 3979 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	30	29	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	30	29	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	31	29		set __signed_stack_001enterMaze, 50
-4	30	32	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	30	32	#line 30 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	31	32		set __D0enterMaze, 0
-4	31	35	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	32	35	#pragma macro 7
-4	32	35		setout __OUT_AC, 2, __signed_stack_001enterMaze, 1, __constVal7, 8, __constVal2, 7, __D0enterMaze, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	3992	58	#line 3992 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	31	58	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	31	58	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	32	58		set __Wait_7qG2_ms_7qG2_000_inline_enterMaze, 5000
-4	31	61	#line 31 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	7921	61	#line 7921 "NXCDefs.h"
-4	7922	61		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_enterMaze
-4	7921	64	#line 7921 "NXCDefs.h"
-4	32	64	#line 32 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-4	33	64		exit -1, -1
-5	96	0	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-5	97	0		subret ____initialize_global_data_return
+1	4530	3		sign __rotate_thePower1, __rotate_angle1
+1	4531	6		abs __rotate_theAngle1, __rotate_angle1
+1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	13		set __rotate_theUF1, 23
+1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	19		set __rotate_theOM1, 7
+1	4537	22		set __rotate_theRM1, 2
+1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	34		jmp __rotate_Start1
+1	4543	36		set __rotate_theOM1, 3
+1	4544	39		set __rotate_theRM1, 0
+1	4545	42		set __rotate_theTurnPct1, 0
+1	4547	45		set __rotate_theRS1, 32
+1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	93		set __rotate_theOM1, 7
+1	4561	96		set __rotate_theUF1, 7
+1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	120		wait 50
+1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	130		set __rotate_theOM1, 4
+1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	147		setout __rotate_ports1, 0, __constVal32
+1	4578	152		subret ____RotateMotor1_return
+2	4885	0		setin __constVal1, __ResetSensorPort, 5
+2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	4889	11		subret ____ResetSensorSubroutine_return
+3	23	0	#line 23 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	24	0		set __D0enterMaze, 1
+3	24	3	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	25	3		tst 5, __zfenterMaze, __D0enterMaze
+3	24	6	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	25	6		brtst 4, __NXC_Label_605, __zfenterMaze
+3	24	9	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	25	9		getin __signed_stack_001enterMaze, __constVal1, 4
+3	24	13	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	24	13	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	25	13		mov __D0enterMaze, usAvg
+3	24	15	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	25	15		cmp 4, __zfenterMaze, __signed_stack_001enterMaze, __D0enterMaze
+3	24	19	#line 24 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	25	19		mov __D0enterMaze, __zfenterMaze
+3	25	21	#line 25 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	26	21		brtst 4, __NXC_Label_610, __zfenterMaze
+3	26	24	#line 26 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	27	24		stopthread lineFollow
+3	26	26	#line 26 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	27	26	#line 27 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	28	26		jmp __NXC_Label_605
+3	27	28	#line 27 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	30	28	#line 30 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	30	28	#line 30 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	31	28		jmp __NXC_Label_604
+3	30	30	#line 30 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	31	30	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	32	30		subcall switchDir, __switchDir_return
+3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	31	32	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	32	32		mul __signed_stack_001enterMaze, dir, __constVal50
+3	31	36	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	31	36	#line 31 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	32	36		set __D0enterMaze, 0
+3	32	39	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	33	39	#pragma macro 7
+3	33	39		setout __OUT_AC, 2, __signed_stack_001enterMaze, 1, __constVal7, 8, __constVal2, 7, __D0enterMaze, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6734	62	#line 6734 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	32	62	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	32	62	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	33	62		set __Wait_7qG2_ms_7qG2_000_inline_enterMaze, 5000
+3	32	65	#line 32 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	7921	65	#line 7921 "NXCDefs.h"
+3	7922	65		wait 5000
+3	7921	67	#line 7921 "NXCDefs.h"
+3	34	67	#line 34 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	35	67	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	36	67		subcall switchDir, __switchDir_return
+3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	35	69	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	36	69		mul __signed_stack_001enterMaze, dir, __constVal50
+3	35	73	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	35	73	#line 35 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	36	73		set __D0enterMaze, 0
+3	36	76	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	37	76	#pragma macro 7
+3	37	76		setout __OUT_AC, 2, __signed_stack_001enterMaze, 1, __constVal7, 8, __constVal2, 7, __D0enterMaze, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6770	99	#line 6770 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	36	99	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	36	99	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	37	99		set __Wait_7qG2_ms_7qG2_000_inline_enterMaze, 3000
+3	36	102	#line 36 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	7921	102	#line 7921 "NXCDefs.h"
+3	7922	102		wait 3000
+3	7921	104	#line 7921 "NXCDefs.h"
+3	37	104	#line 37 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+3	38	104		exit -1, -1
+4	40	0	#line 40 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	41	0		set __D0lineFollow, 1
+4	41	3	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	3		tst 5, __zflineFollow, __D0lineFollow
+4	41	6	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	6		brtst 4, __NXC_Label_624, __zflineFollow
+4	41	9	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	9		getin __signed_stack_001lineFollow, __constVal0, 4
+4	41	13	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	41	13	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	13		mov __D0lineFollow, lightAvg
+4	41	15	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	15		cmp 1, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
+4	41	19	#line 41 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	19		mov __D0lineFollow, __zflineFollow
+4	42	21	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	21		brtst 4, __NXC_Label_629, __zflineFollow
+4	42	24	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	24		set __signed_stack_001lineFollow, 60
+4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	27	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	27		mul __signed_stack_002lineFollow, dir, __constVal60
+4	42	31	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	31	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	31	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	31		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
+4	42	35	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	35	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	35		getin __signed_stack_003lineFollow, __constVal0, 4
+4	42	39	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	39	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	39	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	39		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
+4	42	43	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	43		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	42	47	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	47		sub __D0lineFollow, white, lightAvg
+4	42	51	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	51		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+4	42	55	#line 42 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	55		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
+4	43	59	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	44	59	#pragma macro 7
+4	44	59		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6859	82	#line 6859 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	82	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	82	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	43	82	#line 43 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	44	82		set __D0lineFollow, 60
+4	44	85	#line 44 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	45	85	#pragma macro 7
+4	45	85		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6867	108	#line 6867 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	44	108	#line 44 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	45	108	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	108		jmp __NXC_Label_638
+4	45	110	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	110		getin __signed_stack_001lineFollow, __constVal0, 4
+4	45	114	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	45	114	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	114		mov __D0lineFollow, lightAvg
+4	45	116	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	116		cmp 2, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
+4	45	120	#line 45 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	120		mov __D0lineFollow, __zflineFollow
+4	46	122	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	122		brtst 4, __NXC_Label_641, __zflineFollow
+4	46	125	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	125		set __signed_stack_001lineFollow, 60
+4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	128	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	128		mul __signed_stack_002lineFollow, dir, __constVal60
+4	46	132	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	132	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	132	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	132		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
+4	46	136	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	136	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	136		getin __signed_stack_003lineFollow, __constVal0, 4
+4	46	140	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	140	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	140	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	140		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
+4	46	144	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	144		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	46	148	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	148		sub __D0lineFollow, black, lightAvg
+4	46	152	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	152		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
+4	46	156	#line 46 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	156		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
+4	47	160	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	48	160	#pragma macro 7
+4	48	160		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6937	183	#line 6937 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	183	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	183	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	47	183	#line 47 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	48	183		set __D0lineFollow, 60
+4	48	186	#line 48 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	49	186	#pragma macro 7
+4	49	186		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6945	209	#line 6945 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	48	209	#line 48 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	50	209	#line 50 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	50	209	#line 50 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	52	209	#line 52 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	53	209		jmp __NXC_Label_623
+4	52	211	#line 52 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+4	53	211		exit -1, -1
+5	53	0	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	54	0		mov __signed_stack_001switchDir, dir
+5	53	2	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	53	2	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	54	2		set __D0switchDir, -1
+5	53	5	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	54	5		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
+5	53	9	#line 53 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	54	9		mov __D0switchDir, __zfswitchDir
+5	54	11	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	55	11		brtst 4, __NXC_Label_652, __zfswitchDir
+5	54	14	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	55	14		set __signed_stack_001switchDir, 30
+5	54	17	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	54	17	#line 54 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	55	17		set __D0switchDir, -180
+5	55	20	#line 55 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	56	20	#pragma macro 33
+5	56	20		arrbuild __rotate_ports1, __constVal1
+5	56	24		mov __rotate_power1, __signed_stack_001switchDir
+5	56	26		mov __rotate_angle1, __D0switchDir
+5	56	28		mov __rotate_turnpct1, __constVal0
+5	56	30		mov __rotate_sync1, __constVal0
+5	56	32		mov __rotate_stop1, __constVal1
+5	56	34		mov __rotate_theRVP1, __constVal32
+5	56	36		mov __rotate_theRVI1, __constVal0
+5	56	38		mov __rotate_theRVD1, __constVal96
+5	56	40		subcall __RotateMotor1, ____RotateMotor1_return
+5	6983	42	#line 6983 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	55	42	#line 55 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	56	42	#line 56 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	57	42		set dir, 1
+5	56	45	#line 56 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	56	45	#line 56 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	57	45	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	58	45		jmp __NXC_Label_659
+5	57	47	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	58	47		mov __signed_stack_001switchDir, dir
+5	57	49	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	57	49	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	58	49		set __D0switchDir, 1
+5	57	52	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	58	52		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
+5	57	56	#line 57 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	58	56		mov __D0switchDir, __zfswitchDir
+5	58	58	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	59	58		brtst 4, __NXC_Label_662, __zfswitchDir
+5	58	61	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	59	61		set __signed_stack_001switchDir, 30
+5	58	64	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	58	64	#line 58 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	59	64		set __D0switchDir, 180
+5	59	67	#line 59 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	60	67	#pragma macro 33
+5	60	67		arrbuild __rotate_ports1, __constVal1
+5	60	71		mov __rotate_power1, __signed_stack_001switchDir
+5	60	73		mov __rotate_angle1, __D0switchDir
+5	60	75		mov __rotate_turnpct1, __constVal0
+5	60	77		mov __rotate_sync1, __constVal0
+5	60	79		mov __rotate_stop1, __constVal1
+5	60	81		mov __rotate_theRVP1, __constVal32
+5	60	83		mov __rotate_theRVI1, __constVal0
+5	60	85		mov __rotate_theRVD1, __constVal96
+5	60	87		subcall __RotateMotor1, ____RotateMotor1_return
+5	7020	89	#line 7020 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	59	89	#line 59 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	60	89	#line 60 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	61	89		set dir, -1
+5	60	92	#line 60 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	60	92	#line 60 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	64	92	#line 64 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	64	92	#line 64 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	64	92	#line 64 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+5	65	92		subret __switchDir_return
+6	6069	0	#line 6069 "NXCDefs.h"
+6	6070	0	#pragma macro 6
+6	6070	0		acquire __PointOutMutex
+6	6070	1		mov __PointOutArgs.Location.X, __constVal200
+6	6070	3		mov __PointOutArgs.Location.Y, __constVal200
+6	6070	5		mov __PointOutArgs.Options, __constVal1
+6	6070	7		syscall 14, __PointOutArgs
+6	6070	10		release __PointOutMutex
+6	7039	11	#line 7039 "NXCDefs.h"
+6	6069	11	#line 6069 "NXCDefs.h"
+6	66	11	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	66	11	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	67	11		set __signed_stack_001displayNum, 0
+6	66	14	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	66	14	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	67	14		set __signed_stack_002displayNum, 2
+6	66	17	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	66	17	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	67	17		mov __D0displayNum, __displayNum_7qG2_n_7qG2_000
+6	66	19	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	67	19		numtostr __strretvaldisplayNum, __D0displayNum
+6	66	22	#line 66 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	67	22		strcat __strbufdisplayNum, __strretvaldisplayNum
+6	67	26	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	26		acquire __TextOutMutex
+6	67	27	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	27		mov __TextOutArgs.Location.X, __signed_stack_001displayNum
+6	67	29	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	29		mov __TextOutArgs.Location.Y, __signed_stack_002displayNum
+6	67	31	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	31		set __TextOutArgs.Options, 0
+6	67	34	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	34		mov __TextOutArgs.Text, __strbufdisplayNum
+6	67	36	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	36		syscall 13, __TextOutArgs
+6	67	39	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	39		mov __D0displayNum, __TextOutArgs.Result
+6	67	41	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	68	41		release __TextOutMutex
+6	67	42	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	67	42	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	67	42	#line 67 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	7921	42	#line 7921 "NXCDefs.h"
+6	7922	42		wait 1500
+6	7921	44	#line 7921 "NXCDefs.h"
+6	68	44	#line 68 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	6069	44	#line 6069 "NXCDefs.h"
+6	6070	44	#pragma macro 6
+6	6070	44		acquire __PointOutMutex
+6	6070	45		mov __PointOutArgs.Location.X, __constVal200
+6	6070	47		mov __PointOutArgs.Location.Y, __constVal200
+6	6070	49		mov __PointOutArgs.Options, __constVal1
+6	6070	51		syscall 14, __PointOutArgs
+6	6070	54		release __PointOutMutex
+6	7094	55	#line 7094 "NXCDefs.h"
+6	6069	55	#line 6069 "NXCDefs.h"
+6	69	55	#line 69 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	71	55	#line 71 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+6	72	55		subret __displayNum_return
+7	73	0	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	74	0		set dir, -1
+7	73	3	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	73	3	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	73	3	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	74	3		set __SetSensorLight_7qG2_port_7qG2_000_inline_calibration, 0
+7	73	6	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	73	6	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	74	6		set __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration, 1
+7	73	9	#line 73 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	3729	9	#line 3729 "NXCDefs.h"
+7	3730	9		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
+7	3729	11	#line 3729 "NXCDefs.h"
+7	3729	11	#line 3729 "NXCDefs.h"
+7	3730	11		mov __DU0SetSensorLight_inline_calibration, __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration
+7	3729	13	#line 3729 "NXCDefs.h"
+7	3730	13		tst 5, __zfSetSensorLight_inline_calibration, __DU0SetSensorLight_inline_calibration
+7	3729	16	#line 3729 "NXCDefs.h"
+7	3730	16		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_calibration
+7	3729	19	#line 3729 "NXCDefs.h"
+7	3730	19		set __D0SetSensorLight_inline_calibration, 5
+7	3729	22	#line 3729 "NXCDefs.h"
+7	3730	22		jmp __001__NXC_Label_5
+7	3729	24	#line 3729 "NXCDefs.h"
+7	3730	24		set __D0SetSensorLight_inline_calibration, 6
+7	3729	27	#line 3729 "NXCDefs.h"
+7	3730	27		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __D0SetSensorLight_inline_calibration
+7	3663	29	#line 3663 "NXCDefs.h"
+7	3664	29		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 0
+7	3663	33	#line 3663 "NXCDefs.h"
+7	3730	33	#line 3730 "NXCDefs.h"
+7	3730	33	#line 3730 "NXCDefs.h"
+7	3731	33		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
+7	3730	35	#line 3730 "NXCDefs.h"
+7	3730	35	#line 3730 "NXCDefs.h"
+7	3731	35		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, 128
+7	3730	38	#line 3730 "NXCDefs.h"
+7	3676	38	#line 3676 "NXCDefs.h"
+7	3677	38		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 1
+7	3676	42	#line 3676 "NXCDefs.h"
+7	3731	42	#line 3731 "NXCDefs.h"
+7	3731	42	#line 3731 "NXCDefs.h"
+7	3731	42	#line 3731 "NXCDefs.h"
+7	3694	42	#line 3694 "NXCDefs.h"
+7	3695	42	#pragma macro 4
+7	3695	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
+7	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+7	7204	46	#line 7204 "NXCDefs.h"
+7	3694	46	#line 3694 "NXCDefs.h"
+7	3732	46	#line 3732 "NXCDefs.h"
+7	74	46	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	74	46	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	75	46		set __signed_stack_001calibration, 0
+7	74	49	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	74	49	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	75	49		set __signed_stack_002calibration, 2
+7	74	52	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	74	52	#line 74 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	75	52		strcat __strbufcalibration, __constStr0009
+7	75	56	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	56		acquire __TextOutMutex
+7	75	57	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	57		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+7	75	59	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	59		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+7	75	61	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	61		set __TextOutArgs.Options, 0
+7	75	64	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	64		mov __TextOutArgs.Text, __strbufcalibration
+7	75	66	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	66		syscall 13, __TextOutArgs
+7	75	69	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	69		mov __D0calibration, __TextOutArgs.Result
+7	75	71	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	71		release __TextOutMutex
+7	75	72	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	75	72	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	72		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
+7	75	75	#line 75 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	7921	75	#line 7921 "NXCDefs.h"
+7	7922	75		wait 3000
+7	7921	77	#line 7921 "NXCDefs.h"
+7	76	77	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	77	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	77	77		getin black, __constVal0, 4
+7	76	81	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	81	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	76	81	#line 76 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	77	81	#line 77 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	78	81		mov __displayNum_7qG2_n_7qG2_000, black
+7	77	83	#line 77 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	78	83	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	79	83		subcall displayNum, __displayNum_return
+7	78	85	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	78	85	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	79	85		set __signed_stack_001calibration, 0
+7	78	88	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	78	88	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	79	88		set __signed_stack_002calibration, 2
+7	78	91	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	78	91	#line 78 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	79	91		strcat __strbufcalibration, __constStr0010
+7	79	95	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	95		acquire __TextOutMutex
+7	79	96	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	96		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+7	79	98	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	98		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+7	79	100	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	100		set __TextOutArgs.Options, 0
+7	79	103	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	103		mov __TextOutArgs.Text, __strbufcalibration
+7	79	105	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	105		syscall 13, __TextOutArgs
+7	79	108	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	108		mov __D0calibration, __TextOutArgs.Result
+7	79	110	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	110		release __TextOutMutex
+7	79	111	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	79	111	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	111		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
+7	79	114	#line 79 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	7921	114	#line 7921 "NXCDefs.h"
+7	7922	114		wait 3000
+7	7921	116	#line 7921 "NXCDefs.h"
+7	80	116	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	116	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	81	116		getin white, __constVal0, 4
+7	80	120	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	120	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	80	120	#line 80 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	81	120	#line 81 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	82	120		mov __displayNum_7qG2_n_7qG2_000, white
+7	81	122	#line 81 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	83	122	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	84	122		subcall displayNum, __displayNum_return
+7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	83	124	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	84	124		add __signed_stack_001calibration, black, white
+7	83	128	#line 83 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	84	128	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	84	128	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	85	128		div lightAvg, __signed_stack_001calibration, __constVal2
+7	84	132	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	84	132	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	84	132	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	85	132		mov __displayNum_7qG2_n_7qG2_000, lightAvg
+7	84	134	#line 84 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	86	134	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	87	134		subcall displayNum, __displayNum_return
+7	86	136	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	86	136	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	86	136	#line 86 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	3768	136	#line 3768 "NXCDefs.h"
+7	3769	136		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
+7	3768	138	#line 3768 "NXCDefs.h"
+7	3768	138	#line 3768 "NXCDefs.h"
+7	3769	138		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
+7	3758	140	#line 3758 "NXCDefs.h"
+7	3759	140		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+7	3758	142	#line 3758 "NXCDefs.h"
+7	3758	142	#line 3758 "NXCDefs.h"
+7	3759	142		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+7	3758	144	#line 3758 "NXCDefs.h"
+7	3759	144		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+7	3758	147	#line 3758 "NXCDefs.h"
+7	3759	147		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+7	3758	150	#line 3758 "NXCDefs.h"
+7	3759	150		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+7	3758	153	#line 3758 "NXCDefs.h"
+7	3759	153		jmp __001__001__NXC_Label_37
+7	3758	155	#line 3758 "NXCDefs.h"
+7	3759	155		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+7	3758	158	#line 3758 "NXCDefs.h"
+7	3759	158		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+7	3663	160	#line 3663 "NXCDefs.h"
+7	3664	160		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
+7	3663	164	#line 3663 "NXCDefs.h"
+7	3759	164	#line 3759 "NXCDefs.h"
+7	3759	164	#line 3759 "NXCDefs.h"
+7	3760	164		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+7	3759	166	#line 3759 "NXCDefs.h"
+7	3759	166	#line 3759 "NXCDefs.h"
+7	3760	166		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
+7	3759	169	#line 3759 "NXCDefs.h"
+7	3676	169	#line 3676 "NXCDefs.h"
+7	3677	169		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 1
+7	3676	173	#line 3676 "NXCDefs.h"
+7	3760	173	#line 3760 "NXCDefs.h"
+7	3760	173	#line 3760 "NXCDefs.h"
+7	3760	173	#line 3760 "NXCDefs.h"
+7	3694	173	#line 3694 "NXCDefs.h"
+7	3695	173	#pragma macro 4
+7	3695	173		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
+7	3695	175		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+7	7459	177	#line 7459 "NXCDefs.h"
+7	3694	177	#line 3694 "NXCDefs.h"
+7	3761	177	#line 3761 "NXCDefs.h"
+7	3768	177	#line 3768 "NXCDefs.h"
+7	87	177	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	87	177	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	88	177		set __signed_stack_001calibration, 0
+7	87	180	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	87	180	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	88	180		set __signed_stack_002calibration, 2
+7	87	183	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	87	183	#line 87 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	88	183		strcat __strbufcalibration, __constStr0011
+7	89	187	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	187		acquire __TextOutMutex
+7	89	188	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	188		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+7	89	190	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	190		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+7	89	192	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	192		set __TextOutArgs.Options, 0
+7	89	195	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	195		mov __TextOutArgs.Text, __strbufcalibration
+7	89	197	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	197		syscall 13, __TextOutArgs
+7	89	200	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	200		mov __D0calibration, __TextOutArgs.Result
+7	89	202	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	90	202		release __TextOutMutex
+7	89	203	#line 89 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	91	203	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	203		set usAvg, 0
+7	91	206	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	91	206	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	91	206	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	206		set __calibration_7qG2_i_7qG2_001, 0
+7	91	209	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	91	209	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	209		mov __signed_stack_001calibration, __calibration_7qG2_i_7qG2_001
+7	91	211	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	91	211	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	211		set __D0calibration, 5
+7	91	214	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	214		cmp 0, __zfcalibration, __signed_stack_001calibration, __D0calibration
+7	91	218	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	218		mov __D0calibration, __zfcalibration
+7	91	220	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	220		brtst 4, __NXC_Label_718, __zfcalibration
+7	91	223	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	223		jmp __NXC_Label_719
+7	91	225	#line 91 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	225		add __calibration_7qG2_i_7qG2_001, __calibration_7qG2_i_7qG2_001, __constVal1
+7	92	229	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	93	229		jmp __NXC_Label_717
+7	92	231	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	93	231		getin __D0calibration, __constVal1, 4
+7	92	235	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	93	235		add usAvg, usAvg, __D0calibration
+7	92	239	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	92	239	#line 92 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	95	239	#line 95 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	96	239		jmp __NXC_Label_720
+7	95	241	#line 95 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	97	241	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	97	241	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	98	241		div usAvg, usAvg, __constVal5
+7	97	245	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	97	245	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	98	245		mov __displayNum_7qG2_n_7qG2_000, usAvg
+7	97	247	#line 97 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	99	247	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	100	247		subcall displayNum, __displayNum_return
+7	99	249	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	99	249	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	100	249		set __signed_stack_001calibration, 0
+7	99	252	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	99	252	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	100	252		set __signed_stack_002calibration, 2
+7	99	255	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	99	255	#line 99 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	100	255		strcat __strbufcalibration, __constStr0012
+7	100	259	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	259		acquire __TextOutMutex
+7	100	260	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	260		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+7	100	262	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	262		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+7	100	264	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	264		set __TextOutArgs.Options, 0
+7	100	267	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	267		mov __TextOutArgs.Text, __strbufcalibration
+7	100	269	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	269		syscall 13, __TextOutArgs
+7	100	272	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	272		mov __D0calibration, __TextOutArgs.Result
+7	100	274	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	274		release __TextOutMutex
+7	100	275	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	100	275	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	101	275		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+7	100	278	#line 100 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	7921	278	#line 7921 "NXCDefs.h"
+7	7922	278		wait 1000
+7	7921	280	#line 7921 "NXCDefs.h"
+7	101	280	#line 101 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	6069	280	#line 6069 "NXCDefs.h"
+7	6070	280	#pragma macro 6
+7	6070	280		acquire __PointOutMutex
+7	6070	281		mov __PointOutArgs.Location.X, __constVal200
+7	6070	283		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	285		mov __PointOutArgs.Options, __constVal1
+7	6070	287		syscall 14, __PointOutArgs
+7	6070	290		release __PointOutMutex
+7	7605	291	#line 7605 "NXCDefs.h"
+7	6069	291	#line 6069 "NXCDefs.h"
+7	102	291	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	102	291	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	103	291		set __signed_stack_001calibration, 0
+7	102	294	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	102	294	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	103	294		set __signed_stack_002calibration, 2
+7	102	297	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	102	297	#line 102 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	103	297		strcat __strbufcalibration, __constStr0013
+7	103	301	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	301		acquire __TextOutMutex
+7	103	302	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	302		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+7	103	304	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	304		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+7	103	306	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	306		set __TextOutArgs.Options, 0
+7	103	309	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	309		mov __TextOutArgs.Text, __strbufcalibration
+7	103	311	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	311		syscall 13, __TextOutArgs
+7	103	314	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	314		mov __D0calibration, __TextOutArgs.Result
+7	103	316	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	316		release __TextOutMutex
+7	103	317	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	103	317	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	104	317		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+7	103	320	#line 103 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	7921	320	#line 7921 "NXCDefs.h"
+7	7922	320		wait 1000
+7	7921	322	#line 7921 "NXCDefs.h"
+7	104	322	#line 104 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	6069	322	#line 6069 "NXCDefs.h"
+7	6070	322	#pragma macro 6
+7	6070	322		acquire __PointOutMutex
+7	6070	323		mov __PointOutArgs.Location.X, __constVal200
+7	6070	325		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	327		mov __PointOutArgs.Options, __constVal1
+7	6070	329		syscall 14, __PointOutArgs
+7	6070	332		release __PointOutMutex
+7	7650	333	#line 7650 "NXCDefs.h"
+7	6069	333	#line 6069 "NXCDefs.h"
+7	105	333	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	105	333	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	106	333		set __signed_stack_001calibration, 0
+7	105	336	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	105	336	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	106	336		set __signed_stack_002calibration, 2
+7	105	339	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	105	339	#line 105 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	106	339		strcat __strbufcalibration, __constStr0014
+7	106	343	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	343		acquire __TextOutMutex
+7	106	344	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	344		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+7	106	346	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	346		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+7	106	348	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	348		set __TextOutArgs.Options, 0
+7	106	351	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	351		mov __TextOutArgs.Text, __strbufcalibration
+7	106	353	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	353		syscall 13, __TextOutArgs
+7	106	356	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	356		mov __D0calibration, __TextOutArgs.Result
+7	106	358	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	358		release __TextOutMutex
+7	106	359	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	106	359	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	107	359		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+7	106	362	#line 106 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	7921	362	#line 7921 "NXCDefs.h"
+7	7922	362		wait 1000
+7	7921	364	#line 7921 "NXCDefs.h"
+7	107	364	#line 107 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	6069	364	#line 6069 "NXCDefs.h"
+7	6070	364	#pragma macro 6
+7	6070	364		acquire __PointOutMutex
+7	6070	365		mov __PointOutArgs.Location.X, __constVal200
+7	6070	367		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	369		mov __PointOutArgs.Options, __constVal1
+7	6070	371		syscall 14, __PointOutArgs
+7	6070	374		release __PointOutMutex
+7	7695	375	#line 7695 "NXCDefs.h"
+7	6069	375	#line 6069 "NXCDefs.h"
+7	108	375	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	108	375	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	109	375		set __signed_stack_001calibration, 0
+7	108	378	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	108	378	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	109	378		set __signed_stack_002calibration, 2
+7	108	381	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	108	381	#line 108 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	109	381		strcat __strbufcalibration, __constStr0015
+7	109	385	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	385		acquire __TextOutMutex
+7	109	386	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	386		mov __TextOutArgs.Location.X, __signed_stack_001calibration
+7	109	388	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	388		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
+7	109	390	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	390		set __TextOutArgs.Options, 0
+7	109	393	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	393		mov __TextOutArgs.Text, __strbufcalibration
+7	109	395	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	395		syscall 13, __TextOutArgs
+7	109	398	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	398		mov __D0calibration, __TextOutArgs.Result
+7	109	400	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	400		release __TextOutMutex
+7	109	401	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	109	401	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	110	401		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
+7	109	404	#line 109 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	7921	404	#line 7921 "NXCDefs.h"
+7	7922	404		wait 1000
+7	7921	406	#line 7921 "NXCDefs.h"
+7	110	406	#line 110 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	6069	406	#line 6069 "NXCDefs.h"
+7	6070	406	#pragma macro 6
+7	6070	406		acquire __PointOutMutex
+7	6070	407		mov __PointOutArgs.Location.X, __constVal200
+7	6070	409		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	411		mov __PointOutArgs.Options, __constVal1
+7	6070	413		syscall 14, __PointOutArgs
+7	6070	416		release __PointOutMutex
+7	7740	417	#line 7740 "NXCDefs.h"
+7	6069	417	#line 6069 "NXCDefs.h"
+7	111	417	#line 111 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	113	417	#line 113 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+7	114	417		subret __calibration_return
+8	114	0	#line 114 "C:\Users\Lshi\AppData\Local\Temp\temp.nxc"
+8	115	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-1	__RotateMotor1	7	NXTDefs.h
-2	__enterMaze_Returner	176	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-3	__enterMaze_Spawner	178	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-4	enterMaze	181	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-5	__initialize_global_data	248	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+0	main	0	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
+1	__RotateMotor1	11	NXTDefs.h
+2	__ResetSensorSubroutine	165	NXTDefs.h
+3	enterMaze	178	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
+4	lineFollow	285	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
+5	switchDir	499	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
+6	displayNum	593	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
+7	calibration	650	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
+8	__initialize_global_data	1069	C:\Users\Lshi\AppData\Local\Temp\temp.nxc
