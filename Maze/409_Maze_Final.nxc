@@ -1,6 +1,7 @@
 /*
 Room 409
 Maze Code
+Author: Lyndon Shi
 */
 
 #define MAX 60
