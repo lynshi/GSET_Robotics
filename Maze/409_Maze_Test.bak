@@ -4,11 +4,10 @@ Maze Code
 */
 
 #define LINEFOLLOW
-//#define MAZENAV
-//#define MAZETURN
+//#define COLOR
+#define MAZENAV
 //#define BALLFIND
 //#define BALLCATCH
-//#define SWITCHDIR
 
 #define MAX 60
 #define RATIO 2
@@ -16,40 +15,42 @@ Maze Code
 #define TURNDIST 6
 
 int black, white, lightAvg, dir; //if dir == 1, back; dir == -1, fwd
-int ball = 0; //ball captured = 1, no ball yet = 0
+int ball = 0; //ball found = 1, no ball yet = 0
 int inMaze = 0; //0 if not in the maze, 1 if in the maze
 
-void displayNum(int n);
-void calibration();
-void switchDir();
 task lineFollow();
+task color();
 task mazeNav();
+void mazeTurn();
+int turnCheck();
 task ballFind();
 task ballCatch();
-void mazeTurn();
+
+void switchDir();
+void displayNum(int n);
+void calibration();
 
 task main(){
-     calibration(); //calibrates black and white for line following
-     Precedes(lineFollow);
+     //calibration(); //calibrates black and white for line following
+     Precedes(lineFollow,color);
 }
 
 #ifdef LINEFOLLOW
 
 task lineFollow(){ //follows line to get into maze
-     while(inMaze == 0){ //change to color sensor
+     while(turnCheck()){ //change to color sensor
           if(SENSOR_1 > lightAvg){
-               OnFwd(OUT_A,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
-               OnFwd(OUT_C,dir*MAX);
+               OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
+               OnFwd(OUT_A,dir*MAX);
           }
           else if(SENSOR_1 <= lightAvg){
-               OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(black - lightAvg));
-               OnFwd(OUT_A,dir*MAX);
+               OnFwd(OUT_A,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(black - lightAvg));
+               OnFwd(OUT_C,dir*MAX);
           }
      }
      
      OnFwd(OUT_AC,0);
      switchDir();
-     Wait(2000);
      switchDir();
      Precedes(mazeNav,ballFind);
 }
@@ -58,13 +59,17 @@ task lineFollow(){ //follows line to get into maze
 
 #ifdef ENTERMAZE
 
+task color(){
+
+}
+
 #endif
 
 #ifdef MAZENAV
 
 task mazeNav(){ //used to navigate the maze
      while(ball == 0){
-          if(SensorUS(S2) > TURNDIST){
+          if(turnCheck()){
                OnFwdSync(OUT_AC,dir*MAX,0);
           }
           else{
@@ -76,14 +81,36 @@ task mazeNav(){ //used to navigate the maze
 
 #endif
 
-#ifdef MAZETURN
-
 void mazeTurn(){
      OnFwdSync(OUT_AC,0,0);
      
+     for(int i = 0; i < 2; i++){
+          RotateMotor(OUT_B,30,-90 - 180*i);
+          Wait(1000);
+          if(turnCheck()){ //checks to make sure if turn is okay
+               RotateMotor(OUT_B,30,90 + 180*i);
+               Wait(1000);
+               if(i == 0){ //turn right
+                    RotateMotor(OUT_C,30,dir*360);
+               }
+               else if(i == 1){ //turn left
+                    RotateMotor(OUT_A,30,dir*360);
+               }
+               return;
+          }
+     }
+     
+     switchDir();
 }
 
-#endif
+int turnCheck(){ //if no need to turn return 1; otherwise return 0
+    if(SensorUS(S2) > TURNDIST){
+         return(1);
+    }
+    else{
+         return(0);
+    }
+}
 
 #ifdef BALLFIND
 
@@ -108,8 +135,6 @@ task ballCatch(){ //moves to the ball in a room and captures it
 
 #endif
 
-#ifdef SWITCHDIR
-
 void switchDir(){ //flips the ultrasonic sensor to enable driving in reverse
      if(dir == -1){
           dir = 1;
@@ -120,10 +145,7 @@ void switchDir(){ //flips the ultrasonic sensor to enable driving in reverse
           dir = -1;
           RotateMotor(OUT_B,30,180);
      }
-
 }
-
-#endif
 
 void displayNum(int n){ //displays a number
      ClearScreen();
