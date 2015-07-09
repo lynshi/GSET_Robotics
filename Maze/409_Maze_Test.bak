@@ -3,26 +3,40 @@ Room 409
 Maze Code
 */
 
+#define LINEFOLLOW
+//#define MAZENAV
+//#define MAZETURN
+//#define BALLFIND
+//#define BALLCATCH
+//#define SWITCHDIR
+
 #define MAX 60
 #define RATIO 2
-#define firstUS 36
-#define turnUS 6
+#define FIRSTUS 18
+#define TURNDIST 6
 
 int black, white, lightAvg, dir; //if dir == 1, back; dir == -1, fwd
+int ball = 0; //ball captured = 1, no ball yet = 0
+int inMaze = 0; //0 if not in the maze, 1 if in the maze
 
 void displayNum(int n);
 void calibration();
 void switchDir();
 task lineFollow();
-task enterMaze();
+task mazeNav();
+task ballFind();
+task ballCatch();
+void mazeTurn();
 
 task main(){
-     calibration();
-     Precedes(lineFollow,enterMaze);
+     calibration(); //calibrates black and white for line following
+     Precedes(lineFollow);
 }
 
-task lineFollow(){
-     while(SensorUS(S2) > firstUS){
+#ifdef LINEFOLLOW
+
+task lineFollow(){ //follows line to get into maze
+     while(inMaze == 0){ //change to color sensor
           if(SENSOR_1 > lightAvg){
                OnFwd(OUT_A,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
                OnFwd(OUT_C,dir*MAX);
@@ -35,14 +49,68 @@ task lineFollow(){
      
      OnFwd(OUT_AC,0);
      switchDir();
-     OnFwd(OUT_AC,dir*MAX);
-     Wait(3000);
+     Wait(2000);
      switchDir();
-     OnFwd(OUT_AC,dir*MAX);
-     Wait(3000);
+     Precedes(mazeNav,ballFind);
 }
 
-void switchDir(){
+#endif
+
+#ifdef ENTERMAZE
+
+#endif
+
+#ifdef MAZENAV
+
+task mazeNav(){ //used to navigate the maze
+     while(ball == 0){
+          if(SensorUS(S2) > TURNDIST){
+               OnFwdSync(OUT_AC,dir*MAX,0);
+          }
+          else{
+               mazeTurn();
+          }
+     }
+     Precedes(ballCatch);
+}
+
+#endif
+
+#ifdef MAZETURN
+
+void mazeTurn(){
+     OnFwdSync(OUT_AC,0,0);
+     
+}
+
+#endif
+
+#ifdef BALLFIND
+
+task ballFind(){ //detects the ball in a room
+     while(1){
+          //detect ball
+          /*if(ball detected){
+                 ball = 1;
+                 break;
+          }*/
+     }
+}
+
+#endif
+
+
+#ifdef BALLCATCH
+
+task ballCatch(){ //moves to the ball in a room and captures it
+     //find the ball
+}
+
+#endif
+
+#ifdef SWITCHDIR
+
+void switchDir(){ //flips the ultrasonic sensor to enable driving in reverse
      if(dir == -1){
           dir = 1;
           RotateMotor(OUT_B,30,-180);
@@ -55,6 +123,8 @@ void switchDir(){
 
 }
 
+#endif
+
 void displayNum(int n){ //displays a number
      ClearScreen();
      TextOut(0,2,NumToStr(n));
@@ -62,7 +132,7 @@ void displayNum(int n){ //displays a number
      ClearScreen();
 }
 
-void calibration(){ //calibration of black, white, ultrasonic distance
+void calibration(){ //calibrates light sensor and starts the robot
      dir = -1;
      SetSensorLight(S1,1);
      TextOut(0,2,"Set black");

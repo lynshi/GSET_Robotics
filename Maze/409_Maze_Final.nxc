@@ -40,22 +40,21 @@ task enterMaze(){
 task lineFollow(){
      while(1){
           if(SENSOR_1 > lightAvg && dir == -1){
-               OnFwd(OUT_A,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
-               OnFwd(OUT_C,dir*MAX);
-          }
-          else if(SENSOR_1 <= lightAvg && dir == -1){
-               OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(black - lightAvg));
+               OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
                OnFwd(OUT_A,dir*MAX);
           }
+          else if(SENSOR_1 <= lightAvg && dir == -1){
+               OnFwd(OUT_A,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(black - lightAvg));
+               OnFwd(OUT_C,dir*MAX);
+          }
           else if (dir == 1){
-               OnFwd(OUT_AC,0);
-               Wait(500);
                break;
           }
      }
 }
 
 void switchDir(){
+     OnFwd(OUT_AC,0);
      if(dir == -1){
           dir = 1;
           RotateMotor(OUT_B,30,-180);
