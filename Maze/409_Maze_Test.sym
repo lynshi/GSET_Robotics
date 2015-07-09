@@ -1,231 +1,183 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	0	4	2
-1	__rotate_theAngle1	5	1	4	4	2
-2	__signed_stack_001calibration	6	1	8	4	14
-3	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	12	4	3
-4	__D0SetSensorLight_inline_calibration	6	1	16	4	3
-5	__DU0SetSensorLight_inline_calibration	5	1	20	4	2
-6	__rotate_angle2	6	1	24	4	5
-7	__signed_stack_002lineFollow	6	1	28	4	12
-8	__signed_stack_003lineFollow	6	1	32	4	4
-9	__signed_stack_001mazeNav	6	1	36	4	4
-10	__signed_stack_001lineFollow	6	1	40	4	8
-11	__signed_stack_002calibration	6	1	44	4	12
-12	__signed_stack_001displayNum	6	1	48	4	2
-13	__signed_stack_002displayNum	6	1	52	4	2
-14	__D0turnCheck	6	1	56	4	10
-15	__CLSWMutex1	9	0	60	4	2
-16	__RLSBmutex1	9	0	64	4	2
-17	__CLSCSMutex1	9	0	68	4	2
-18	__CLSRMutex1	9	0	72	4	2
-19	__PointOutMutex	9	0	76	4	12
-20	__Wait_7qG2_ms_7qG2_000_inline_displayNum	5	1	80	4	2
-21	__TextOutMutex	9	0	84	4	14
-22	__D0mazeNav	6	1	88	4	7
-23	__D0mazeTurn	6	1	92	4	25
-24	__D0switchDir	6	1	96	4	10
-25	__D0lineFollow	6	1	100	4	30
-26	__D0calibration	6	1	104	4	6
-27	__D0displayNum	6	1	108	4	3
-28	__rotate_theAngle2	5	1	112	4	2
-29	__rotate_angle0	6	1	116	4	5
-30	__rotate_angle1	6	1	120	4	8
-31	__Wait_7qG2_ms_7qG2_000_inline_calibration	5	1	124	4	12
-32	__rotate_theAngle0	5	1	128	4	2
-33	__Wait_7qG2_ms_7qG2_000_inline_mazeTurn	5	1	132	4	4
-34	__signed_stack_001switchDir	6	1	136	4	8
-35	__signed_stack_002mazeTurn	6	1	140	4	4
-36	__signed_stack_001mazeTurn	6	1	144	4	16
-37	__rotateMutex1	9	0	148	4	8
-38	__signed_stack_001turnCheck	6	1	152	4	2
-39	__mazeTurn_7qG2_i_7qG2_001	4	1	156	2	8
-40	__rotate_OldRotCount2	4	1	158	2	2
-41	__rotate_RotCount2	4	1	160	2	4
-42	__constVal200	4	0	162	2	12
-43	__constValNeg180	4	0	164	2	1
-44	__constVal360	4	0	166	2	2
-45	__constVal180	4	0	168	2	2
-46	__displayNum_7qG2_n_7qG2_000	4	1	170	2	4
-47	ball	4	1	172	2	1
-48	__rotate_RotCount1	4	1	174	2	4
-49	__rotate_OldRotCount1	4	1	176	2	2
-50	dir	4	1	178	2	14
-51	__rotate_RotCount0	4	1	180	2	4
-52	__rotate_OldRotCount0	4	1	182	2	2
-53	black	4	1	184	2	4
-54	white	4	1	186	2	4
-55	lightAvg	4	1	188	2	8
-56	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	190	1	2
-57	__constVal2	2	0	191	1	8
-58	__constVal15	2	0	192	1	3
-59	__displayNum_return	1	1	193	1	5
-60	__constVal90	2	0	194	1	1
-61	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	195	1	2
-62	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	196	1	2
-63	__constValNeg1	2	0	197	1	3
-64	____ReadLSBytes1_return	1	1	198	1	3
-65	__RLSBIterations1	1	1	199	1	4
-66	__RLSBytesCount1	1	1	200	1	7
-67	__RLSBResult1	2	1	201	1	7
-68	__zfmazeNav	1	1	202	1	5
-69	__turnCheck_return	1	1	203	1	7
-70	__zflineFollow	1	1	204	1	8
-71	__constVal96	2	0	205	1	13
-72	__zfmazeTurn	1	1	206	1	11
-73	____initialize_global_data_return	1	1	207	1	3
-74	__zfturnCheck	1	1	208	1	3
-75	__calibration_return	1	1	209	1	3
-76	__zfswitchDir	1	1	210	1	6
-77	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	211	1	2
-78	__mazeTurn_return	1	1	212	1	4
-79	__PFTmp	1	1	213	1	1
-80	__constVal7	2	0	214	1	2
-81	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration	1	1	215	1	2
-82	__zfSetSensorLight_inline_calibration	1	1	216	1	2
-83	__constVal63	2	0	217	1	7
-84	__switchDir_return	1	1	218	1	5
-85	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	219	1	2
-86	__rotate_theUF1	1	1	220	1	6
-87	__rotate_turnpct1	2	1	221	1	6
-88	__rotate_theRM1	1	1	222	1	4
-89	__rotate_theOM1	1	1	223	1	7
-90	__rotate_firstPort1	1	1	224	1	5
-91	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration	1	1	225	1	4
-92	__rotate_stop1	1	1	226	1	5
-93	__rotate_sync1	1	1	227	1	5
-94	__rotate_thePower1	2	1	228	1	4
-95	__rotate_rs1	1	1	229	1	2
-96	__rotate_power2	1	1	230	1	4
-97	__rotate_theTurnPct1	2	1	231	1	4
-98	__rotate_theRVP1	1	1	232	1	5
-99	__rotate_theRS1	1	1	233	1	3
-100	__rotate_theRVD1	1	1	234	1	5
-101	__rotate_theRVI1	1	1	235	1	5
-102	__rotate_power1	1	1	236	1	7
-103	__rotate_turnpct0	2	1	237	1	3
-104	__rotate_stop0	1	1	238	1	2
-105	__rotate_theOM0	1	1	239	1	7
-106	__rotate_theUF0	1	1	240	1	6
-107	__rotate_power0	1	1	241	1	4
-108	__constVal60	2	0	242	1	7
-109	__rotate_sync0	1	1	243	1	2
-110	__rotate_firstPort0	1	1	244	1	5
-111	__rotate_rs0	1	1	245	1	2
-112	__rotate_theRVD0	1	1	246	1	2
-113	__rotate_theTurnPct0	2	1	247	1	4
-114	__rotate_thePower0	2	1	248	1	4
-115	__rotate_theRS0	1	1	249	1	3
-116	__rotate_theRM0	1	1	250	1	4
-117	__rotate_theRVI0	1	1	251	1	2
-118	__rotate_theRVP0	1	1	252	1	2
-119	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	253	1	2
-120	____RotateMotor2_return	1	1	254	1	3
-121	____RotateMotor1_sign_tmp	2	1	255	1	4
-122	__constVal3	2	0	256	1	5
-123	____RotateMotor2_sign_tmp	2	1	257	1	4
-124	__constVal0	2	1	258	1	55
-125	__constVal1	2	0	259	1	27
-126	____RotateMotor1_return	1	1	260	1	6
-127	__constVal50	2	0	261	1	3
-128	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	262	1	2
-129	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	263	1	2
-130	__SetSensorLight_7qG2_port_7qG2_000_inline_calibration	1	1	264	1	4
-131	__SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration	1	1	265	1	2
-132	__ResetSensorTmp	1	1	266	1	2
-133	__ResetSensorPort	1	1	267	1	4
-134	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration	1	1	268	1	2
-135	____ResetSensorSubroutine_return	1	1	269	1	4
-136	__constVal32	2	0	270	1	36
-137	__rotate_theOM2	1	1	271	1	7
-138	__rotate_theUF2	1	1	272	1	6
-139	__rotate_theRS2	1	1	273	1	3
-140	__rotate_theRM2	1	1	274	1	4
-141	__rotate_sync2	1	1	275	1	2
-142	__rotate_firstPort2	1	1	276	1	5
-143	__rotate_turnpct2	2	1	277	1	3
-144	__rotate_stop2	1	1	278	1	2
-145	__rotate_theTurnPct2	2	1	279	1	4
-146	__rotate_thePower2	2	1	280	1	4
-147	____RotateMotor0_sign_tmp	2	1	281	1	4
-148	____RotateMotor0_return	1	1	282	1	3
-149	__rotate_theRVI2	1	1	283	1	2
-150	__rotate_theRVP2	1	1	284	1	2
-151	__rotate_rs2	1	1	285	1	2
-152	__rotate_theRVD2	1	1	286	1	2
-153	__CLSRArgs1	8	0	4	12	5
-154	__CLSRArgs1.Result	2	1	288	1	5
-155	__CLSRArgs1.Port	1	1	289	1	5
-156	__CLSRArgs1.Buffer	7	0	290	4	5
-157	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
-158	__CLSRArgs1.BufferLen	1	1	292	1	5
-159	__CLSWArgs1	8	0	4	12	5
-160	__CLSWArgs1.Result	2	1	296	1	5
-161	__CLSWArgs1.Port	1	1	297	1	5
-162	__CLSWArgs1.Buffer	7	0	298	4	5
-163	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
-164	__CLSWArgs1.ReturnLen	1	1	300	1	5
-165	__CLSCSArgs1	8	0	3	4	4
-166	__CLSCSArgs1.Result	2	1	304	1	4
-167	__CLSCSArgs1.Port	1	1	305	1	4
-168	__CLSCSArgs1.BytesReady	1	1	306	1	4
-169	__PointOutArgs	8	0	3	12	24
-170	__PointOutArgs.Result	2	1	308	1	24
-171	__PointOutArgs.Location	8	0	2	4	24
-172	__PointOutArgs.Location.X	4	1	312	2	24
-173	__PointOutArgs.Location.Y	4	1	314	2	24
-174	__PointOutArgs.Options	5	1	316	4	24
-175	__TextOutArgs	8	0	4	16	42
-176	__TextOutArgs.Result	2	1	320	1	42
-177	__TextOutArgs.Location	8	0	2	4	42
-178	__TextOutArgs.Location.X	4	1	324	2	42
-179	__TextOutArgs.Location.Y	4	1	326	2	42
-180	__TextOutArgs.Text	7	0	328	4	42
-181	__TextOutArgs.Text.Text_type	1	0	0	1	0
-182	__TextOutArgs.Options	5	1	332	4	42
-183	__constStr0013	7	0	336	4	1
-184	__constStr0013.__constStr0013_type	1	1	0	1	0
-185	__constStr0014	7	0	338	4	1
-186	__constStr0014.__constStr0014_type	1	1	0	1	0
-187	__constStr0011	7	0	340	4	1
-188	__constStr0011.__constStr0011_type	1	1	0	1	0
-189	__constStr0012	7	0	342	4	1
-190	__constStr0012.__constStr0012_type	1	1	0	1	0
-191	__constStr0010	7	0	344	4	1
-192	__constStr0010.__constStr0010_type	1	1	0	1	0
-193	__rotate_ports2	7	0	346	4	6
-194	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
-195	__RLSBbufLSWrite1	7	0	348	4	1
-196	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-197	__rotate_ports1	7	0	350	4	9
-198	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
-199	__OUT_AC	7	0	352	4	3
-200	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-201	__rotate_ports0	7	0	354	4	6
-202	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
-203	__RLSLastGoodRead1	7	0	356	4	2
-204	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
-205	__strretvaldisplayNum	7	0	358	4	2
-206	__strretvaldisplayNum.__strretvaldisplayNum_type	1	0	0	1	0
-207	__constStr0009	7	0	360	4	1
-208	__constStr0009.__constStr0009_type	1	1	0	1	0
-209	__strbufdisplayNum	7	0	362	4	2
-210	__strbufdisplayNum.__strbufdisplayNum_type	1	0	0	1	0
-211	__RLSReadBuf1	7	0	364	4	8
-212	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
-213	__strbufcalibration	7	0	366	4	12
-214	__strbufcalibration.__strbufcalibration_type	1	0	0	1	0
+0	__CLSWMutex1	9	0	0	4	2
+1	__CLSCSMutex1	9	0	4	4	2
+2	__RLSBmutex1	9	0	8	4	2
+3	__CLSRMutex1	9	0	12	4	2
+4	__rotate_angle2	6	1	16	4	5
+5	__rotate_theAngle0	5	1	20	4	2
+6	__ResetSensorMutex	9	0	24	4	2
+7	__rotate_theAngle2	5	1	28	4	2
+8	__D0mazeNav	6	1	32	4	4
+9	__signed_stack_001mazeTurn	6	1	36	4	10
+10	__signed_stack_001mazeNav	6	1	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_mazeTurn	5	1	44	4	4
+12	__signed_stack_001turnCheck	6	1	48	4	2
+13	__D0turnCheck	6	1	52	4	8
+14	__D0mazeTurn	6	1	56	4	12
+15	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	60	4	2
+16	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	64	4	3
+17	__rotate_angle0	6	1	68	4	5
+18	__rotate_RotCount0	4	1	72	2	4
+19	__mazeTurn_7qG2_turnDir_7qG2_000	4	1	74	2	3
+20	dir	4	0	76	2	3
+21	__rotate_OldRotCount2	4	1	78	2	2
+22	__rotate_OldRotCount0	4	1	80	2	2
+23	__rotate_RotCount2	4	1	82	2	4
+24	__RLSBytesCount1	1	1	84	1	7
+25	__RLSBIterations1	1	1	85	1	4
+26	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	86	1	2
+27	__constVal7	2	0	87	1	2
+28	__PFTmp	1	1	88	1	1
+29	__constVal2	2	0	89	1	3
+30	__RLSBResult1	2	1	90	1	7
+31	__rotate_theRM0	1	1	91	1	4
+32	__turnCheck_return	1	1	92	1	5
+33	__rotate_theRS0	1	1	93	1	3
+34	__constVal96	2	0	94	1	4
+35	__rotate_theOM0	1	1	95	1	7
+36	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	96	1	2
+37	__constVal15	2	0	97	1	3
+38	____ReadLSBytes1_return	1	1	98	1	3
+39	__rotate_theUF0	1	1	99	1	6
+40	____initialize_global_data_return	1	1	100	1	3
+41	__rotate_power0	1	1	101	1	4
+42	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	102	1	2
+43	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	103	1	4
+44	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	104	1	2
+45	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	105	1	2
+46	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	106	1	2
+47	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	107	1	2
+48	__zfmazeTurn	1	1	108	1	6
+49	__rotate_turnpct0	2	1	109	1	3
+50	__zfmazeNav	1	1	110	1	2
+51	__rotate_stop0	1	1	111	1	2
+52	__rotate_firstPort0	1	1	112	1	5
+53	__rotate_sync0	1	1	113	1	2
+54	__zfturnCheck	1	1	114	1	3
+55	__constVal63	2	0	115	1	2
+56	__rotate_theRM2	1	1	116	1	4
+57	__rotate_theRS2	1	1	117	1	3
+58	__rotate_theUF2	1	1	118	1	6
+59	__rotate_theOM2	1	1	119	1	7
+60	__rotate_theRVD2	1	1	120	1	2
+61	__rotate_rs2	1	1	121	1	2
+62	__rotate_theRVP2	1	1	122	1	2
+63	__rotate_theRVI2	1	1	123	1	2
+64	__rotate_turnpct2	2	1	124	1	3
+65	__rotate_power2	1	1	125	1	4
+66	__rotate_rs0	1	1	126	1	2
+67	__rotate_thePower0	2	1	127	1	4
+68	__rotate_theTurnPct0	2	1	128	1	4
+69	__rotate_sync2	1	1	129	1	2
+70	__rotate_stop2	1	1	130	1	2
+71	__constVal60	2	0	131	1	3
+72	__rotate_firstPort2	1	1	132	1	5
+73	__rotate_theRVI0	1	1	133	1	2
+74	__ResetSensorPort	1	1	134	1	3
+75	____RotateMotor2_return	1	1	135	1	3
+76	____RotateMotor2_sign_tmp	2	1	136	1	4
+77	__mazeTurn_return	1	1	137	1	3
+78	__rotate_theRVP0	1	1	138	1	2
+79	__ResetSensorTmp	1	1	139	1	2
+80	____ResetSensorSubroutine_return	1	1	140	1	3
+81	__constVal50	2	0	141	1	2
+82	__rotate_theTurnPct2	2	1	142	1	4
+83	____RotateMotor0_return	1	1	143	1	3
+84	__rotate_thePower2	2	1	144	1	4
+85	__rotate_theRVD0	1	1	145	1	2
+86	__constVal1	2	0	146	1	10
+87	__constVal0	2	1	147	1	16
+88	____RotateMotor0_sign_tmp	2	1	148	1	4
+89	__constVal32	2	0	149	1	14
+90	__CLSRArgs1	8	0	4	12	5
+91	__CLSRArgs1.Result	2	1	152	1	5
+92	__CLSRArgs1.Port	1	1	153	1	5
+93	__CLSRArgs1.Buffer	7	0	154	4	5
+94	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+95	__CLSRArgs1.BufferLen	1	1	156	1	5
+96	__CLSWArgs1	8	0	4	12	5
+97	__CLSWArgs1.Result	2	1	160	1	5
+98	__CLSWArgs1.Port	1	1	161	1	5
+99	__CLSWArgs1.Buffer	7	0	162	4	5
+100	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+101	__CLSWArgs1.ReturnLen	1	1	164	1	5
+102	__CLSCSArgs1	8	0	3	4	4
+103	__CLSCSArgs1.Result	2	1	168	1	4
+104	__CLSCSArgs1.Port	1	1	169	1	4
+105	__CLSCSArgs1.BytesReady	1	1	170	1	4
+106	__rotate_ports0	7	0	172	4	6
+107	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+108	__OUT_AC	7	0	174	4	2
+109	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+110	__rotate_ports2	7	0	176	4	6
+111	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+112	__RLSBbufLSWrite1	7	0	178	4	1
+113	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+114	__RLSLastGoodRead1	7	0	180	4	2
+115	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+116	__RLSReadBuf1	7	0	182	4	8
+117	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	33	0	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	34	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	33	2	#line 33 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	34	0	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	35	0		subcall __initialize_global_data, ____initialize_global_data_return
 0	34	2	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	35	2		subcall calibration, __calibration_return
-0	34	4	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	35	4	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	35	4	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-0	36	4		exit 0, 1
+0	34	2	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	34	2	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	3768	2	#line 3768 "NXCDefs.h"
+0	3769	2		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3768	4	#line 3768 "NXCDefs.h"
+0	3768	4	#line 3768 "NXCDefs.h"
+0	3769	4		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	6	#line 3758 "NXCDefs.h"
+0	3759	6		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	8	#line 3758 "NXCDefs.h"
+0	3758	8	#line 3758 "NXCDefs.h"
+0	3759	8		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	10	#line 3758 "NXCDefs.h"
+0	3759	10		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	13	#line 3758 "NXCDefs.h"
+0	3759	13		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	16	#line 3758 "NXCDefs.h"
+0	3759	16		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	19	#line 3758 "NXCDefs.h"
+0	3759	19		jmp __001__001__NXC_Label_37
+0	3758	21	#line 3758 "NXCDefs.h"
+0	3759	21		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	24	#line 3758 "NXCDefs.h"
+0	3759	24		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	26	#line 3663 "NXCDefs.h"
+0	3664	26		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	30	#line 3663 "NXCDefs.h"
+0	3759	30	#line 3759 "NXCDefs.h"
+0	3759	30	#line 3759 "NXCDefs.h"
+0	3760	30		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3760	32		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	35	#line 3759 "NXCDefs.h"
+0	3676	35	#line 3676 "NXCDefs.h"
+0	3677	35		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	39	#line 3676 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3761	39		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3760	41	#line 3760 "NXCDefs.h"
+0	3694	41	#line 3694 "NXCDefs.h"
+0	3695	41	#pragma macro 4
+0	3695	41		acquire __ResetSensorMutex
+0	3695	42		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main
+0	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	46		release __ResetSensorMutex
+0	4369	47	#line 4369 "NXCDefs.h"
+0	3694	47	#line 3694 "NXCDefs.h"
+0	3761	47	#line 3761 "NXCDefs.h"
+0	3768	47	#line 3768 "NXCDefs.h"
+0	38	47	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	39	47	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	39	47	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+0	40	47		exit 0, 0
 1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
 1	4477	3		set ____RotateMotor0_sign_tmp, 0
 1	4477	6		brtst EQ, __sign_0, __rotate_angle0
@@ -267,1091 +219,267 @@ Clump	Line	PC	Source
 1	4522	159		brtst 4, __rotate_Done0, __rotate_theTurnPct0
 1	4523	162		setout __rotate_ports0, 0, __constVal32
 1	4525	167		subret ____RotateMotor0_return
-2	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
-2	4530	3		set ____RotateMotor1_sign_tmp, 0
-2	4530	6		brtst EQ, __sign_1, __rotate_angle1
-2	4530	9		set ____RotateMotor1_sign_tmp, -1
-2	4530	12		brtst LT, __sign_1, __rotate_angle1
-2	4530	15		set ____RotateMotor1_sign_tmp, 1
-2	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
-2	4531	20		abs __rotate_theAngle1, __rotate_angle1
-2	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
-2	4534	27		set __rotate_theUF1, 23
-2	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
-2	4536	33		set __rotate_theOM1, 7
-2	4537	36		set __rotate_theRM1, 2
-2	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
-2	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
-2	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
-2	4541	48		jmp __rotate_Start1
-2	4543	50		set __rotate_theOM1, 3
-2	4544	53		set __rotate_theRM1, 0
-2	4545	56		set __rotate_theTurnPct1, 0
-2	4547	59		set __rotate_theRS1, 32
-2	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
-2	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
-2	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
-2	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
-2	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
-2	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
-2	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
-2	4560	107		set __rotate_theOM1, 7
-2	4561	110		set __rotate_theUF1, 7
-2	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
-2	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
-2	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
-2	4567	134		wait2 NA, __constVal50
-2	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
-2	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
-2	4571	145		set __rotate_theOM1, 4
-2	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
-2	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
-2	4576	162		setout __rotate_ports1, 0, __constVal32
-2	4578	167		subret ____RotateMotor1_return
-3	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
-3	4583	3		set ____RotateMotor2_sign_tmp, 0
-3	4583	6		brtst EQ, __sign_2, __rotate_angle2
-3	4583	9		set ____RotateMotor2_sign_tmp, -1
-3	4583	12		brtst LT, __sign_2, __rotate_angle2
-3	4583	15		set ____RotateMotor2_sign_tmp, 1
-3	4583	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
-3	4584	20		abs __rotate_theAngle2, __rotate_angle2
-3	4585	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
-3	4587	27		set __rotate_theUF2, 23
-3	4588	30		brtst 4, __rotate_NoSync2, __rotate_sync2
-3	4589	33		set __rotate_theOM2, 7
-3	4590	36		set __rotate_theRM2, 2
-3	4591	39		mov __rotate_theTurnPct2, __rotate_turnpct2
-3	4592	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
-3	4593	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
-3	4594	48		jmp __rotate_Start2
-3	4596	50		set __rotate_theOM2, 3
-3	4597	53		set __rotate_theRM2, 0
-3	4598	56		set __rotate_theTurnPct2, 0
-3	4600	59		set __rotate_theRS2, 32
-3	4601	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
-3	4604	85		index __rotate_firstPort2, __rotate_ports2, 65535
-3	4606	89		getout __rotate_power2, __rotate_firstPort2, 2
-3	4607	93		brtst 4, __rotate_doneRunning2, __rotate_power2
-3	4608	96		getout __rotate_rs2, __rotate_firstPort2, 6
-3	4609	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
-3	4611	104		brtst 4, __rotate_Reset2, __rotate_stop2
-3	4613	107		set __rotate_theOM2, 7
-3	4614	110		set __rotate_theUF2, 7
-3	4615	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
-3	4617	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
-3	4619	132		mov __rotate_OldRotCount2, __rotate_RotCount2
-3	4620	134		wait2 NA, __constVal50
-3	4622	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
-3	4623	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
-3	4624	145		set __rotate_theOM2, 4
-3	4625	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
-3	4628	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
-3	4629	162		setout __rotate_ports2, 0, __constVal32
-3	4631	167		subret ____RotateMotor2_return
-4	4885	0		setin __constVal1, __ResetSensorPort, 5
-4	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-4	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-4	4889	11		subret ____ResetSensorSubroutine_return
-5	5710	0	#pragma macro 25
-5	5710	0		acquire __CLSWMutex1
-5	5710	1		set __CLSWArgs1.Port, 1
-5	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
-5	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
-5	5710	8		syscall 21, __CLSWArgs1
-5	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
-5	5710	13		release __CLSWMutex1
-5	5710	14	#line 5710 "NXTDefs.h"
-5	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
-5	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
-5	5713	21		brtst 5, __RLSBError1, __RLSBResult1
-5	5714	24		set __RLSBIterations1, 4
-5	5716	27	#pragma macro 23
-5	5716	27		acquire __CLSCSMutex1
-5	5716	28		set __CLSCSArgs1.Port, 1
-5	5716	31		syscall 23, __CLSCSArgs1
-5	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
-5	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
-5	5716	38		release __CLSCSMutex1
-5	5716	39	#line 5716 "NXTDefs.h"
-5	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
-5	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
-5	5719	46		brtst 0, __RLSBError1, __RLSBResult1
-5	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
-5	5722	52		wait2 NA, __constVal15
-5	5723	55		jmp __RLSBDoCheckStatus1
-5	5726	57	#pragma macro 25
-5	5726	57		acquire __CLSRMutex1
-5	5726	58		set __CLSRArgs1.Port, 1
-5	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
-5	5726	63		syscall 22, __CLSRArgs1
-5	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
-5	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
-5	5726	70		release __CLSRMutex1
-5	5726	71	#line 5726 "NXTDefs.h"
-5	5727	71		brtst 5, __RLSBError1, __RLSBResult1
-5	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
-5	5729	76		jmp __RLSBDone1
-5	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
-5	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
-5	5735	83		subret ____ReadLSBytes1_return
-6	40	0	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	41	0		subcall turnCheck, __turnCheck_return
-6	40	2	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	41	2		mov __D0lineFollow, __D0turnCheck
-6	41	4	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	4		tst 5, __zflineFollow, __D0lineFollow
-6	41	7	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	7		brtst 4, __NXC_Label_490, __zflineFollow
-6	41	10	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	10		getin __signed_stack_001lineFollow, __constVal0, 4
-6	41	14	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	41	14	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	14		mov __D0lineFollow, lightAvg
-6	41	16	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	16		cmp 1, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
-6	41	20	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	20		mov __D0lineFollow, __zflineFollow
-6	42	22	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	22		brtst 4, __NXC_Label_495, __zflineFollow
-6	42	25	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	25	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	25	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	25	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	25		mul __signed_stack_001lineFollow, dir, __constVal60
-6	42	29	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	29	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	29	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	29	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	29	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	29		mul __signed_stack_002lineFollow, dir, __constVal60
-6	42	33	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	33	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	33	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	33		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
-6	42	37	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	37	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	37		getin __signed_stack_003lineFollow, __constVal0, 4
-6	42	41	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	41	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	41	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	41		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
-6	42	45	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	45		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-6	42	49	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	49	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	49	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	49	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	42	49	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	49		sub __D0lineFollow, white, lightAvg
-6	42	53	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	53		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-6	42	57	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	57		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
-6	43	61	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	44	61	#pragma macro 7
-6	44	61		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4313	84	#line 4313 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	84	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	84	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	84	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	84	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	84	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	43	84	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	44	84		mul __D0lineFollow, dir, __constVal60
-6	44	88	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	45	88	#pragma macro 7
-6	45	88		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4327	111	#line 4327 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	44	111	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	45	111	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	111		jmp __NXC_Label_504
-6	45	113	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	113		getin __signed_stack_001lineFollow, __constVal0, 4
-6	45	117	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	45	117	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	117		mov __D0lineFollow, lightAvg
-6	45	119	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	119		cmp 2, __zflineFollow, __signed_stack_001lineFollow, __D0lineFollow
-6	45	123	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	123		mov __D0lineFollow, __zflineFollow
-6	46	125	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	125		brtst 4, __NXC_Label_507, __zflineFollow
-6	46	128	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	128	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	128	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	128	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	128		mul __signed_stack_001lineFollow, dir, __constVal60
-6	46	132	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	132	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	132	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	132	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	132	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	132		mul __signed_stack_002lineFollow, dir, __constVal60
-6	46	136	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	136	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	136	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	136		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __constVal2
-6	46	140	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	140	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	140		getin __signed_stack_003lineFollow, __constVal0, 4
-6	46	144	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	144	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	144	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	144		sub __D0lineFollow, __signed_stack_003lineFollow, lightAvg
-6	46	148	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	148		mul __signed_stack_002lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-6	46	152	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	152	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	152	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	152	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	46	152	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	152		sub __D0lineFollow, black, lightAvg
-6	46	156	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	156		div __D0lineFollow, __signed_stack_002lineFollow, __D0lineFollow
-6	46	160	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	160		sub __D0lineFollow, __signed_stack_001lineFollow, __D0lineFollow
-6	47	164	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	48	164	#pragma macro 7
-6	48	164		setout __constVal0, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4403	187	#line 4403 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	187	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	187	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	187	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	187	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	187	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	47	187	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	48	187		mul __D0lineFollow, dir, __constVal60
-6	48	191	#line 48 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	49	191	#pragma macro 7
-6	49	191		setout __constVal2, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4417	214	#line 4417 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	48	214	#line 48 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	51	214	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	51	214	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	51	214	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	52	214		jmp __NXC_Label_489
-6	51	216	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	51	216	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	52	216		set __D0lineFollow, 0
-6	52	219	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	53	219	#pragma macro 7
-6	53	219		setout __OUT_AC, 2, __D0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4432	242	#line 4432 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	52	242	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	53	242	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	54	242		subcall switchDir, __switchDir_return
-6	53	244	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	54	244	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	55	244		subcall switchDir, __switchDir_return
-6	54	246	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	55	246	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	55	246	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-6	56	246		exit 0, 1
-7	70	0	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	71	0		mov __signed_stack_001mazeNav, ball
-7	70	2	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	70	2	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	71	2		set __D0mazeNav, 0
-7	70	5	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	71	5		cmp 4, __zfmazeNav, __signed_stack_001mazeNav, __D0mazeNav
-7	70	9	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	71	9		mov __D0mazeNav, __zfmazeNav
-7	71	11	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	72	11		brtst 4, __NXC_Label_519, __zfmazeNav
-7	71	14	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	72	14		subcall turnCheck, __turnCheck_return
-7	71	16	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	72	16		mov __D0mazeNav, __D0turnCheck
-7	72	18	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	73	18		tst 5, __zfmazeNav, __D0mazeNav
-7	72	21	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	73	21		brtst 4, __NXC_Label_524, __zfmazeNav
-7	72	24	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	72	24	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	72	24	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	72	24	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	73	24		mul __signed_stack_001mazeNav, dir, __constVal60
-7	72	28	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	72	28	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	73	28		set __D0mazeNav, 0
-7	73	31	#line 73 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	74	31	#pragma macro 7
-7	74	31		setout __OUT_AC, 2, __signed_stack_001mazeNav, 1, __constVal7, 8, __constVal2, 7, __D0mazeNav, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	4488	54	#line 4488 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	73	54	#line 73 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	75	54	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	76	54		jmp __NXC_Label_529
-7	76	56	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	77	56		subcall mazeTurn, __mazeTurn_return
-7	76	58	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	78	58	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	78	58	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	79	58		jmp __NXC_Label_518
-7	78	60	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	79	60	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	79	60	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-7	80	60		exit 0, 0
-8	84	0	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	85	0		set __signed_stack_001mazeTurn, 0
-8	84	3	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	84	3	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	85	3		set __D0mazeTurn, 0
-8	86	6	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	6	#pragma macro 7
-8	87	6		setout __OUT_AC, 2, __signed_stack_001mazeTurn, 1, __constVal7, 8, __constVal2, 7, __D0mazeTurn, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-8	4519	29	#line 4519 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	86	29	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	86	29	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	29		set __mazeTurn_7qG2_i_7qG2_001, 0
-8	86	32	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	86	32	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	32		mov __signed_stack_001mazeTurn, __mazeTurn_7qG2_i_7qG2_001
-8	86	34	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	86	34	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	34		set __D0mazeTurn, 2
-8	86	37	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	37		cmp 0, __zfmazeTurn, __signed_stack_001mazeTurn, __D0mazeTurn
-8	86	41	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	41		mov __D0mazeTurn, __zfmazeTurn
-8	86	43	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	43		brtst 4, __NXC_Label_535, __zfmazeTurn
-8	86	46	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	46		jmp __NXC_Label_536
-8	86	48	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	48		add __mazeTurn_7qG2_i_7qG2_001, __mazeTurn_7qG2_i_7qG2_001, __constVal1
-8	87	52	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	88	52		jmp __NXC_Label_534
-8	87	54	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	88	54		set __signed_stack_001mazeTurn, 30
-8	87	57	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	57	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	57	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	57	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	57	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	88	57		sub __signed_stack_002mazeTurn, __constVal0, __constVal90
-8	87	61	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	61	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	61	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	61	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	87	61	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	88	61		mul __D0mazeTurn, __constVal180, __mazeTurn_7qG2_i_7qG2_001
-8	87	65	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	88	65		sub __D0mazeTurn, __signed_stack_002mazeTurn, __D0mazeTurn
-8	88	69	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	89	69	#pragma macro 33
-8	89	69		acquire __rotateMutex1
-8	89	70		arrbuild __rotate_ports1, __constVal1
-8	89	74		mov __rotate_power1, __signed_stack_001mazeTurn
-8	89	76		mov __rotate_angle1, __D0mazeTurn
-8	89	78		mov __rotate_turnpct1, __constVal0
-8	89	80		mov __rotate_sync1, __constVal0
-8	89	82		mov __rotate_stop1, __constVal1
-8	89	84		mov __rotate_theRVP1, __constVal32
-8	89	86		mov __rotate_theRVI1, __constVal0
-8	89	88		mov __rotate_theRVD1, __constVal96
-8	89	90		subcall __RotateMotor1, ____RotateMotor1_return
-8	89	92		release __rotateMutex1
-8	4583	93	#line 4583 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	88	93	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	88	93	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	89	93		set __Wait_7qG2_ms_7qG2_000_inline_mazeTurn, 1000
-8	88	96	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	7921	96	#line 7921 "NXCDefs.h"
-8	7922	96		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_mazeTurn
-8	7921	99	#line 7921 "NXCDefs.h"
-8	89	99	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	89	99	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	90	99		subcall turnCheck, __turnCheck_return
-8	89	101	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	90	101		mov __D0mazeTurn, __D0turnCheck
-8	90	103	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	103		tst 5, __zfmazeTurn, __D0mazeTurn
-8	90	106	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	106		brtst 4, __NXC_Label_550, __zfmazeTurn
-8	90	109	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	109		set __signed_stack_001mazeTurn, 30
-8	90	112	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	90	112	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	112		set __signed_stack_002mazeTurn, 90
-8	90	115	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	90	115	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	90	115	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	90	115	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	90	115	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	115		mul __D0mazeTurn, __constVal180, __mazeTurn_7qG2_i_7qG2_001
-8	90	119	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	119		add __D0mazeTurn, __signed_stack_002mazeTurn, __D0mazeTurn
-8	91	123	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	92	123	#pragma macro 33
-8	92	123		acquire __rotateMutex1
-8	92	124		arrbuild __rotate_ports1, __constVal1
-8	92	128		mov __rotate_power1, __signed_stack_001mazeTurn
-8	92	130		mov __rotate_angle1, __D0mazeTurn
-8	92	132		mov __rotate_turnpct1, __constVal0
-8	92	134		mov __rotate_sync1, __constVal0
-8	92	136		mov __rotate_stop1, __constVal1
-8	92	138		mov __rotate_theRVP1, __constVal32
-8	92	140		mov __rotate_theRVI1, __constVal0
-8	92	142		mov __rotate_theRVD1, __constVal96
-8	92	144		subcall __RotateMotor1, ____RotateMotor1_return
-8	92	146		release __rotateMutex1
-8	4632	147	#line 4632 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	147	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	91	147	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	92	147		set __Wait_7qG2_ms_7qG2_000_inline_mazeTurn, 1000
-8	91	150	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	7921	150	#line 7921 "NXCDefs.h"
-8	7922	150		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_mazeTurn
-8	7921	153	#line 7921 "NXCDefs.h"
-8	92	153	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	92	153	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	153		mov __signed_stack_001mazeTurn, __mazeTurn_7qG2_i_7qG2_001
-8	92	155	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	92	155	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	155		set __D0mazeTurn, 0
-8	92	158	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	158		cmp 4, __zfmazeTurn, __signed_stack_001mazeTurn, __D0mazeTurn
-8	92	162	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	162		mov __D0mazeTurn, __zfmazeTurn
-8	93	164	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	94	164		brtst 4, __NXC_Label_559, __zfmazeTurn
-8	93	167	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	94	167		set __signed_stack_001mazeTurn, 30
-8	93	170	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	170	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	170	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	170	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	93	170	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	94	170		mul __D0mazeTurn, dir, __constVal360
-8	94	174	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	95	174	#pragma macro 33
-8	95	174		arrbuild __rotate_ports2, __constVal2
-8	95	178		mov __rotate_power2, __signed_stack_001mazeTurn
-8	95	180		mov __rotate_angle2, __D0mazeTurn
-8	95	182		mov __rotate_turnpct2, __constVal0
-8	95	184		mov __rotate_sync2, __constVal0
-8	95	186		mov __rotate_stop2, __constVal1
-8	95	188		mov __rotate_theRVP2, __constVal32
-8	95	190		mov __rotate_theRVI2, __constVal0
-8	95	192		mov __rotate_theRVD2, __constVal96
-8	95	194		subcall __RotateMotor2, ____RotateMotor2_return
-8	4675	196	#line 4675 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	94	196	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	95	196	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	196		jmp __NXC_Label_564
-8	95	198	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	198		mov __signed_stack_001mazeTurn, __mazeTurn_7qG2_i_7qG2_001
-8	95	200	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	95	200	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	200		set __D0mazeTurn, 1
-8	95	203	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	203		cmp 4, __zfmazeTurn, __signed_stack_001mazeTurn, __D0mazeTurn
-8	95	207	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	207		mov __D0mazeTurn, __zfmazeTurn
-8	96	209	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	97	209		brtst 4, __NXC_Label_567, __zfmazeTurn
-8	96	212	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	97	212		set __signed_stack_001mazeTurn, 30
-8	96	215	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	215	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	215	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	215	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	96	215	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	97	215		mul __D0mazeTurn, dir, __constVal360
-8	97	219	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	98	219	#pragma macro 33
-8	98	219		arrbuild __rotate_ports0, __constVal0
-8	98	223		mov __rotate_power0, __signed_stack_001mazeTurn
-8	98	225		mov __rotate_angle0, __D0mazeTurn
-8	98	227		mov __rotate_turnpct0, __constVal0
-8	98	229		mov __rotate_sync0, __constVal0
-8	98	231		mov __rotate_stop0, __constVal1
-8	98	233		mov __rotate_theRVP0, __constVal32
-8	98	235		mov __rotate_theRVI0, __constVal0
-8	98	237		mov __rotate_theRVD0, __constVal96
-8	98	239		subcall __RotateMotor0, ____RotateMotor0_return
-8	4711	242	#line 4711 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	97	242	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	98	242	#line 98 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	98	242	#line 98 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	99	242	#line 99 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	100	242		subret __mazeTurn_return
-8	99	244	#line 99 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	102	244	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	102	244	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	103	244		jmp __NXC_Label_537
-8	102	246	#line 102 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	103	246	#line 103 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	104	246		subcall switchDir, __switchDir_return
-8	103	248	#line 103 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	105	248	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-8	106	248		subret __mazeTurn_return
-9	106	0	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	107	0	#pragma macro 26
-9	107	0		acquire __RLSBmutex1
-9	107	1		mov __RLSReadBuf1, __RLSBbufLSWrite1
-9	107	3		set __RLSBytesCount1, 1
-9	107	6		wait2 NA, __constVal15
-9	107	9		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-9	107	11		index __D0turnCheck, __RLSReadBuf1, 65535
-9	107	15		release __RLSBmutex1
-9	4735	16	#line 4735 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	106	16	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	107	16		mov __signed_stack_001turnCheck, __D0turnCheck
-9	106	18	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	107	18		set __D0turnCheck, 6
-9	106	21	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	107	21		cmp 1, __zfturnCheck, __signed_stack_001turnCheck, __D0turnCheck
-9	106	25	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	107	25		mov __D0turnCheck, __zfturnCheck
-9	107	27	#line 107 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	108	27		brtst 4, __NXC_Label_574, __zfturnCheck
-9	108	30	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	109	30		set __D0turnCheck, 1
-9	108	33	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	109	33		subret __turnCheck_return
-9	108	35	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	110	35	#line 110 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	111	35		jmp __NXC_Label_579
-9	111	37	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	112	37		set __D0turnCheck, 0
-9	111	40	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	112	40		subret __turnCheck_return
-9	111	42	#line 111 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	137	42	#line 137 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	137	42	#line 137 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-9	138	42		subret __turnCheck_return
-10	138	0	#line 138 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	139	0		mov __signed_stack_001switchDir, dir
-10	138	2	#line 138 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	138	2	#line 138 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	139	2		mov __D0switchDir, __constValNeg1
-10	138	4	#line 138 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	139	4		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
-10	138	8	#line 138 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	139	8		mov __D0switchDir, __zfswitchDir
-10	139	10	#line 139 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	140	10		brtst 4, __NXC_Label_586, __zfswitchDir
-10	140	13	#line 140 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	141	13		set dir, 1
-10	140	16	#line 140 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	140	16	#line 140 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	140	16	#line 140 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	141	16		set __signed_stack_001switchDir, 30
-10	140	19	#line 140 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	140	19	#line 140 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	141	19		mov __D0switchDir, __constValNeg180
-10	142	21	#line 142 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	143	21	#pragma macro 33
-10	143	21		acquire __rotateMutex1
-10	143	22		arrbuild __rotate_ports1, __constVal1
-10	143	26		mov __rotate_power1, __signed_stack_001switchDir
-10	143	28		mov __rotate_angle1, __D0switchDir
-10	143	30		mov __rotate_turnpct1, __constVal0
-10	143	32		mov __rotate_sync1, __constVal0
-10	143	34		mov __rotate_stop1, __constVal1
-10	143	36		mov __rotate_theRVP1, __constVal32
-10	143	38		mov __rotate_theRVI1, __constVal0
-10	143	40		mov __rotate_theRVD1, __constVal96
-10	143	42		subcall __RotateMotor1, ____RotateMotor1_return
-10	143	44		release __rotateMutex1
-10	4804	45	#line 4804 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	142	45	#line 142 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	143	45	#line 143 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	144	45		jmp __NXC_Label_593
-10	143	47	#line 143 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	144	47		mov __signed_stack_001switchDir, dir
-10	143	49	#line 143 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	143	49	#line 143 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	144	49		set __D0switchDir, 1
-10	143	52	#line 143 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	144	52		cmp 4, __zfswitchDir, __signed_stack_001switchDir, __D0switchDir
-10	143	56	#line 143 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	144	56		mov __D0switchDir, __zfswitchDir
-10	144	58	#line 144 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	145	58		brtst 4, __NXC_Label_596, __zfswitchDir
-10	145	61	#line 145 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	146	61		mov dir, __constValNeg1
-10	145	63	#line 145 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	145	63	#line 145 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	145	63	#line 145 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	146	63		set __signed_stack_001switchDir, 30
-10	145	66	#line 145 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	145	66	#line 145 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	146	66		set __D0switchDir, 180
-10	146	69	#line 146 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	147	69	#pragma macro 33
-10	147	69		acquire __rotateMutex1
-10	147	70		arrbuild __rotate_ports1, __constVal1
-10	147	74		mov __rotate_power1, __signed_stack_001switchDir
-10	147	76		mov __rotate_angle1, __D0switchDir
-10	147	78		mov __rotate_turnpct1, __constVal0
-10	147	80		mov __rotate_sync1, __constVal0
-10	147	82		mov __rotate_stop1, __constVal1
-10	147	84		mov __rotate_theRVP1, __constVal32
-10	147	86		mov __rotate_theRVI1, __constVal0
-10	147	88		mov __rotate_theRVD1, __constVal96
-10	147	90		subcall __RotateMotor1, ____RotateMotor1_return
-10	147	92		release __rotateMutex1
-10	4841	93	#line 4841 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	146	93	#line 146 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	149	93	#line 149 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	149	93	#line 149 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	149	93	#line 149 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-10	150	93		subret __switchDir_return
-11	6069	0	#line 6069 "NXCDefs.h"
-11	6070	0	#pragma macro 6
-11	6070	0		acquire __PointOutMutex
-11	6070	1		mov __PointOutArgs.Location.X, __constVal200
-11	6070	4		mov __PointOutArgs.Location.Y, __constVal200
-11	6070	7		mov __PointOutArgs.Options, __constVal1
-11	6070	9		syscall 14, __PointOutArgs
-11	6070	12		release __PointOutMutex
-11	4853	13	#line 4853 "NXCDefs.h"
-11	6069	13	#line 6069 "NXCDefs.h"
-11	151	13	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	151	13	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	152	13		set __signed_stack_001displayNum, 0
-11	151	16	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	151	16	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	152	16		set __signed_stack_002displayNum, 2
-11	151	19	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	151	19	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	152	19		mov __D0displayNum, __displayNum_7qG2_n_7qG2_000
-11	151	21	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	152	21		numtostr __strretvaldisplayNum, __D0displayNum
-11	151	24	#line 151 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	152	24		strcat __strbufdisplayNum, __strretvaldisplayNum
-11	152	28	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	28		acquire __TextOutMutex
-11	152	29	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	29		mov __TextOutArgs.Location.X, __signed_stack_001displayNum
-11	152	32	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	32		mov __TextOutArgs.Location.Y, __signed_stack_002displayNum
-11	152	35	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	35		set __TextOutArgs.Options, 0
-11	152	38	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	38		mov __TextOutArgs.Text, __strbufdisplayNum
-11	152	40	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	40		syscall 13, __TextOutArgs
-11	152	43	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	43		mov __D0displayNum, __TextOutArgs.Result
-11	152	46	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	46		release __TextOutMutex
-11	152	47	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	152	47	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	153	47		set __Wait_7qG2_ms_7qG2_000_inline_displayNum, 1500
-11	152	50	#line 152 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	7921	50	#line 7921 "NXCDefs.h"
-11	7922	50		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_displayNum
-11	7921	53	#line 7921 "NXCDefs.h"
-11	153	53	#line 153 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	6069	53	#line 6069 "NXCDefs.h"
-11	6070	53	#pragma macro 6
-11	6070	53		acquire __PointOutMutex
-11	6070	54		mov __PointOutArgs.Location.X, __constVal200
-11	6070	57		mov __PointOutArgs.Location.Y, __constVal200
-11	6070	60		mov __PointOutArgs.Options, __constVal1
-11	6070	62		syscall 14, __PointOutArgs
-11	6070	65		release __PointOutMutex
-11	4908	66	#line 4908 "NXCDefs.h"
-11	6069	66	#line 6069 "NXCDefs.h"
-11	154	66	#line 154 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	156	66	#line 156 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-11	157	66		subret __displayNum_return
-12	158	0	#line 158 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	159	0		mov dir, __constValNeg1
-12	158	2	#line 158 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	158	2	#line 158 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	158	2	#line 158 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	159	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_calibration, 0
-12	158	5	#line 158 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	158	5	#line 158 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	159	5		set __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration, 1
-12	158	8	#line 158 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	3729	8	#line 3729 "NXCDefs.h"
-12	3730	8		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
-12	3729	10	#line 3729 "NXCDefs.h"
-12	3729	10	#line 3729 "NXCDefs.h"
-12	3730	10		mov __DU0SetSensorLight_inline_calibration, __SetSensorLight_7qG2_bActive_7qG2_000_inline_calibration
-12	3729	12	#line 3729 "NXCDefs.h"
-12	3730	12		tst 5, __zfSetSensorLight_inline_calibration, __DU0SetSensorLight_inline_calibration
-12	3729	15	#line 3729 "NXCDefs.h"
-12	3730	15		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_calibration
-12	3729	18	#line 3729 "NXCDefs.h"
-12	3730	18		set __D0SetSensorLight_inline_calibration, 5
-12	3729	21	#line 3729 "NXCDefs.h"
-12	3730	21		jmp __001__NXC_Label_5
-12	3729	23	#line 3729 "NXCDefs.h"
-12	3730	23		set __D0SetSensorLight_inline_calibration, 6
-12	3729	26	#line 3729 "NXCDefs.h"
-12	3730	26		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __D0SetSensorLight_inline_calibration
-12	3663	28	#line 3663 "NXCDefs.h"
-12	3664	28		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 0
-12	3663	32	#line 3663 "NXCDefs.h"
-12	3730	32	#line 3730 "NXCDefs.h"
-12	3730	32	#line 3730 "NXCDefs.h"
-12	3731	32		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
-12	3730	34	#line 3730 "NXCDefs.h"
-12	3730	34	#line 3730 "NXCDefs.h"
-12	3731	34		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, 128
-12	3730	37	#line 3730 "NXCDefs.h"
-12	3676	37	#line 3676 "NXCDefs.h"
-12	3677	37		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_calibration, 1
-12	3676	41	#line 3676 "NXCDefs.h"
-12	3731	41	#line 3731 "NXCDefs.h"
-12	3731	41	#line 3731 "NXCDefs.h"
-12	3731	41	#line 3731 "NXCDefs.h"
-12	3694	41	#line 3694 "NXCDefs.h"
-12	3695	41	#pragma macro 4
-12	3695	41		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_calibration
-12	3695	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-12	5018	46	#line 5018 "NXCDefs.h"
-12	3694	46	#line 3694 "NXCDefs.h"
-12	3732	46	#line 3732 "NXCDefs.h"
-12	159	46	#line 159 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	159	46	#line 159 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	160	46		set __signed_stack_001calibration, 0
-12	159	49	#line 159 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	159	49	#line 159 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	160	49		set __signed_stack_002calibration, 2
-12	159	52	#line 159 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	159	52	#line 159 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	160	52		strcat __strbufcalibration, __constStr0009
-12	160	56	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	56		acquire __TextOutMutex
-12	160	57	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	57		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-12	160	60	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	60		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-12	160	63	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	63		set __TextOutArgs.Options, 0
-12	160	66	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	66		mov __TextOutArgs.Text, __strbufcalibration
-12	160	68	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	68		syscall 13, __TextOutArgs
-12	160	71	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	71		mov __D0calibration, __TextOutArgs.Result
-12	160	74	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	74		release __TextOutMutex
-12	160	75	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	160	75	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	75		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
-12	160	78	#line 160 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	7921	78	#line 7921 "NXCDefs.h"
-12	7922	78		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
-12	7921	81	#line 7921 "NXCDefs.h"
-12	161	81	#line 161 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	81	#line 161 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	162	81		getin black, __constVal0, 4
-12	161	85	#line 161 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	85	#line 161 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	161	85	#line 161 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	162	85	#line 162 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	163	85		mov __displayNum_7qG2_n_7qG2_000, black
-12	162	87	#line 162 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	163	87	#line 163 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	164	87		subcall displayNum, __displayNum_return
-12	163	89	#line 163 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	163	89	#line 163 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	164	89		set __signed_stack_001calibration, 0
-12	163	92	#line 163 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	163	92	#line 163 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	164	92		set __signed_stack_002calibration, 2
-12	163	95	#line 163 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	163	95	#line 163 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	164	95		strcat __strbufcalibration, __constStr0010
-12	164	99	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	99		acquire __TextOutMutex
-12	164	100	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	100		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-12	164	103	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	103		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-12	164	106	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	106		set __TextOutArgs.Options, 0
-12	164	109	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	109		mov __TextOutArgs.Text, __strbufcalibration
-12	164	111	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	111		syscall 13, __TextOutArgs
-12	164	114	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	114		mov __D0calibration, __TextOutArgs.Result
-12	164	117	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	117		release __TextOutMutex
-12	164	118	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	164	118	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	118		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 3000
-12	164	121	#line 164 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	7921	121	#line 7921 "NXCDefs.h"
-12	7922	121		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
-12	7921	124	#line 7921 "NXCDefs.h"
-12	165	124	#line 165 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	124	#line 165 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	166	124		getin white, __constVal0, 4
-12	165	128	#line 165 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	128	#line 165 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	165	128	#line 165 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	166	128	#line 166 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	167	128		mov __displayNum_7qG2_n_7qG2_000, white
-12	166	130	#line 166 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	168	130	#line 168 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	169	130		subcall displayNum, __displayNum_return
-12	168	132	#line 168 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	168	132	#line 168 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	168	132	#line 168 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	168	132	#line 168 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	168	132	#line 168 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	169	132		add __signed_stack_001calibration, black, white
-12	168	136	#line 168 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	169	136	#line 169 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	169	136	#line 169 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	170	136		div lightAvg, __signed_stack_001calibration, __constVal2
-12	169	140	#line 169 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	169	140	#line 169 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	169	140	#line 169 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	170	140		mov __displayNum_7qG2_n_7qG2_000, lightAvg
-12	169	142	#line 169 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	171	142	#line 171 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	172	142		subcall displayNum, __displayNum_return
-12	171	144	#line 171 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	171	144	#line 171 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	171	144	#line 171 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	3768	144	#line 3768 "NXCDefs.h"
-12	3769	144		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
-12	3768	146	#line 3768 "NXCDefs.h"
-12	3768	146	#line 3768 "NXCDefs.h"
-12	3769	146		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration, __constVal1
-12	3758	148	#line 3758 "NXCDefs.h"
-12	3759	148		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-12	3758	150	#line 3758 "NXCDefs.h"
-12	3758	150	#line 3758 "NXCDefs.h"
-12	3759	150		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-12	3758	152	#line 3758 "NXCDefs.h"
-12	3759	152		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
-12	3758	155	#line 3758 "NXCDefs.h"
-12	3759	155		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
-12	3758	158	#line 3758 "NXCDefs.h"
-12	3759	158		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
-12	3758	161	#line 3758 "NXCDefs.h"
-12	3759	161		jmp __001__001__NXC_Label_37
-12	3758	163	#line 3758 "NXCDefs.h"
-12	3759	163		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
-12	3758	166	#line 3758 "NXCDefs.h"
-12	3759	166		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
-12	3663	168	#line 3663 "NXCDefs.h"
-12	3664	168		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
-12	3663	172	#line 3663 "NXCDefs.h"
-12	3759	172	#line 3759 "NXCDefs.h"
-12	3759	172	#line 3759 "NXCDefs.h"
-12	3760	172		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-12	3759	174	#line 3759 "NXCDefs.h"
-12	3759	174	#line 3759 "NXCDefs.h"
-12	3760	174		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 0
-12	3759	177	#line 3759 "NXCDefs.h"
-12	3676	177	#line 3676 "NXCDefs.h"
-12	3677	177		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_calibration, 1
-12	3676	181	#line 3676 "NXCDefs.h"
-12	3760	181	#line 3760 "NXCDefs.h"
-12	3760	181	#line 3760 "NXCDefs.h"
-12	3760	181	#line 3760 "NXCDefs.h"
-12	3694	181	#line 3694 "NXCDefs.h"
-12	3695	181	#pragma macro 4
-12	3695	181		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_calibration
-12	3695	183		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-12	5273	186	#line 5273 "NXCDefs.h"
-12	3694	186	#line 3694 "NXCDefs.h"
-12	3761	186	#line 3761 "NXCDefs.h"
-12	3768	186	#line 3768 "NXCDefs.h"
-12	173	186	#line 173 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	173	186	#line 173 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	174	186		set __signed_stack_001calibration, 0
-12	173	189	#line 173 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	173	189	#line 173 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	174	189		set __signed_stack_002calibration, 2
-12	173	192	#line 173 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	173	192	#line 173 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	174	192		strcat __strbufcalibration, __constStr0011
-12	174	196	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	196		acquire __TextOutMutex
-12	174	197	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	197		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-12	174	200	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	200		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-12	174	203	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	203		set __TextOutArgs.Options, 0
-12	174	206	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	206		mov __TextOutArgs.Text, __strbufcalibration
-12	174	208	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	208		syscall 13, __TextOutArgs
-12	174	211	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	211		mov __D0calibration, __TextOutArgs.Result
-12	174	214	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	214		release __TextOutMutex
-12	174	215	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	174	215	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	175	215		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-12	174	218	#line 174 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	7921	218	#line 7921 "NXCDefs.h"
-12	7922	218		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
-12	7921	221	#line 7921 "NXCDefs.h"
-12	175	221	#line 175 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	6069	221	#line 6069 "NXCDefs.h"
-12	6070	221	#pragma macro 6
-12	6070	221		acquire __PointOutMutex
-12	6070	222		mov __PointOutArgs.Location.X, __constVal200
-12	6070	225		mov __PointOutArgs.Location.Y, __constVal200
-12	6070	228		mov __PointOutArgs.Options, __constVal1
-12	6070	230		syscall 14, __PointOutArgs
-12	6070	233		release __PointOutMutex
-12	5320	234	#line 5320 "NXCDefs.h"
-12	6069	234	#line 6069 "NXCDefs.h"
-12	176	234	#line 176 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	176	234	#line 176 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	177	234		set __signed_stack_001calibration, 0
-12	176	237	#line 176 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	176	237	#line 176 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	177	237		set __signed_stack_002calibration, 2
-12	176	240	#line 176 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	176	240	#line 176 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	177	240		strcat __strbufcalibration, __constStr0012
-12	177	244	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	244		acquire __TextOutMutex
-12	177	245	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	245		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-12	177	248	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	248		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-12	177	251	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	251		set __TextOutArgs.Options, 0
-12	177	254	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	254		mov __TextOutArgs.Text, __strbufcalibration
-12	177	256	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	256		syscall 13, __TextOutArgs
-12	177	259	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	259		mov __D0calibration, __TextOutArgs.Result
-12	177	262	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	262		release __TextOutMutex
-12	177	263	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	177	263	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	178	263		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-12	177	266	#line 177 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	7921	266	#line 7921 "NXCDefs.h"
-12	7922	266		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
-12	7921	269	#line 7921 "NXCDefs.h"
-12	178	269	#line 178 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	6069	269	#line 6069 "NXCDefs.h"
-12	6070	269	#pragma macro 6
-12	6070	269		acquire __PointOutMutex
-12	6070	270		mov __PointOutArgs.Location.X, __constVal200
-12	6070	273		mov __PointOutArgs.Location.Y, __constVal200
-12	6070	276		mov __PointOutArgs.Options, __constVal1
-12	6070	278		syscall 14, __PointOutArgs
-12	6070	281		release __PointOutMutex
-12	5365	282	#line 5365 "NXCDefs.h"
-12	6069	282	#line 6069 "NXCDefs.h"
-12	179	282	#line 179 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	179	282	#line 179 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	180	282		set __signed_stack_001calibration, 0
-12	179	285	#line 179 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	179	285	#line 179 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	180	285		set __signed_stack_002calibration, 2
-12	179	288	#line 179 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	179	288	#line 179 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	180	288		strcat __strbufcalibration, __constStr0013
-12	180	292	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	292		acquire __TextOutMutex
-12	180	293	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	293		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-12	180	296	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	296		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-12	180	299	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	299		set __TextOutArgs.Options, 0
-12	180	302	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	302		mov __TextOutArgs.Text, __strbufcalibration
-12	180	304	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	304		syscall 13, __TextOutArgs
-12	180	307	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	307		mov __D0calibration, __TextOutArgs.Result
-12	180	310	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	310		release __TextOutMutex
-12	180	311	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	180	311	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	181	311		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-12	180	314	#line 180 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	7921	314	#line 7921 "NXCDefs.h"
-12	7922	314		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
-12	7921	317	#line 7921 "NXCDefs.h"
-12	181	317	#line 181 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	6069	317	#line 6069 "NXCDefs.h"
-12	6070	317	#pragma macro 6
-12	6070	317		acquire __PointOutMutex
-12	6070	318		mov __PointOutArgs.Location.X, __constVal200
-12	6070	321		mov __PointOutArgs.Location.Y, __constVal200
-12	6070	324		mov __PointOutArgs.Options, __constVal1
-12	6070	326		syscall 14, __PointOutArgs
-12	6070	329		release __PointOutMutex
-12	5410	330	#line 5410 "NXCDefs.h"
-12	6069	330	#line 6069 "NXCDefs.h"
-12	182	330	#line 182 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	182	330	#line 182 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	183	330		set __signed_stack_001calibration, 0
-12	182	333	#line 182 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	182	333	#line 182 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	183	333		set __signed_stack_002calibration, 2
-12	182	336	#line 182 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	182	336	#line 182 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	183	336		strcat __strbufcalibration, __constStr0014
-12	183	340	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	340		acquire __TextOutMutex
-12	183	341	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	341		mov __TextOutArgs.Location.X, __signed_stack_001calibration
-12	183	344	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	344		mov __TextOutArgs.Location.Y, __signed_stack_002calibration
-12	183	347	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	347		set __TextOutArgs.Options, 0
-12	183	350	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	350		mov __TextOutArgs.Text, __strbufcalibration
-12	183	352	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	352		syscall 13, __TextOutArgs
-12	183	355	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	355		mov __D0calibration, __TextOutArgs.Result
-12	183	358	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	358		release __TextOutMutex
-12	183	359	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	183	359	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	184	359		set __Wait_7qG2_ms_7qG2_000_inline_calibration, 1000
-12	183	362	#line 183 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	7921	362	#line 7921 "NXCDefs.h"
-12	7922	362		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_calibration
-12	7921	365	#line 7921 "NXCDefs.h"
-12	184	365	#line 184 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	6069	365	#line 6069 "NXCDefs.h"
-12	6070	365	#pragma macro 6
-12	6070	365		acquire __PointOutMutex
-12	6070	366		mov __PointOutArgs.Location.X, __constVal200
-12	6070	369		mov __PointOutArgs.Location.Y, __constVal200
-12	6070	372		mov __PointOutArgs.Options, __constVal1
-12	6070	374		syscall 14, __PointOutArgs
-12	6070	377		release __PointOutMutex
-12	5455	378	#line 5455 "NXCDefs.h"
-12	6069	378	#line 6069 "NXCDefs.h"
-12	185	378	#line 185 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	187	378	#line 187 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-12	188	378		subret __calibration_return
-13	188	0	#line 188 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
-13	189	0		subret ____initialize_global_data_return
+2	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
+2	4583	3		set ____RotateMotor2_sign_tmp, 0
+2	4583	6		brtst EQ, __sign_2, __rotate_angle2
+2	4583	9		set ____RotateMotor2_sign_tmp, -1
+2	4583	12		brtst LT, __sign_2, __rotate_angle2
+2	4583	15		set ____RotateMotor2_sign_tmp, 1
+2	4583	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
+2	4584	20		abs __rotate_theAngle2, __rotate_angle2
+2	4585	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+2	4587	27		set __rotate_theUF2, 23
+2	4588	30		brtst 4, __rotate_NoSync2, __rotate_sync2
+2	4589	33		set __rotate_theOM2, 7
+2	4590	36		set __rotate_theRM2, 2
+2	4591	39		mov __rotate_theTurnPct2, __rotate_turnpct2
+2	4592	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+2	4593	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
+2	4594	48		jmp __rotate_Start2
+2	4596	50		set __rotate_theOM2, 3
+2	4597	53		set __rotate_theRM2, 0
+2	4598	56		set __rotate_theTurnPct2, 0
+2	4600	59		set __rotate_theRS2, 32
+2	4601	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+2	4604	85		index __rotate_firstPort2, __rotate_ports2, 65535
+2	4606	89		getout __rotate_power2, __rotate_firstPort2, 2
+2	4607	93		brtst 4, __rotate_doneRunning2, __rotate_power2
+2	4608	96		getout __rotate_rs2, __rotate_firstPort2, 6
+2	4609	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+2	4611	104		brtst 4, __rotate_Reset2, __rotate_stop2
+2	4613	107		set __rotate_theOM2, 7
+2	4614	110		set __rotate_theUF2, 7
+2	4615	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+2	4617	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	4619	132		mov __rotate_OldRotCount2, __rotate_RotCount2
+2	4620	134		wait2 NA, __constVal50
+2	4622	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	4623	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+2	4624	145		set __rotate_theOM2, 4
+2	4625	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+2	4628	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+2	4629	162		setout __rotate_ports2, 0, __constVal32
+2	4631	167		subret ____RotateMotor2_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	5710	0	#pragma macro 25
+4	5710	0		acquire __CLSWMutex1
+4	5710	1		set __CLSWArgs1.Port, 1
+4	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+4	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+4	5710	8		syscall 21, __CLSWArgs1
+4	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+4	5710	13		release __CLSWMutex1
+4	5710	14	#line 5710 "NXTDefs.h"
+4	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+4	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+4	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+4	5714	24		set __RLSBIterations1, 4
+4	5716	27	#pragma macro 23
+4	5716	27		acquire __CLSCSMutex1
+4	5716	28		set __CLSCSArgs1.Port, 1
+4	5716	31		syscall 23, __CLSCSArgs1
+4	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+4	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+4	5716	38		release __CLSCSMutex1
+4	5716	39	#line 5716 "NXTDefs.h"
+4	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+4	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+4	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+4	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+4	5722	52		wait2 NA, __constVal15
+4	5723	55		jmp __RLSBDoCheckStatus1
+4	5726	57	#pragma macro 25
+4	5726	57		acquire __CLSRMutex1
+4	5726	58		set __CLSRArgs1.Port, 1
+4	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+4	5726	63		syscall 22, __CLSRArgs1
+4	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+4	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+4	5726	70		release __CLSRMutex1
+4	5726	71	#line 5726 "NXTDefs.h"
+4	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+4	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+4	5729	76		jmp __RLSBDone1
+4	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+4	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+4	5735	83		subret ____ReadLSBytes1_return
+5	74	0	#line 74 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	75	0		subcall turnCheck, __turnCheck_return
+5	74	2	#line 74 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	75	2		mov __D0mazeNav, __D0turnCheck
+5	75	4	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	76	4		tst 5, __zfmazeNav, __D0mazeNav
+5	75	7	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	76	7		brtst 4, __NXC_Label_521, __zfmazeNav
+5	75	10	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	75	10	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	75	10	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	75	10	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	76	10		mul __signed_stack_001mazeNav, dir, __constVal60
+5	75	14	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	75	14	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	76	14		set __D0mazeNav, 0
+5	76	17	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	77	17	#pragma macro 7
+5	77	17		setout __OUT_AC, 2, __signed_stack_001mazeNav, 1, __constVal7, 8, __constVal2, 7, __D0mazeNav, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4623	40	#line 4623 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	76	40	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	78	40	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	79	40		jmp __NXC_Label_520
+5	78	42	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	78	42	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	79	42		set __mazeTurn_7qG2_turnDir_7qG2_000, 0
+5	78	45	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	83	45	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	84	45		subcall mazeTurn, __mazeTurn_return
+5	83	47	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	84	47	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	84	47	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+5	85	47		exit 0, 0
+6	90	0	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	91	0		set __signed_stack_001mazeTurn, 0
+6	90	3	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	90	3	#line 90 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	91	3		set __D0mazeTurn, 0
+6	91	6	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	92	6	#pragma macro 7
+6	92	6		setout __OUT_AC, 2, __signed_stack_001mazeTurn, 1, __constVal7, 8, __constVal2, 7, __D0mazeTurn, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4655	29	#line 4655 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	91	29	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	91	29	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	92	29		set __Wait_7qG2_ms_7qG2_000_inline_mazeTurn, 100
+6	91	32	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	7921	32	#line 7921 "NXCDefs.h"
+6	7922	32		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_mazeTurn
+6	7921	35	#line 7921 "NXCDefs.h"
+6	93	35	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	93	35	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	35		mov __signed_stack_001mazeTurn, __mazeTurn_7qG2_turnDir_7qG2_000
+6	93	37	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	93	37	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	37		set __D0mazeTurn, 0
+6	93	40	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	40		cmp 4, __zfmazeTurn, __signed_stack_001mazeTurn, __D0mazeTurn
+6	93	44	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	44		mov __D0mazeTurn, __zfmazeTurn
+6	94	46	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	95	46		brtst 4, __NXC_Label_538, __zfmazeTurn
+6	94	49	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	49	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	49	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	49	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	95	49		mul __signed_stack_001mazeTurn, dir, __constVal60
+6	94	53	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	94	53	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	95	53		set __D0mazeTurn, 405
+6	95	56	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	96	56	#pragma macro 33
+6	96	56		arrbuild __rotate_ports0, __constVal0
+6	96	60		mov __rotate_power0, __signed_stack_001mazeTurn
+6	96	62		mov __rotate_angle0, __D0mazeTurn
+6	96	64		mov __rotate_turnpct0, __constVal0
+6	96	66		mov __rotate_sync0, __constVal0
+6	96	68		mov __rotate_stop0, __constVal1
+6	96	70		mov __rotate_theRVP0, __constVal32
+6	96	72		mov __rotate_theRVI0, __constVal0
+6	96	74		mov __rotate_theRVD0, __constVal96
+6	96	76		subcall __RotateMotor0, ____RotateMotor0_return
+6	4702	78	#line 4702 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	95	78	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	96	78	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	78		jmp __NXC_Label_543
+6	96	80	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	80		mov __signed_stack_001mazeTurn, __mazeTurn_7qG2_turnDir_7qG2_000
+6	96	82	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	96	82	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	82		set __D0mazeTurn, 1
+6	96	85	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	85		cmp 4, __zfmazeTurn, __signed_stack_001mazeTurn, __D0mazeTurn
+6	96	89	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	89		mov __D0mazeTurn, __zfmazeTurn
+6	97	91	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	98	91		brtst 4, __NXC_Label_546, __zfmazeTurn
+6	97	94	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	94	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	94	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	94	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	98	94		mul __signed_stack_001mazeTurn, dir, __constVal60
+6	97	98	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	97	98	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	98	98		set __D0mazeTurn, 405
+6	98	101	#line 98 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	99	101	#pragma macro 33
+6	99	101		arrbuild __rotate_ports2, __constVal2
+6	99	105		mov __rotate_power2, __signed_stack_001mazeTurn
+6	99	107		mov __rotate_angle2, __D0mazeTurn
+6	99	109		mov __rotate_turnpct2, __constVal0
+6	99	111		mov __rotate_sync2, __constVal0
+6	99	113		mov __rotate_stop2, __constVal1
+6	99	115		mov __rotate_theRVP2, __constVal32
+6	99	117		mov __rotate_theRVI2, __constVal0
+6	99	119		mov __rotate_theRVD2, __constVal96
+6	99	121		subcall __RotateMotor2, ____RotateMotor2_return
+6	4738	123	#line 4738 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	98	123	#line 98 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	100	123	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	100	123	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	100	123	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	101	123		set __Wait_7qG2_ms_7qG2_000_inline_mazeTurn, 1000
+6	100	126	#line 100 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	7921	126	#line 7921 "NXCDefs.h"
+6	7922	126		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_mazeTurn
+6	7921	129	#line 7921 "NXCDefs.h"
+6	101	129	#line 101 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	103	129	#line 103 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+6	104	129		subret __mazeTurn_return
+7	104	0	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	105	0	#pragma macro 26
+7	105	0		acquire __RLSBmutex1
+7	105	1		mov __RLSReadBuf1, __RLSBbufLSWrite1
+7	105	3		set __RLSBytesCount1, 1
+7	105	6		wait2 NA, __constVal15
+7	105	9		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+7	105	11		index __D0turnCheck, __RLSReadBuf1, 65535
+7	105	15		release __RLSBmutex1
+7	4760	16	#line 4760 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	104	16	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	105	16		mov __signed_stack_001turnCheck, __D0turnCheck
+7	104	18	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	105	18		set __D0turnCheck, 6
+7	104	21	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	105	21		cmp 1, __zfturnCheck, __signed_stack_001turnCheck, __D0turnCheck
+7	104	25	#line 104 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	105	25		mov __D0turnCheck, __zfturnCheck
+7	105	27	#line 105 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	106	27		brtst 4, __NXC_Label_555, __zfturnCheck
+7	106	30	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	107	30		set __D0turnCheck, 1
+7	106	33	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	107	33		subret __turnCheck_return
+7	106	35	#line 106 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	108	35	#line 108 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	109	35		jmp __NXC_Label_558
+7	109	37	#line 109 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	110	37		set __D0turnCheck, 0
+7	109	40	#line 109 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	110	40		subret __turnCheck_return
+7	109	42	#line 109 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	135	42	#line 135 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	135	42	#line 135 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+7	136	42		subret __turnCheck_return
+8	185	0	#line 185 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc"
+8	186	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-1	__RotateMotor0	7	NXTDefs.h
-2	__RotateMotor1	176	NXTDefs.h
-3	__RotateMotor2	345	NXTDefs.h
-4	__ResetSensorSubroutine	514	NXTDefs.h
-5	__ReadLSBytes1	527	NXTDefs.h
-6	lineFollow	612	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-7	mazeNav	861	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-8	mazeTurn	924	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-9	turnCheck	1174	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-10	switchDir	1218	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-11	displayNum	1313	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-12	calibration	1381	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
-13	__initialize_global_data	1761	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+1	__RotateMotor0	50	NXTDefs.h
+2	__RotateMotor2	219	NXTDefs.h
+3	__ResetSensorSubroutine	388	NXTDefs.h
+4	__ReadLSBytes1	401	NXTDefs.h
+5	mazeNav	486	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+6	mazeTurn	536	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+7	turnCheck	667	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc
+8	__initialize_global_data	711	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Maze\409_Maze_Test.nxc

@@ -14,14 +14,15 @@ Maze Code
 #define FIRSTUS 18
 #define TURNDIST 6
 
-int black, white, lightAvg, dir; //if dir == 1, back; dir == -1, fwd
+int black, white, lightAvg; //if dir == 1, back; dir == -1, fwd
 int ball = 0; //ball found = 1, no ball yet = 0
 int inMaze = 0; //0 if not in the maze, 1 if in the maze
+int dir = -1;
 
 task lineFollow();
 task color();
 task mazeNav();
-void mazeTurn();
+void mazeTurn(int turnDir);
 int turnCheck();
 task ballFind();
 task ballCatch();
@@ -31,6 +32,7 @@ void displayNum(int n);
 void calibration();
 
 task main(){
+     SetSensorUltrasonic(S2);
      //calibration(); //calibrates black and white for line following
      //Precedes(lineFollow,color);
      
@@ -70,47 +72,41 @@ task color(){
 #ifdef MAZENAV
 
 task mazeNav(){ //used to navigate the maze
-     while(ball == 0){
-          if(turnCheck()){
-               OnFwdSync(OUT_AC,dir*MAX,0);
-          }
-          else{
-               mazeTurn();
-          }
+     while(turnCheck()){ //straight until fully enters the maze
+          OnFwdSync(OUT_AC,dir*MAX,0);
      }
+     
+     mazeTurn(0);
+     
+     
+     
+     
      Precedes(ballCatch);
 }
 
 #endif
 
-void mazeTurn(){
-     OnFwdSync(OUT_AC,0,0);
-     
-     for(int i = 0; i < 2; i++){
-          RotateMotor(OUT_B,30,-90 - 180*i);
-          Wait(1000);
-          if(turnCheck()){ //checks to make sure if turn is okay
-               RotateMotor(OUT_B,30,90 + 180*i);
-               Wait(1000);
-               if(i == 0){ //turn right
-                    RotateMotor(OUT_C,30,dir*360);
-               }
-               else if(i == 1){ //turn left
-                    RotateMotor(OUT_A,30,dir*360);
-               }
-               return;
-          }
-     }
-     
-     switchDir();
+void mazeTurn(int turnDir){ //0 - left, 1 - right
+
+    OnFwdSync(OUT_AC,0,0);
+    Wait(100);
+
+    if(turnDir == 0){
+         RotateMotor(OUT_A,dir*MAX,405); //not 90 yet
+    }
+    else if(turnDir == 1){
+         RotateMotor(OUT_C,dir*MAX,405);
+    }
+    
+    Wait(1000);
 }
 
 int turnCheck(){ //if no need to turn return 1; otherwise return 0
     if(SensorUS(S2) > TURNDIST){
-         return(1);
+         return 1;
     }
     else{
-         return(0);
+         return 0;
     }
 }
 
@@ -147,6 +143,8 @@ void switchDir(){ //flips the ultrasonic sensor to enable driving in reverse
           dir = -1;
           RotateMotor(OUT_B,30,180);
      }
+     
+     Wait(1000);
 }
 
 void displayNum(int n){ //displays a number
@@ -157,7 +155,6 @@ void displayNum(int n){ //displays a number
 }
 
 void calibration(){ //calibrates light sensor and starts the robot
-     dir = -1;
      SetSensorLight(S1,1);
      TextOut(0,2,"Set black");
      Wait(3000);
@@ -170,8 +167,6 @@ void calibration(){ //calibrates light sensor and starts the robot
 
      lightAvg = (black + white) / 2;
      displayNum(lightAvg);
-     
-     SetSensorUltrasonic(S2);
 
      TextOut(0,2,"3"); //Here we go
      Wait(1000);
