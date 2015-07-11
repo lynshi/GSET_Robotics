@@ -27,7 +27,7 @@ task ballCatch();
 void turnHeadTo(int degrees);
 
 void singleWheelTurn(byte motor, int degrees);
-void doubleWheelTurn(byte motor, int degrees);
+void doubleWheelTurn(int degrees);
 //void pointTurn(byte motors, int degrees);
 
 void driveUpToWall(int look=0);
@@ -70,17 +70,28 @@ task mazeNav(){ //used to navigate the maze
      driveUpToWall();
      singleWheelTurn(OUT_A,90); //left
      driveUpToWall(); //enter room 1
-     singleWheelTurn(OUT_C,90); //right
+     doubleWheelTurn(90); //right
      if(ballFind()){
-     //get the damn ball
+         ballCatch();
+         doubleWheelTurn(90);
+         driveUpToNotWall(-90);
+         singleWheelTurn(OUT_C, 90); // right
+         // exit
+         Wait(100000);
      }
-     singleWheelTurn(OUT_C,90); //right, get out of Room 1
+     doubleWheelTurn(90); //right, get out of Room 1
      driveUpToWall(); //enter Room 3
-     singleWheelTurn(OUT_A,90); //left
+     doubleWheelTurn(-90); //left
      if(ballFind()){
-      //go get the damn ball
+          //go get the damn ball
+          ballCatch();
+          doubleWheelTurn(-90);
+          driveUpToNotWall(90);
+          singleWheelTurn(OUT_A, 90);  // left
+          // exit
+          Wait(999999);
      }
-     singleWheelTurn(OUT_A,90); //left
+     doubleWheelTurn(-90); //left
      driveUpToWall(-90); //gets out of Room 3 and finds center wall
      driveUpToNotWall(-90); //finds Room 3
      singleWheelTurn(OUT_C,90); //right
@@ -89,19 +100,38 @@ task mazeNav(){ //used to navigate the maze
      
      if(ballFind()){
       //get the ********* ball
+          ballCatch();
+          OnFwdSync(OUT_AC,100,0); // High tail it out of there
+          Wait(1000);
+          singleWheelTurn(OUT_C, 90);
+          driveUpToNotWall(-90);
+          singleWheelTurn(OUT_C, 90);
+          // exit
+          Wait(80082);
      }
      driveUpToWall(); //go into Room 2
-     singleWheelTurn(OUT_C,90); //right
+     doubleWheelTurn(90); //right
      if(ballFind()){
       //get the ball already
+          ballCatch();
+          doubleWheelTurn(90); // right
+          driveUpToWall();
+          doubleWheelTurn(-90); // left
+          driveUpToNotWall(-90);
+          singleWheelTurn(OUT_C, 90);
+          // exit
+          Wait(42424242)
      }
      
-     singleWheelTurn(OUT_C,90); //right
+     /*
+     doubleWheelTurn(90); //right
      if(ballFind()){
       //where the hell is it
+      
      }
+     */
      
-     Precedes(ballCatch);
+     //Precedes(ballCatch);
 }
 
 void turnHeadTo(int degrees)
@@ -125,13 +155,14 @@ void driveUpToWall(int look=0)
      OnFwdSync(OUT_AC, 0, 0);
 }
 
-void doubleWheelTurn(byte motor, int degrees){
-
+void doubleWheelTurn(int degrees){
+     RotateMotorEx(OUT_AC, MAX, dir*degrees*DOUBLE_TURN_ANGLE_TO_ENCODER, 100, true, true);
+     Wait(100);
 }
 
 void singleWheelTurn(byte motor, int degrees)
 {
-     RotateMotor(motor, MAX, dir*degrees*);
+     RotateMotor(motor, MAX, dir*degrees*SINGLE_TURN_ANGLE_TO_ENCODER);
      Wait(100);
 }
 
@@ -170,7 +201,7 @@ int ballFind(){ //detects the ball in a room
      return 0;
 }
 
-task ballCatch(){ //moves to the ball in a room and captures it
+void ballCatch(){ //moves to the ball in a room and captures it
      //find the ball
 }
 
