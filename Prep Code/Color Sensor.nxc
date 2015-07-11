@@ -1,10 +1,9 @@
 task main(){
-  int x;
+
   SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
   TextOut(10, LCD_LINE2,"Color Detected");
   
   while(true){
-    x = SensorHTColorNum(S1);
     
     if ((SensorHTColorNum(S1)) == 2 || (SensorHTColorNum(S1) == 3)
     {
