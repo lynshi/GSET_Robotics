@@ -3,57 +3,48 @@ Room 409
 Maze Code
 */
 
-#define LINEFOLLOW
-//#define COLOR
-#define MAZENAV
-//#define BALLFIND
-//#define BALLCATCH
-
 #define MAX 60
 #define RATIO 2
 #define FIRSTUS 18
-#define TURNDIST 6
+#define TURNDIST 25
 
-<<<<<<< HEAD
-#define SINGLE_TURN_ANGLE_TO_ENCODER 4
-#define DOUBLE_TURN_ANGLE_TO_ENCODER 2
+#define SINGLE_TURN_ANGLE_TO_ENCODER 4.8
+#define DOUBLE_TURN_ANGLE_TO_ENCODER 2.4
 
-int black, white, lightAvg, dir; //if dir == 1, back; dir == -1, fwd
-=======
-int black, white, lightAvg; //if dir == 1, back; dir == -1, fwd
->>>>>>> 6eb337ccd17d5e302173309605bd2184afde5aae
+int black, white, lightAvg;
+int dir = -1; //if dir == 1, back; dir == -1, fwd
 int ball = 0; //ball found = 1, no ball yet = 0
 int inMaze = 0; //0 if not in the maze, 1 if in the maze
-int dir = -1;
 
 task lineFollow();
 task color();
 task mazeNav();
-void mazeTurn(int turnDir);
+void mazeTurn();
 int turnCheck();
-task ballFind();
+int ballFind();
 task ballCatch();
 
 void turnHeadTo(int degrees);
 
 void singleWheelTurn(byte motor, int degrees);
+void doubleWheelTurn(byte motor, int degrees);
 //void pointTurn(byte motors, int degrees);
 
-void driveUpToWall();
+void driveUpToWall(int look=0);
+void driveUpToNotWall(int look2=0);
 
 void switchDir();
 void displayNum(int n);
 void calibration();
 
 task main(){
-     SetSensorUltrasonic(S2);
      //calibration(); //calibrates black and white for line following
-     //Precedes(lineFollow,color);
-     
+     //Precedes(lineFollow); //color too
+     //OnFwdSync(OUT_AC,dir*30,0);
+     //Wait(1500);
+     SetSensorUltrasonic(S2);
      Precedes(mazeNav);
 }
-
-#ifdef LINEFOLLOW
 
 task lineFollow(){ //follows line to get into maze
      while(turnCheck()){ //change to color sensor
@@ -66,64 +57,81 @@ task lineFollow(){ //follows line to get into maze
                OnFwd(OUT_C,dir*MAX);
           }
      }
-     
+
      OnFwd(OUT_AC,0);
-     switchDir();
-     switchDir();
-     Precedes(mazeNav,ballFind);
+     Precedes(mazeNav); //ballFind too
 }
-
-#endif
-
-#ifdef ENTERMAZE
 
 task color(){
 
 }
 
-#endif
-
-#ifdef MAZENAV
-
 task mazeNav(){ //used to navigate the maze
-<<<<<<< HEAD
-=======
-     while(turnCheck()){ //straight until fully enters the maze
-          OnFwdSync(OUT_AC,dir*MAX,0);
+     driveUpToWall();
+     singleWheelTurn(OUT_A,90); //left
+     driveUpToWall(); //enter room 1
+     singleWheelTurn(OUT_C,90); //right
+     if(ballFind()){
+     //get the damn ball
+     }
+     singleWheelTurn(OUT_C,90); //right, get out of Room 1
+     driveUpToWall(); //enter Room 3
+     singleWheelTurn(OUT_A,90); //left
+     if(ballFind()){
+      //go get the damn ball
+     }
+     singleWheelTurn(OUT_A,90); //left
+     driveUpToWall(-90); //gets out of Room 3 and finds center wall
+     driveUpToNotWall(-90); //finds Room 3
+     singleWheelTurn(OUT_C,90); //right
+     OnFwdSync(OUT_AC,30,0);
+     Wait(1500);
+     
+     if(ballFind()){
+      //get the ********* ball
+     }
+     driveUpToWall(); //go into Room 2
+     singleWheelTurn(OUT_C,90); //right
+     if(ballFind()){
+      //get the ball already
      }
      
-     mazeTurn(0);
+     singleWheelTurn(OUT_C,90); //right
+     if(ballFind()){
+      //where the hell is it
+     }
      
-     
-     
-     
->>>>>>> 6eb337ccd17d5e302173309605bd2184afde5aae
      Precedes(ballCatch);
 }
 
 void turnHeadTo(int degrees)
 {
     long delta = degrees - MotorRotationCount(OUT_B);
-    if(delta > 0)
-        RotateMotor(OUT_B, 80, delta);
-    else
-        RotateMotor(OUT_B, -80, delta);
+    RotateMotor(OUT_B, 60, delta);
 }
 
-void driveUpToWall()
-{
-     turnHeadTo(0);
-     OnFwdSync(OUT_AC, 30, 0);
-     while(SensorUS(S2));
+void driveUpToNotWall(int look2=0){
+     turnHeadTo(look2);
+     OnFwdSync(OUT_AC, dir*MAX, 0);
+     while(!turnCheck());
      OnFwdSync(OUT_AC, 0, 0);
 }
 
-#endif
+void driveUpToWall(int look=0)
+{
+     turnHeadTo(look);
+     OnFwdSync(OUT_AC, dir*MAX, 0);
+     while(turnCheck());
+     OnFwdSync(OUT_AC, 0, 0);
+}
 
-<<<<<<< HEAD
+void doubleWheelTurn(byte motor, int degrees){
+
+}
+
 void singleWheelTurn(byte motor, int degrees)
 {
-     RotateMotor(motor, MAX, degrees*SINGLE_TURN_ANGLE_TO_ENCODER);
+     RotateMotor(motor, MAX, dir*degrees*);
      Wait(100);
 }
 
@@ -147,21 +155,6 @@ void mazeTurn(){
      }
      
      switchDir();
-=======
-void mazeTurn(int turnDir){ //0 - left, 1 - right
-
-    OnFwdSync(OUT_AC,0,0);
-    Wait(100);
-
-    if(turnDir == 0){
-         RotateMotor(OUT_A,dir*MAX,405); //not 90 yet
-    }
-    else if(turnDir == 1){
-         RotateMotor(OUT_C,dir*MAX,405);
-    }
-    
-    Wait(1000);
->>>>>>> 6eb337ccd17d5e302173309605bd2184afde5aae
 }
 
 int turnCheck(){ //if no need to turn return 1; otherwise return 0
@@ -173,28 +166,13 @@ int turnCheck(){ //if no need to turn return 1; otherwise return 0
     }
 }
 
-#ifdef BALLFIND
-
-task ballFind(){ //detects the ball in a room
-     while(1){
-          //detect ball
-          /*if(ball detected){
-                 ball = 1;
-                 break;
-          }*/
-     }
+int ballFind(){ //detects the ball in a room
+     return 0;
 }
-
-#endif
-
-
-#ifdef BALLCATCH
 
 task ballCatch(){ //moves to the ball in a room and captures it
      //find the ball
 }
-
-#endif
 
 void switchDir(){ //flips the ultrasonic sensor to enable driving in reverse
      if(dir == -1){
@@ -206,8 +184,6 @@ void switchDir(){ //flips the ultrasonic sensor to enable driving in reverse
           dir = -1;
           RotateMotor(OUT_B,30,180);
      }
-     
-     Wait(1000);
 }
 
 void displayNum(int n){ //displays a number
