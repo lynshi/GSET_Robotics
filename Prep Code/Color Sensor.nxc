@@ -1,12 +1,12 @@
 task main(){
   int x;
-  SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
+  SetSensorType(S3, SENSOR_TYPE_LOWSPEED);
   TextOut(10, LCD_LINE2,"Color Detected");
   
   while(true){
-    x = SensorHTColorNum(S1);
-    ClearLine(LCD_LINE3, x);
+    x = SensorHTColorNum(S3);
+    ClearLine(LCD_LINE3);
     NumOut(10, LCD_LINE3,x);
     Wait(500);
-    )
+    }
 }

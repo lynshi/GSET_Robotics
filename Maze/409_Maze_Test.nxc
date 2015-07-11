@@ -14,6 +14,9 @@ Maze Code
 #define FIRSTUS 18
 #define TURNDIST 6
 
+#define SINGLE_TURN_ANGLE_TO_ENCODER 4
+#define DOUBLE_TURN_ANGLE_TO_ENCODER 2
+
 int black, white, lightAvg, dir; //if dir == 1, back; dir == -1, fwd
 int ball = 0; //ball found = 1, no ball yet = 0
 int inMaze = 0; //0 if not in the maze, 1 if in the maze
@@ -25,6 +28,13 @@ void mazeTurn();
 int turnCheck();
 task ballFind();
 task ballCatch();
+
+void turnHeadTo(int degrees);
+
+void singleWheelTurn(byte motor, int degrees);
+//void pointTurn(byte motors, int degrees);
+
+void driveUpToWall();
 
 void switchDir();
 void displayNum(int n);
@@ -70,18 +80,33 @@ task color(){
 #ifdef MAZENAV
 
 task mazeNav(){ //used to navigate the maze
-     while(ball == 0){
-          if(turnCheck()){
-               OnFwdSync(OUT_AC,dir*MAX,0);
-          }
-          else{
-               mazeTurn();
-          }
-     }
      Precedes(ballCatch);
 }
 
+void turnHeadTo(int degrees)
+{
+    long delta = degrees - MotorRotationCount(OUT_B);
+    if(delta > 0)
+        RotateMotor(OUT_B, 80, delta);
+    else
+        RotateMotor(OUT_B, -80, delta);
+}
+
+void driveUpToWall()
+{
+     turnHeadTo(0);
+     OnFwdSync(OUT_AC, 30, 0);
+     while(SensorUS(S2));
+     OnFwdSync(OUT_AC, 0, 0);
+}
+
 #endif
+
+void singleWheelTurn(byte motor, int degrees)
+{
+     RotateMotor(motor, MAX, degrees*SINGLE_TURN_ANGLE_TO_ENCODER);
+     Wait(100);
+}
 
 void mazeTurn(){
      OnFwdSync(OUT_AC,0,0);

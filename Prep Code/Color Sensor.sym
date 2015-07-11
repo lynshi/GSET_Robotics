@@ -1,120 +1,212 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_002main	6	1	0	4	2
-1	__signed_stack_001main	6	1	4	4	4
-2	__D0main	6	1	8	4	6
-3	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	12	4	2
-4	__zfmain	1	1	16	1	3
-5	____initialize_global_data_return	1	1	17	1	3
-6	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	18	1	4
-7	__PFTmp	1	1	19	1	1
-8	__ResetSensorPort	1	1	20	1	3
-9	__constVal0	2	1	21	1	1
-10	__constVal1	2	0	22	1	1
-11	__ResetSensorTmp	1	1	23	1	2
-12	__constVal13	2	0	24	1	1
-13	____ResetSensorSubroutine_return	1	1	25	1	3
-14	__main_7qG2_csr_7qG2_000	8	0	7	20	5
-15	__main_7qG2_csr_7qG2_000.Result	2	1	28	1	5
-16	__main_7qG2_csr_7qG2_000.Port	1	1	29	1	5
-17	__main_7qG2_csr_7qG2_000.ColorValue	4	1	30	2	5
-18	__main_7qG2_csr_7qG2_000.RawArray	7	0	32	4	5
-19	__main_7qG2_csr_7qG2_000.RawArray.RawArray_type	3	0	0	2	0
-20	__main_7qG2_csr_7qG2_000.NormalizedArray	7	0	34	4	5
-21	__main_7qG2_csr_7qG2_000.NormalizedArray.NormalizedArray_type	3	0	0	2	0
-22	__main_7qG2_csr_7qG2_000.ScaledArray	7	0	36	4	5
-23	__main_7qG2_csr_7qG2_000.ScaledArray.ScaledArray_type	4	0	0	2	0
-24	__main_7qG2_csr_7qG2_000.Invalid	1	1	38	1	5
-25	__TextOutArgs	8	0	4	16	6
-26	__TextOutArgs.Result	2	1	40	1	6
-27	__TextOutArgs.Location	8	0	2	4	6
-28	__TextOutArgs.Location.X	4	1	44	2	6
-29	__TextOutArgs.Location.Y	4	1	46	2	6
-30	__TextOutArgs.Text	7	0	48	4	6
-31	__TextOutArgs.Text.Text_type	1	0	0	1	0
-32	__TextOutArgs.Options	5	1	52	4	6
+0	__signed_stack_002main	6	1	0	4	4
+1	__CLSRMutex2	9	0	4	4	2
+2	__signed_stack_001main	6	1	8	4	4
+3	__RLSBmutex2	9	0	12	4	2
+4	__D0main	6	1	16	4	7
+5	__CLSWMutex2	9	0	20	4	2
+6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	2
+7	__CLSCSMutex2	9	0	28	4	2
+8	__main_7qG2_x_7qG2_000	4	1	32	2	2
+9	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	34	1	2
+10	__RLSBIterations2	1	1	35	1	4
+11	__PFTmp	1	1	36	1	1
+12	____initialize_global_data_return	1	1	37	1	3
+13	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	38	1	2
+14	__zfmain	1	1	39	1	2
+15	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	40	1	2
+16	__RLSBytesCount2	1	1	41	1	7
+17	____ReadLSBytes2_return	1	1	42	1	3
+18	__constVal15	2	0	43	1	1
+19	__constVal0	2	1	44	1	3
+20	__RLSBResult2	2	1	45	1	7
+21	__constVal1	2	0	46	1	1
+22	__TextOutArgs	8	0	4	16	16
+23	__TextOutArgs.Result	2	1	48	1	16
+24	__TextOutArgs.Location	8	0	2	4	16
+25	__TextOutArgs.Location.X	4	1	52	2	16
+26	__TextOutArgs.Location.Y	4	1	54	2	16
+27	__TextOutArgs.Text	7	0	56	4	16
+28	__TextOutArgs.Text.Text_type	1	0	0	1	0
+29	__TextOutArgs.Options	5	1	60	4	16
+30	__CLSRArgs2	8	0	4	12	5
+31	__CLSRArgs2.Result	2	1	64	1	5
+32	__CLSRArgs2.Port	1	1	65	1	5
+33	__CLSRArgs2.Buffer	7	0	66	4	5
+34	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+35	__CLSRArgs2.BufferLen	1	1	68	1	5
+36	__CLSWArgs2	8	0	4	12	5
+37	__CLSWArgs2.Result	2	1	72	1	5
+38	__CLSWArgs2.Port	1	1	73	1	5
+39	__CLSWArgs2.Buffer	7	0	74	4	5
+40	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+41	__CLSWArgs2.ReturnLen	1	1	76	1	5
+42	__CLSCSArgs2	8	0	3	4	4
+43	__CLSCSArgs2.Result	2	1	80	1	4
+44	__CLSCSArgs2.Port	1	1	81	1	4
+45	__CLSCSArgs2.BytesReady	1	1	82	1	4
+46	__constStr0009	7	0	84	4	1
+47	__constStr0009.__constStr0009_type	1	1	0	1	0
+48	__RLSLastGoodRead2	7	0	86	4	2
+49	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+50	__RLSReadBuf2	7	0	88	4	8
+51	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+52	__strbufmain	7	0	90	4	2
+53	__strbufmain.__strbufmain_type	1	0	0	1	0
+54	__BlankLine	7	0	92	4	1
+55	__BlankLine.__BlankLine_type	1	0	0	1	0
+56	__RLSBbufLSWrite1	7	0	94	4	1
+57	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	1	0	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	1	0	#line 1 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
 0	2	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	1	2	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	1	2	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	2	2		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
-0	1	5	#line 1 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	3802	5	#line 3802 "NXCDefs.h"
-0	3803	5	#pragma macro 6
-0	3803	5		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
-0	3803	9		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
-0	3803	13		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
-0	3803	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	3575	17	#line 3575 "NXCDefs.h"
-0	3802	17	#line 3802 "NXCDefs.h"
-0	2	17	#line 2 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	4	17	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	5	17		set __main_7qG2_csr_7qG2_000.Port, 0
-0	4	20	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	4	20	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	5	20	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	20	#pragma macro 4
-0	6	20	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	20		syscall 34, __main_7qG2_csr_7qG2_000
-0	4	23	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	4	23	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	4	23	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	4	23	#line 4 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	5	23	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	5	23	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	5	23	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	23		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.Result
-0	5	25	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	5	25	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	25		set __D0main, 0
-0	5	28	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	28		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	5	32	#line 5 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	32		mov __D0main, __zfmain
-0	6	34	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	7	34		brtst 4, __NXC_Label_495, __zfmain
-0	6	37	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	7	37		set __signed_stack_001main, 0
-0	6	40	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	40	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	7	40		set __signed_stack_002main, 56
-0	6	43	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	6	43	#line 6 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	7	43		mov __D0main, __main_7qG2_csr_7qG2_000.ColorValue
-0	7	45	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	7	45	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	45		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	7	47	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	47		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	7	49	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	49		set __TextOutArgs.Options, 0
-0	7	52	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	52		numtostr __TextOutArgs.Text, __D0main
-0	7	55	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	55		syscall 13, __TextOutArgs
-0	7	58	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	58		mov __D0main, __TextOutArgs.Result
-0	7	60	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	7	60	#line 7 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	60	#line 8 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	8	60	#line 8 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	9	60		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
-0	8	63	#line 8 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	7921	63	#line 7921 "NXCDefs.h"
-0	7922	63		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	66	#line 7921 "NXCDefs.h"
-0	9	66	#line 9 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-0	10	66		exit -1, -1
-1	4885	0		setin __constVal1, __ResetSensorPort, 5
-1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-1	4889	11		subret ____ResetSensorSubroutine_return
-2	12	0	#line 12 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc"
-2	13	0		subret ____initialize_global_data_return
+0	1	2	#line 1 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	2	2	#line 2 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	3	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 2
+0	2	5	#line 2 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	2	5	#line 2 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	3	5		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 10
+0	2	8	#line 2 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	3663	8	#line 3663 "NXCDefs.h"
+0	3664	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	12	#line 3663 "NXCDefs.h"
+0	3	12	#line 3 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	3	12	#line 3 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	4	12		set __signed_stack_001main, 10
+0	3	15	#line 3 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	3	15	#line 3 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	4	15		set __signed_stack_002main, 48
+0	3	18	#line 3 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	3	18	#line 3 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	4	18		strcat __strbufmain, __constStr0009
+0	5	22	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	5	22	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	22		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	5	24	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	24		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	5	26	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	26		set __TextOutArgs.Options, 0
+0	5	29	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	29		mov __TextOutArgs.Text, __strbufmain
+0	5	31	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	31		syscall 13, __TextOutArgs
+0	5	34	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	34		mov __D0main, __TextOutArgs.Result
+0	5	36	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	5	36	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	5	36	#line 5 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	36		set __D0main, 1
+0	6	39	#line 6 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	7	39		tst 5, __zfmain, __D0main
+0	6	42	#line 6 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	7	42		brtst 4, __NXC_Label_498, __zfmain
+0	6	45	#line 6 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	7	45	#pragma macro 24
+0	7	45		acquire __RLSBmutex2
+0	7	46		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	7	48		set __RLSBytesCount2, 1
+0	7	51		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	7	53		index __D0main, __RLSReadBuf2, 65535
+0	7	57		release __RLSBmutex2
+0	3675	58	#line 3675 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	58	#line 6 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	7	58		mov __main_7qG2_x_7qG2_000, __D0main
+0	6	60	#line 6 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6	60	#line 6 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	7	60	#line 7 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	8	60		set __ClearLine_7qG2_line_7qG2_000_inline_main, 40
+0	7	63	#line 7 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	6076	63	#line 6076 "NXCDefs.h"
+0	6077	63	#pragma macro 7
+0	6077	63		mov __TextOutArgs.Location.X, __constVal0
+0	6077	65		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	67		mov __TextOutArgs.Options, __constVal0
+0	6077	69		mov __TextOutArgs.Text, __BlankLine
+0	6077	71		syscall 13, __TextOutArgs
+0	3693	74	#line 3693 "NXCDefs.h"
+0	6076	74	#line 6076 "NXCDefs.h"
+0	8	74	#line 8 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	8	74	#line 8 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	9	74		set __signed_stack_001main, 10
+0	8	77	#line 8 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	8	77	#line 8 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	9	77		set __signed_stack_002main, 40
+0	8	80	#line 8 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	8	80	#line 8 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	9	80		mov __D0main, __main_7qG2_x_7qG2_000
+0	9	82	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	9	82	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	10	82		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	9	84	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	10	84		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	9	86	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	10	86		set __TextOutArgs.Options, 0
+0	9	89	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	10	89		numtostr __TextOutArgs.Text, __D0main
+0	9	92	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	10	92		syscall 13, __TextOutArgs
+0	9	95	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	9	95	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	9	95	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	9	95	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	10	95		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	9	98	#line 9 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	7921	98	#line 7921 "NXCDefs.h"
+0	7922	98		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	101	#line 7921 "NXCDefs.h"
+0	10	101	#line 10 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	13	101	#line 13 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	14	101		jmp __NXC_Label_497
+0	13	103	#line 13 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+0	14	103		exit -1, -1
+1	5747	0	#pragma macro 25
+1	5747	0		acquire __CLSWMutex2
+1	5747	1		set __CLSWArgs2.Port, 2
+1	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+1	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+1	5747	8		syscall 21, __CLSWArgs2
+1	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
+1	5747	13		release __CLSWMutex2
+1	5747	14	#line 5747 "NXTDefs.h"
+1	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
+1	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+1	5750	21		brtst 5, __RLSBError2, __RLSBResult2
+1	5751	24		set __RLSBIterations2, 4
+1	5753	27	#pragma macro 23
+1	5753	27		acquire __CLSCSMutex2
+1	5753	28		set __CLSCSArgs2.Port, 2
+1	5753	31		syscall 23, __CLSCSArgs2
+1	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+1	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
+1	5753	38		release __CLSCSMutex2
+1	5753	39	#line 5753 "NXTDefs.h"
+1	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+1	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
+1	5756	46		brtst 0, __RLSBError2, __RLSBResult2
+1	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+1	5759	52		wait2 NA, __constVal15
+1	5760	55		jmp __RLSBDoCheckStatus2
+1	5763	57	#pragma macro 25
+1	5763	57		acquire __CLSRMutex2
+1	5763	58		set __CLSRArgs2.Port, 2
+1	5763	61		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+1	5763	63		syscall 22, __CLSRArgs2
+1	5763	66		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+1	5763	68		mov __RLSBResult2, __CLSRArgs2.Result
+1	5763	70		release __CLSRMutex2
+1	5763	71	#line 5763 "NXTDefs.h"
+1	5764	71		brtst 5, __RLSBError2, __RLSBResult2
+1	5765	74		mov __RLSLastGoodRead2, __RLSReadBuf2
+1	5766	76		jmp __RLSBDone2
+1	5768	78		mov __RLSReadBuf2, __RLSLastGoodRead2
+1	5770	80		arrsize __RLSBytesCount2, __RLSReadBuf2
+1	5772	83		subret ____ReadLSBytes2_return
+2	14	0	#line 14 "C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc"
+2	15	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc
-1	__ResetSensorSubroutine	69	NXTDefs.h
-2	__initialize_global_data	82	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\Color Sensor.nxc
+0	main	0	C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc
+1	__ReadLSBytes2	106	NXTDefs.h
+2	__initialize_global_data	191	C:\Users\Edward\Documents\GitHub\GSET_Robotics\Prep Code\Color Sensor.nxc
