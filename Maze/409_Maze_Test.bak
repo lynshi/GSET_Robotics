@@ -6,8 +6,8 @@ Maze Code
 #define MAX 60
 #define RATIO 2
 #define OBST 18
-#define TURNDIST 15
-#define BALLDIST 18
+#define TURNDIST 13
+#define BALLDIST 8
 
 #define SINGLE_TURN_ANGLE_TO_ENCODER 4.8
 #define DOUBLE_TURN_ANGLE_TO_ENCODER_LEFT 2.65
@@ -45,14 +45,16 @@ void calibration();
 task main(){
      SetSensorLight(S1,1);
      SetSensorUltrasonic(S2);
-     SetSensorType(S3, SENSOR_TYPE_LOWSPEED);
-     SetSensorType(S4, SENSOR_TYPE_LOWSPEED);
+     SetSensorType(S3, SENSOR_TYPE_LOWSPEED); //color
+     SetSensorType(S4, SENSOR_TYPE_LOWSPEED); //IR
      calibration(); //calibrates black and white for line following
      //Precedes(lineFollow); //color too
      //OnFwdSync(OUT_AC,dir*30,0);
      //Wait(1500);
 
-     
+     black = 19;
+     white = 45;
+     lightAvg = (black + white) / 2;
      /*while(1){
      doubleWheelTurn(90);
      Wait(500);
@@ -64,13 +66,18 @@ task main(){
 }
 
 task lineFollow(){ //follows line to get into maze
-     while(mode == 1){ //change to color sensor
-          if(SensorUS(S2) <= OBST){
+     while(mode == 1 || mode == 0){ //change to color sensor
+          if(mode == 0){
+               OnFwdSync(OUT_AC,0,0);
+               continue;
+          }
+
+          /*if(SensorUS(S2) <= OBST){
                doubleWheelTurn(90);
                while(SENSOR_1 > lightAvg){
                     OnFwdSync(OUT_AC,MAX*dir,15);
                }
-          }
+          }   */
           if(SENSOR_1 > lightAvg){
                OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
                OnFwd(OUT_A,dir*MAX);
@@ -81,27 +88,35 @@ task lineFollow(){ //follows line to get into maze
           }
      }
 
-     PlayTone(440,250);
      OnFwd(OUT_AC,0);
-     Wait(4000);
+     //PlayTone(440,250);
+     Wait(1000);
      Precedes(mazeNav); //ballFind too
 }
 
 task color(){
-  while(mode == 1){
+    //Wait(1000);
+    while(mode == 1){
+         if (SensorHTColorNum(S3) == 2 || SensorHTColorNum(S3) == 3)
+         {
+             PlayTone(440,250);
+             Wait(4000);
+         }
 
-    if (SensorHTColorNum(S3) == 2 || SensorHTColorNum(S3) == 3)
-    {
-        PlayTone(440,250);
-        Wait(2000);
-    }
-
-    else if((SensorHTColorNum(S3)) >= 7 && (SensorHTColorNum(S3) <= 9))
-    {
-        mode = 2;
-    }
-  }
-
+         else if(SensorHTColorNum(S3) == 9)
+         {
+              mode = 2;
+              /*mode = 0;
+              Wait(500);
+              if(SensorHTColorNum(S3) >= 7 && SensorHTColorNum(S3) <= 9){
+                   mode = 2;
+              }
+              else{
+                   mode = 1;
+              }  */
+         }
+         //displayNum(SensorHTColorNum(
+     }
 }
 
 task mazeNav(){ //used to navigate the maze
@@ -110,6 +125,9 @@ task mazeNav(){ //used to navigate the maze
      driveUpToWall(); //enter room 1
      doubleWheelTurn(90); //right
      if(ballFind()){
+         //PlayTone(440,250);
+         //Wait(100000000;
+     
          ballCatch();
          //doubleWheelTurn(90);
          //driveUpToNotWall(-90);
@@ -131,6 +149,9 @@ task mazeNav(){ //used to navigate the maze
      doubleWheelTurn(-90); //left
      if(ballFind()){
           //go get the damn ball
+          //PlayTone(440,250);
+         //Wait(100000000;
+          
           ballCatch();
           //doubleWheelTurn(-90);
           //driveUpToNotWall(90);
@@ -157,6 +178,10 @@ task mazeNav(){ //used to navigate the maze
      
      if(ballFind()){
       //get the ********* ball
+          //PlayTone(440,250);
+         //Wait(100000000;
+      
+      
           ballCatch();
           
           if(ballFind() > 5){ //ball is in far left corner
@@ -168,7 +193,7 @@ task mazeNav(){ //used to navigate the maze
                OnFwdSync(OUT_AC,MAX*dir,0);
                Wait(5000);
                OnFwdSync(OUT_AC,0,0);
-               Wait(203940234)
+               Wait(203940234);
           }
           else if(ballFind() < 5){
                driveUpToWall();
@@ -182,7 +207,7 @@ task mazeNav(){ //used to navigate the maze
                OnFwdSync(OUT_AC,MAX*dir,0);
                Wait(5000);
                OnFwdSync(OUT_AC,0,0);
-               Wait(203940234)
+               Wait(203940234);
           }
           
           
@@ -197,19 +222,22 @@ task mazeNav(){ //used to navigate the maze
      doubleWheelTurn(180); //turn around
      if(ballFind()){
       //get the ball already
+          //PlayTone(440,250);
+         //Wait(100000000;
+      
           ballCatch();
           switchDir();
           doubleWheelTurn(90); //right
-          DriveUpToWall();
+          driveUpToWall();
           doubleWheelTurn(-90); //left
-          DriveUpToWall();
+          driveUpToWall();
           doubleWheelTurn(-90); //left
           driveUpToNotWall(-90);
           doubleWheelTurn(90); //right
           OnFwdSync(OUT_AC,MAX*dir,0);
           Wait(5000);
           OnFwdSync(OUT_AC,0,0);
-          Wait(203940234)
+          Wait(203940234);
           
           /*doubleWheelTurn(90); // right
           driveUpToWall();
@@ -312,9 +340,10 @@ int ballFind(){ //detects the ball in a room
 void ballCatch(){ //moves to the ball in a room and captures it
      //get the ball
      //1 is right
+     PlayTone(440,250);
      if(SensorHTIRSeekerDir(S4) < 5){
           for(int i = 0; i < 91; i++){
-               doubleWheelTurn(i);
+               doubleWheelTurn(1);
                if(SensorHTIRSeekerDir(S4) == 5){
                     ballAngle = i;
                     break;
@@ -323,7 +352,7 @@ void ballCatch(){ //moves to the ball in a room and captures it
      }
      else if(SensorHTIRSeekerDir(S4) > 5){
           for(int i = 0; i < 91; i++){
-               doubleWheelTurn(-i);
+               doubleWheelTurn(-1);
                if(SensorHTIRSeekerDir(S4) == 5){
                     ballAngle = i;
                     break;
@@ -332,7 +361,7 @@ void ballCatch(){ //moves to the ball in a room and captures it
      }
 
      while(SensorUS(S2) > BALLDIST){
-          OnFwdSync(OUT_AC,MAX/2.0,0);
+          OnFwdSync(OUT_AC,dir*MAX/2.0,0);
      }
      
      turnHeadTo(360); //not sure if does circle
