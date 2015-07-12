@@ -6,8 +6,8 @@ Maze Code
 #define MAX 60
 #define RATIO 2
 #define OBST 18
-#define TURNDIST 20
-#define BALLDIST 20
+#define TURNDIST 15
+#define BALLDIST 18
 
 #define SINGLE_TURN_ANGLE_TO_ENCODER 4.8
 #define DOUBLE_TURN_ANGLE_TO_ENCODER_LEFT 2.65
@@ -89,14 +89,13 @@ task lineFollow(){ //follows line to get into maze
 
 task color(){
   while(mode == 1){
-
-    if (SensorHTColorNum(S3) == 2 || SensorHTColorNum(S3) == 3)
+    if ((SensorHTColorNum(S1)) == 2 || (SensorHTColorNum(S1) == 3)
     {
         PlayTone(440,250);
-        Wait(2000);
+        Wait(4000);
     }
 
-    else if((SensorHTColorNum(S3)) >= 7 && (SensorHTColorNum(S3) <= 9))
+    else if(SensorHTColorNum(S1) == 8)
     {
         mode = 2;
     }
