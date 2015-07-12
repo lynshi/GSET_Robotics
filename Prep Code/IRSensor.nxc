@@ -81,12 +81,12 @@ task main()
   int dir;
   int strength;
 
-  SetSensorLowspeed(S1);
+  SetSensorLowspeed(S4);
 
   TextOut(0, LCD_LINE1, "Demo EIRSeekerV2");
 
   while(true) {
-    HTEnhancedIRSeekerV2(S1, dir, strength);
+    HTEnhancedIRSeekerV2(S4, dir, strength);
     TextOut(0, LCD_LINE3, "Edir:  ");
     NumOut(6*5, LCD_LINE3, dir);
     TextOut(6*7, LCD_LINE3, "Estr:     ");

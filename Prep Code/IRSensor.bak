@@ -81,7 +81,7 @@ task main()
   int dir;
   int strength;
 
-  SetSensorLowspeed(S1);
+  SetSensorLowspeed(S4);
 
   TextOut(0, LCD_LINE1, "Demo EIRSeekerV2");
 

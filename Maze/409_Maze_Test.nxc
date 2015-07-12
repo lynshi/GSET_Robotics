@@ -4,21 +4,21 @@ Maze Code
 */
 
 #define MAX 60
-#define RATIO 2
-#define OBST 18
+#define RATIO 2.0
+#define OBST 15
 #define TURNDIST 13
-#define BALLDIST 8
+#define BALLDIST 15
 
 #define SINGLE_TURN_ANGLE_TO_ENCODER 4.8
-#define DOUBLE_TURN_ANGLE_TO_ENCODER_LEFT 2.65
-#define DOUBLE_TURN_ANGLE_TO_ENCODER_RIGHT 3.2
+#define DOUBLE_TURN_ANGLE_TO_ENCODER_LEFT 2.5
+#define DOUBLE_TURN_ANGLE_TO_ENCODER_RIGHT 3.35
 
-int black, white, lightAvg;
+int black, white, lightAvg, IRdir, strength;
 int dir = -1; //if dir == 1, back; dir == -1, fwd
 int ball = 0; //ball found = 1, no ball yet = 0
 int inMaze = 0; //0 if not in the maze, 1 if in the maze
 int ballAngle; //stores turn angle made to get the ball
-
+int obstDone = 0;
 int mode = 1;
 
 task lineFollow();
@@ -28,6 +28,7 @@ void mazeTurn();
 int turnCheck();
 int ballFind();
 void ballCatch();
+void HTEnhancedIRSeekerV2(const byte  port, int &dir, int &strength);
 
 void turnHeadTo(int degrees);
 
@@ -43,18 +44,20 @@ void displayNum(int n);
 void calibration();
 
 task main(){
-     SetSensorLight(S1,1);
-     SetSensorUltrasonic(S2);
-     SetSensorType(S3, SENSOR_TYPE_LOWSPEED); //color
-     SetSensorType(S4, SENSOR_TYPE_LOWSPEED); //IR
-     //calibration(); //calibrates black and white for line following
-     //Precedes(lineFollow); //color too
-     //OnFwdSync(OUT_AC,dir*30,0);
-     //Wait(1500);
 
      black = 19;
      white = 45;
      lightAvg = (black + white) / 2;
+     SetSensorLight(S1,1);
+     SetSensorUltrasonic(S2);
+     SetSensorType(S3, SENSOR_TYPE_LOWSPEED); //color
+     SetSensorType(S4, SENSOR_TYPE_LOWSPEED); //IR
+     calibration(); //calibrates black and white for line following
+     //Precedes(lineFollow); //color too
+     //OnFwdSync(OUT_AC,dir*30,0);
+     //Wait(1500);
+
+
      /*while(1){
      doubleWheelTurn(90);
      Wait(500);
@@ -66,18 +69,20 @@ task main(){
 }
 
 task lineFollow(){ //follows line to get into maze
-     while(mode == 1 || mode == 0){ //change to color sensor
-          if(mode == 0){
-               OnFwdSync(OUT_AC,0,0);
-               continue;
-          }
-
-          /*if(SensorUS(S2) <= OBST){
+     while(mode == 1){ //change to color sensor
+          if(SensorUS(S2) <= OBST && obstDone == 0){
+               obstDone = 1;
                doubleWheelTurn(90);
+               OnFwdSync(OUT_AC,MAX*dir,0);
+               Wait(1400);
+               doubleWheelTurn(-90);
+               OnFwdSync(OUT_AC,MAX*dir,0);
+               Wait(1700);
+               doubleWheelTurn(-90);
                while(SENSOR_1 > lightAvg){
-                    OnFwdSync(OUT_AC,MAX*dir,15);
+                   OnFwd(OUT_AC, MAX*dir/2);
                }
-          }   */
+          }
           if(SENSOR_1 > lightAvg){
                OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
                OnFwd(OUT_A,dir*MAX);
@@ -127,7 +132,8 @@ task mazeNav(){ //used to navigate the maze
      if(ballFind()){
          //PlayTone(440,250);
          //Wait(100000000;
-     
+
+         OnFwdSync(OUT_AC,0,0);
          ballCatch();
          //doubleWheelTurn(90);
          //driveUpToNotWall(-90);
@@ -151,7 +157,6 @@ task mazeNav(){ //used to navigate the maze
           //go get the damn ball
           //PlayTone(440,250);
          //Wait(100000000;
-          
           ballCatch();
           //doubleWheelTurn(-90);
           //driveUpToNotWall(90);
@@ -175,6 +180,7 @@ task mazeNav(){ //used to navigate the maze
      singleWheelTurn(OUT_C,90); //right
      OnFwdSync(OUT_AC,-30,0);
      Wait(1750);
+     turnHeadTo(0);
      
      if(ballFind()){
       //get the ********* ball
@@ -280,6 +286,10 @@ void driveUpToWall(int look=0)
      else if(dir == 1 && look == 0){
           turnHeadTo(180);
      }
+     else{
+          turnHeadTo(look);
+     }
+     
      OnFwdSync(OUT_AC, dir*MAX, 0);
      while(turnCheck());
      OnFwdSync(OUT_AC, 0, 0);
@@ -334,47 +344,134 @@ int turnCheck(){ //if no need to turn return 1; otherwise return 0
 }
 
 int ballFind(){ //detects the ball in a room
-     return SensorHTIRSeekerDir(S4);
+     HTEnhancedIRSeekerV2(S4,IRdir,strength);
+     if(strength > 65){
+          return IRdir;
+     }
+     else{
+          return 0;
+     }
 }
+
+void HTEnhancedIRSeekerV2(const byte  port, int &dir, int &strength)
+{
+  int cResp;
+  byte cmdBuf[] = {0x10, 0x43};  // Read DC signal strengths (skip the dir)
+  byte respBuf[];                 // Response Buffer
+  bool fSuccess;
+  int i, iMax;
+  long dcSigSum, dcStr;
+
+  dir = 0;
+  strength = 0;
+
+  // Read DC mode
+  cResp=6;
+  fSuccess = I2CBytes(port, cmdBuf, cResp, respBuf);
+  if (fSuccess) {
+    // Find the max DC sig strength
+    iMax = 0;
+    for (i=1; i<5; i++) if (respBuf[i] > respBuf[iMax]) iMax = i;
+    // Calc base DC direction value
+    dir = iMax*2+1;
+    // Set base dcStrength based on max signal and average
+    dcSigSum = respBuf[iMax] + respBuf[5];
+    // Check signal strength of neighboring sensor elements
+    if ((iMax > 0) && (respBuf[iMax-1] > respBuf[iMax]/2)) {
+        dir--;
+        dcSigSum += respBuf[iMax-1];
+    }
+    if ((iMax < 4) && (respBuf[iMax+1] > respBuf[iMax]/2)) {
+        dir++;
+        dcSigSum += respBuf[iMax+1];
+    }
+    // Make DC strength compatible with AC strength. use: sqrt(dcSigSum*500)
+    dcSigSum *= 500; dcStr = 1;
+    repeat(10) dcStr = (dcSigSum/dcStr + dcStr) / 2;  // sqrt approx
+    strength = dcStr;
+    // Decide if using DC strength or should read and use AC strength
+    if (strength <= 200) {
+      // Use AC Dir
+      dir = 0; strength = 0;
+      cmdBuf[1] = 0x49; // Recycle rest of cmdBuf from the DC read operation
+      cResp=6;
+      fSuccess = I2CBytes(port, cmdBuf, cResp, respBuf);
+      if (fSuccess) {
+        dir = respBuf[0];
+        // Sum the sensor elements to get strength
+        if (dir > 0) for (i=1; i<=5; i++) strength += respBuf[i];
+      }
+    }
+  }
+}
+
+/*void ballCatch(){
+     PlayTone(440,250);
+     while(SensorUS(S2) > BALLDIST){
+          if(ballFind() > 5){ //turn right
+               OnFwd(OUT_A,dir*MAX/2);
+               OnFwd(OUT_C,0);
+          }
+          else if(ballFind() <= 5{ //turn left
+               OnFwd(OUT_A,0);
+               OnFwd(OUT_C,dir*MAX/2);
+          }
+     }
+     
+     OnFwdSync(OUT_AC,0,0);
+     turnHeadTo(360); //not sure if does circle
+     turnHeadTo(180);
+     dir = 1;
+     
+}*/
 
 void ballCatch(){ //moves to the ball in a room and captures it
      //get the ball
      //1 is right
-     PlayTone(440,250);
-     if(SensorHTIRSeekerDir(S4) < 5){
-          for(int i = 0; i < 91; i++){
-               doubleWheelTurn(1);
-               if(SensorHTIRSeekerDir(S4) == 5){
+     if(ballFind() < 5){
+          for(int i = 0; i < 91; i += 5){
+               doubleWheelTurn(5);
+               if(ballFind() == 4){
                     ballAngle = i;
                     break;
                }
           }
      }
-     else if(SensorHTIRSeekerDir(S4) > 5){
-          for(int i = 0; i < 91; i++){
-               doubleWheelTurn(-1);
-               if(SensorHTIRSeekerDir(S4) == 5){
+     else if(ballFind() > 5){
+          for(int i = 0; i > -91; i -= 5){
+               doubleWheelTurn(-5);
+               if(ballFind() == 4){
                     ballAngle = i;
                     break;
                }
           }
      }
 
-     while(SensorUS(S2) > BALLDIST){
-          OnFwdSync(OUT_AC,dir*MAX/2.0,0);
-     }
+     /*while(SensorUS(S2) > BALLDIST){
+          if(ballFind() > 5){ //turn right
+               OnFwd(OUT_A,dir*MAX/2);
+               OnFwd(OUT_C,dir*MAX/2-5);
+          }
+          else if(ballFind() <= 5){ //turn left
+               OnFwd(OUT_A,dir*MAX/2-5);
+               OnFwd(OUT_C,dir*MAX/2);
+          }
+     } */
+     
+     OnFwd(OUT_AC,dir*100);
+
+     Wait(3000);
      
      turnHeadTo(360); //not sure if does circle
      
-     /*
-     turnHeadTo(359);
-     turnHeadTo();
-     */
      
      turnHeadTo(180);
-     doubleWheelTurn(-ballAngle);
+     //doubleWheelTurn(-ballAngle);
      dir = 1;
+     PlayTone(440,250);
+     Wait(1000000000000);
 }
+
 
 void switchDir(){ //flips the ultrasonic sensor to enable driving in reverse
      if(dir == -1){

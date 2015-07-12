@@ -114,7 +114,7 @@ Clump	Line	PC	Source
 0	81	0		subcall __initialize_global_data, ____initialize_global_data_return
 0	80	2	#line 80 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
 0	83	2	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
-0	84	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	84	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
 0	83	5	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
 0	85	5	#line 85 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
 0	86	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
@@ -189,7 +189,7 @@ Clump	Line	PC	Source
 0	88	74	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
 0	89	74		brtst 4, __NXC_Label_615, __zfmain
 0	88	77	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
-0	89	77		set __HTEnhancedIRSeekerV2_7qG2_port_7qG2_000, 0
+0	89	77		set __HTEnhancedIRSeekerV2_7qG2_port_7qG2_000, 3
 0	88	80	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
 0	88	80	#line 88 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Prep Code\IRSensor.nxc"
 0	89	80		mov __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __main_7qG2_dir_7qG2_000
