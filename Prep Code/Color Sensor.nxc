@@ -11,8 +11,11 @@ task main(){
         Wait(4000);
     }
     
-    else if((SensorHTColorNum(S1)) >= 7 && (SensorHTColorNum(S1) <= 9))
+    else if(SensorHTColorNum(S1) == 8)
     {
         mode = 2;
     }
-        
+      
+  }
+  
+}
