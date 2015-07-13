@@ -52,7 +52,7 @@ task main(){
      SetSensorUltrasonic(S2);
      SetSensorType(S3, SENSOR_TYPE_LOWSPEED); //color
      SetSensorType(S4, SENSOR_TYPE_LOWSPEED); //IR
-     calibration(); //calibrates black and white for line following
+     //calibration(); //calibrates black and white for line following
      //Precedes(lineFollow); //color too
      //OnFwdSync(OUT_AC,dir*30,0);
      //Wait(1500);
@@ -73,15 +73,18 @@ task lineFollow(){ //follows line to get into maze
           if(SensorUS(S2) <= OBST && obstDone == 0){
                obstDone = 1;
                doubleWheelTurn(90);
-               OnFwdSync(OUT_AC,MAX*dir,0);
-               Wait(1400);
-               doubleWheelTurn(-90);
-               OnFwdSync(OUT_AC,MAX*dir,0);
-               Wait(1700);
-               doubleWheelTurn(-90);
+               OnFwd(OUT_A,MAX*dir);
+               OnFwd(OUT_C,0.48*dir*MAX);
+               Wait(1000);
                while(SENSOR_1 > lightAvg){
-                   OnFwd(OUT_AC, MAX*dir/2);
+
                }
+               /*Wait(850);
+               doubleWheelTurn(-80);
+               while(SENSOR_1 > lightAvg){
+                    OnFwdSync(OUT_AC,MAX*dir,0);
+               }          */
+               doubleWheelTurn(30);
           }
           if(SENSOR_1 > lightAvg){
                OnFwd(OUT_C,dir*MAX - dir*MAX*RATIO*(SENSOR_1 - lightAvg)/(white - lightAvg));
@@ -132,11 +135,8 @@ task mazeNav(){ //used to navigate the maze
      if(ballFind()){
          //PlayTone(440,250);
          //Wait(100000000;
-         while(SensorUS(S2) > 2*TURNDIST){
-            OnFwdSync(OUT_AC,MAX*dir/2,0);
-         }
-         
-         OnFwdSync(OUT_AC,0,0);
+
+         //OnFwdSync(OUT_AC,0,0);
          ballCatch();
          //doubleWheelTurn(90);
          //driveUpToNotWall(-90);
@@ -464,6 +464,7 @@ void ballCatch(){ //moves to the ball in a room and captures it
      OnFwd(OUT_AC,dir*100);
 
      Wait(3000);
+     OnFwd(OUT_AC,0);
      
      turnHeadTo(360); //not sure if does circle
      
@@ -471,6 +472,7 @@ void ballCatch(){ //moves to the ball in a room and captures it
      turnHeadTo(180);
      //doubleWheelTurn(-ballAngle);
      dir = 1;
+
      PlayTone(440,250);
      Wait(1000000000000);
 }
