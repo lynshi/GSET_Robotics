@@ -1,0 +1,94 @@
+//DOES NOT USE US FOR NAV
+
+#define LM OUT_A //left motor
+#define RM OUT_C //right motor
+
+#define RTR 18.1 //right turn ratio
+#define LTR 16 //left turn ratio
+
+#define FLSP S1 //Front Light Sensor Port, RCX
+#define BLSP S2 //Back Light Sensor Port, crappy one
+#define USSP S3 //Ultrasonic Sensor Port
+#define TSP S4 //Touch Sensor Port
+
+#define FLST 350 //Front Light Sensor Threshold
+#define BLST 35 //Back Light Sensor Threshold
+
+#define FLSM SENSOR_1 //Front Light Sensor Measurement, RCX
+#define BLSM SENSOR_2 //Back Light Sensor Measurement, crappy one
+
+// Flags
+int FLSF = 0;  // Front Light Sensor Flag: 0 - good, 1 - running into something, 2 - being pushed out
+int BLSF = 0; // Back Light Sensor Flag
+int TSF = 0;   // Touch Sensor Flag
+int mode = 0; //controls robot response
+int dir = 1; //controls direction of motors; 1 = forward, -1 = backward
+int max = 100; //maximum forward power
+int count = 0; //counts how many times the robot has traversed the ring
+
+task move(); //movement around the ring
+task checkLights(); //detects flags and sets priorities for response
+void flipDir(); //flips the direction of movement
+void moveFwd();
+
+task main(){
+     SetSensorType(FLSP,SENSOR_TYPE_LIGHT);
+     SetSensorLight(BLSP,1);
+     //SetSensorUltrasonic(USSP);
+     //SET TOUCH HERE <---------------------------------------------------------------------------
+     Precedes(move, checkLights);
+}
+
+task move(){
+     while(1){
+          if(dir == 1){
+               if(FLSF == 1){ //if hits edge while moving "forward"
+                    flipDir();
+                    FLSF = 0;
+               }
+               else{
+                    moveFwd();
+               }
+          }
+          else if(dir == -1){
+               if(BLSF == 1){ //if hits edge while moving "forward"
+                    flipDir();
+                    BLSF = 0;
+               }
+               else{
+                    moveFwd();
+               }
+               //TextOut(0,2,"BACK");
+               //Wait(10000);
+          }
+     }
+}
+
+task checkLights(){
+     while(1){
+          if(dir == 1){ //if moving forward
+               if(FLSM >= FLST){ //if edge hit while going forward, reverse direction
+                    FLSF = 1;
+               }
+               else{
+                    FLSF = 0;
+               }
+          }
+          else if(dir == -1){ //if moving backward
+               if(BLSM >= BLST){ //if edge hit while moving "backward", reverse direction
+                    BLSF = 1;
+               }
+               else{
+                    BLSF = 0;
+               }
+          }
+     }
+}
+
+void flipDir(){ //flips the direction of the robot
+     dir *= -1;
+}
+
+void moveFwd(){
+     OnFwdSync(OUT_AC,max*dir,-100*dir);
+}

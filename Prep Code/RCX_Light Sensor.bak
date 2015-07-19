@@ -2,6 +2,6 @@ task main(){
      SetSensorType(S1,SENSOR_TYPE_LIGHT);
      while(1){
               TextOut(0,2,NumToStr(SENSOR_1));
-              //Wait(1000);
+              Wait(1000);
      }
 }
