@@ -1,317 +1,328 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0moveFwd	6	1	0	4	4
-1	__D0SetSensorLight_inline_main	6	1	4	4	3
-2	__D0checkLights	6	1	8	4	14
-3	__D0move	6	1	12	4	14
-4	__DU0SetSensorLight_inline_main	5	1	16	4	2
-5	__signed_stack_001moveFwd	6	1	20	4	2
-6	__signed_stack_002moveFwd	6	1	24	4	2
-7	__signed_stack_001checkLights	6	1	28	4	8
-8	__signed_stack_001move	6	1	32	4	8
-9	BLSF	4	1	36	2	4
-10	FLSF	4	1	38	2	4
-11	max	4	0	40	2	1
-12	dir	4	0	42	2	8
-13	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	44	1	2
-14	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	45	1	2
-15	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	46	1	2
-16	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	47	1	4
-17	____initialize_global_data_return	1	1	48	1	3
-18	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	49	1	2
-19	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	50	1	2
-20	__constValNeg1	2	0	51	1	3
-21	__constVal96	2	0	52	1	1
-22	__constVal63	2	0	53	1	1
-23	__moveFwd_return	1	1	54	1	4
-24	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	55	1	2
-25	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	56	1	2
-26	__flipDir_return	1	1	57	1	4
-27	__ResetSensorPort	1	1	58	1	3
-28	__zfSetSensorLight_inline_main	1	1	59	1	2
-29	__constVal0	2	1	60	1	2
-30	__ResetSensorTmp	1	1	61	1	2
-31	__constVal2	2	0	62	1	1
-32	__zfmove	1	1	63	1	14
-33	____ResetSensorSubroutine_return	1	1	64	1	3
-34	__constVal100	2	0	65	1	1
-35	__constVal7	2	0	66	1	1
-36	__PFTmp	1	1	67	1	1
-37	__zfcheckLights	1	1	68	1	14
-38	__constVal1	2	0	69	1	2
-39	__constVal32	2	0	70	1	3
-40	__OUT_AC	7	0	72	4	1
-41	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+0	__D0SetSensorLight_inline_main	6	1	0	4	3
+1	__DU0SetSensorLight_inline_main	5	1	4	4	2
+2	__D0moveFwd	6	1	8	4	4
+3	__D0checkLights	6	1	12	4	14
+4	__D0move	6	1	16	4	14
+5	__signed_stack_002moveFwd	6	1	20	4	2
+6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	2
+7	__signed_stack_001moveFwd	6	1	28	4	2
+8	__signed_stack_001checkLights	6	1	32	4	8
+9	__signed_stack_001move	6	1	36	4	8
+10	BLSF	4	1	40	2	4
+11	FLSF	4	1	42	2	4
+12	max	4	0	44	2	1
+13	dir	4	0	46	2	8
+14	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	48	1	4
+15	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	49	1	2
+16	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	50	1	2
+17	__moveFwd_return	1	1	51	1	5
+18	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	52	1	2
+19	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	53	1	2
+20	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	54	1	2
+21	__constValNeg1	2	0	55	1	3
+22	__constVal96	2	0	56	1	1
+23	__constVal63	2	0	57	1	1
+24	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	58	1	2
+25	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	59	1	2
+26	__flipDir_return	1	1	60	1	4
+27	____initialize_global_data_return	1	1	61	1	3
+28	__zfSetSensorLight_inline_main	1	1	62	1	2
+29	__ResetSensorPort	1	1	63	1	3
+30	__constVal0	2	1	64	1	2
+31	__ResetSensorTmp	1	1	65	1	2
+32	__zfmove	1	1	66	1	14
+33	__constVal2	2	0	67	1	1
+34	____ResetSensorSubroutine_return	1	1	68	1	3
+35	__zfcheckLights	1	1	69	1	14
+36	__PFTmp	1	1	70	1	1
+37	__constVal7	2	0	71	1	1
+38	__constVal1	2	0	72	1	2
+39	__constVal32	2	0	73	1	3
+40	__constVal100	2	0	74	1	1
+41	__OUT_AC	7	0	76	4	1
+42	__OUT_AC.__OUT_AC_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	34	0	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
 0	35	0		subcall __initialize_global_data, ____initialize_global_data_return
 0	34	2	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	34	2	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	35	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
-0	34	5	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	34	5	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	35	5		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 3
-0	34	8	#line 34 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	3663	8	#line 3663 "NXCDefs.h"
-0	3664	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
-0	3663	12	#line 3663 "NXCDefs.h"
-0	35	12	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	35	12	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	36	12		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
-0	35	15	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	35	15	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	36	15		set __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, 1
-0	35	18	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	3729	18	#line 3729 "NXCDefs.h"
-0	3730	18		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
-0	3729	20	#line 3729 "NXCDefs.h"
-0	3729	20	#line 3729 "NXCDefs.h"
-0	3730	20		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
-0	3729	22	#line 3729 "NXCDefs.h"
-0	3730	22		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
-0	3729	25	#line 3729 "NXCDefs.h"
-0	3730	25		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	35	2	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	36	2		subcall moveFwd, __moveFwd_return
+0	35	4	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	35	4	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	36	4		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
+0	35	7	#line 35 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	7921	7	#line 7921 "NXCDefs.h"
+0	7922	7		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	10	#line 7921 "NXCDefs.h"
+0	36	10	#line 36 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	36	10	#line 36 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	37	10		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	36	13	#line 36 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	36	13	#line 36 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	37	13		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 3
+0	36	16	#line 36 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	3663	16	#line 3663 "NXCDefs.h"
+0	3664	16		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	20	#line 3663 "NXCDefs.h"
+0	37	20	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	37	20	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	38	20		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	37	23	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	37	23	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	38	23		set __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, 1
+0	37	26	#line 37 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	3729	26	#line 3729 "NXCDefs.h"
+0	3730	26		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	28	#line 3729 "NXCDefs.h"
-0	3730	28		set __D0SetSensorLight_inline_main, 5
-0	3729	31	#line 3729 "NXCDefs.h"
-0	3730	31		jmp __001__NXC_Label_5
+0	3729	28	#line 3729 "NXCDefs.h"
+0	3730	28		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	30	#line 3729 "NXCDefs.h"
+0	3730	30		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
 0	3729	33	#line 3729 "NXCDefs.h"
-0	3730	33		set __D0SetSensorLight_inline_main, 6
+0	3730	33		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
 0	3729	36	#line 3729 "NXCDefs.h"
-0	3730	36		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
-0	3663	38	#line 3663 "NXCDefs.h"
-0	3664	38		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
-0	3663	42	#line 3663 "NXCDefs.h"
-0	3730	42	#line 3730 "NXCDefs.h"
-0	3730	42	#line 3730 "NXCDefs.h"
-0	3731	42		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
-0	3730	44	#line 3730 "NXCDefs.h"
-0	3730	44	#line 3730 "NXCDefs.h"
-0	3731	44		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
-0	3730	47	#line 3730 "NXCDefs.h"
-0	3676	47	#line 3676 "NXCDefs.h"
-0	3677	47		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
-0	3676	51	#line 3676 "NXCDefs.h"
-0	3731	51	#line 3731 "NXCDefs.h"
-0	3731	51	#line 3731 "NXCDefs.h"
-0	3731	51	#line 3731 "NXCDefs.h"
-0	3694	51	#line 3694 "NXCDefs.h"
-0	3695	51	#pragma macro 4
-0	3695	51		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
-0	3695	53		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	3879	55	#line 3879 "NXCDefs.h"
-0	3694	55	#line 3694 "NXCDefs.h"
-0	3732	55	#line 3732 "NXCDefs.h"
-0	38	55	#line 38 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	39	55	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	39	55	#line 39 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-0	40	55		exit 0, 1
+0	3730	36		set __D0SetSensorLight_inline_main, 5
+0	3729	39	#line 3729 "NXCDefs.h"
+0	3730	39		jmp __001__NXC_Label_5
+0	3729	41	#line 3729 "NXCDefs.h"
+0	3730	41		set __D0SetSensorLight_inline_main, 6
+0	3729	44	#line 3729 "NXCDefs.h"
+0	3730	44		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	46	#line 3663 "NXCDefs.h"
+0	3664	46		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	50	#line 3663 "NXCDefs.h"
+0	3730	50	#line 3730 "NXCDefs.h"
+0	3730	50	#line 3730 "NXCDefs.h"
+0	3731	50		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	52	#line 3730 "NXCDefs.h"
+0	3730	52	#line 3730 "NXCDefs.h"
+0	3731	52		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	55	#line 3730 "NXCDefs.h"
+0	3676	55	#line 3676 "NXCDefs.h"
+0	3677	55		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	59	#line 3676 "NXCDefs.h"
+0	3731	59	#line 3731 "NXCDefs.h"
+0	3731	59	#line 3731 "NXCDefs.h"
+0	3731	59	#line 3731 "NXCDefs.h"
+0	3694	59	#line 3694 "NXCDefs.h"
+0	3695	59	#pragma macro 4
+0	3695	59		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	61		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3938	63	#line 3938 "NXCDefs.h"
+0	3694	63	#line 3694 "NXCDefs.h"
+0	3732	63	#line 3732 "NXCDefs.h"
+0	40	63	#line 40 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	41	63	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	41	63	#line 41 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+0	42	63		exit 0, 1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	42	0	#line 42 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	43	0		set __D0move, 1
-2	43	3	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	44	3		tst 5, __zfmove, __D0move
-2	43	6	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	44	6		brtst 4, __NXC_Label_498, __zfmove
-2	43	9	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	44	9		mov __signed_stack_001move, dir
-2	43	11	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	43	11	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	44	11		set __D0move, 1
-2	43	14	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	44	14		cmp 4, __zfmove, __signed_stack_001move, __D0move
-2	43	18	#line 43 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	44	18		mov __D0move, __zfmove
-2	44	20	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	45	20		brtst 4, __NXC_Label_503, __zfmove
-2	44	23	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	45	23		mov __signed_stack_001move, FLSF
-2	44	25	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	44	25	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	45	25		set __D0move, 1
-2	44	28	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	45	28		cmp 4, __zfmove, __signed_stack_001move, __D0move
-2	44	32	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	45	32		mov __D0move, __zfmove
-2	45	34	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	46	34		brtst 4, __NXC_Label_506, __zfmove
-2	46	37	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	47	37		subcall flipDir, __flipDir_return
-2	46	39	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	47	39	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	48	39		set FLSF, 0
-2	47	42	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	47	42	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	44	0	#line 44 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	45	0		set __D0move, 1
+2	45	3	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	46	3		tst 5, __zfmove, __D0move
+2	45	6	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	46	6		brtst 4, __NXC_Label_500, __zfmove
+2	45	9	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	46	9		mov __signed_stack_001move, dir
+2	45	11	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	45	11	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	46	11		set __D0move, 1
+2	45	14	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	46	14		cmp 4, __zfmove, __signed_stack_001move, __D0move
+2	45	18	#line 45 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	46	18		mov __D0move, __zfmove
+2	46	20	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	47	20		brtst 4, __NXC_Label_505, __zfmove
+2	46	23	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	47	23		mov __signed_stack_001move, FLSF
+2	46	25	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	46	25	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	47	25		set __D0move, 1
+2	46	28	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	47	28		cmp 4, __zfmove, __signed_stack_001move, __D0move
+2	46	32	#line 46 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	47	32		mov __D0move, __zfmove
+2	47	34	#line 47 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	48	34		brtst 4, __NXC_Label_508, __zfmove
+2	48	37	#line 48 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	49	37		subcall flipDir, __flipDir_return
+2	48	39	#line 48 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	49	39	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	50	39		set FLSF, 0
 2	49	42	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	50	42		jmp __NXC_Label_509
-2	50	44	#line 50 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	51	44		subcall moveFwd, __moveFwd_return
-2	50	46	#line 50 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	49	42	#line 49 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	51	42	#line 51 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	52	42		jmp __NXC_Label_511
+2	52	44	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	53	44		subcall moveFwd, __moveFwd_return
 2	52	46	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	52	46	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	53	46		jmp __NXC_Label_510
-2	52	48	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	53	48		mov __signed_stack_001move, dir
-2	52	50	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	52	50	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	53	50		mov __D0move, __constValNeg1
-2	52	52	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	53	52		cmp 4, __zfmove, __signed_stack_001move, __D0move
-2	52	56	#line 52 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	53	56		mov __D0move, __zfmove
-2	53	58	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	54	58		brtst 4, __NXC_Label_513, __zfmove
-2	53	61	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	54	61		mov __signed_stack_001move, BLSF
-2	53	63	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	53	63	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	54	63		set __D0move, 1
-2	53	66	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	54	66		cmp 4, __zfmove, __signed_stack_001move, __D0move
-2	53	70	#line 53 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	54	70		mov __D0move, __zfmove
-2	54	72	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	55	72		brtst 4, __NXC_Label_516, __zfmove
-2	55	75	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	56	75		subcall flipDir, __flipDir_return
-2	55	77	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	56	77	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	57	77		set BLSF, 0
-2	56	80	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	56	80	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	54	46	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	54	46	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	55	46		jmp __NXC_Label_512
+2	54	48	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	55	48		mov __signed_stack_001move, dir
+2	54	50	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	54	50	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	55	50		mov __D0move, __constValNeg1
+2	54	52	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	55	52		cmp 4, __zfmove, __signed_stack_001move, __D0move
+2	54	56	#line 54 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	55	56		mov __D0move, __zfmove
+2	55	58	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	56	58		brtst 4, __NXC_Label_515, __zfmove
+2	55	61	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	56	61		mov __signed_stack_001move, BLSF
+2	55	63	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	55	63	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	56	63		set __D0move, 1
+2	55	66	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	56	66		cmp 4, __zfmove, __signed_stack_001move, __D0move
+2	55	70	#line 55 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	56	70		mov __D0move, __zfmove
+2	56	72	#line 56 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	57	72		brtst 4, __NXC_Label_518, __zfmove
+2	57	75	#line 57 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	58	75		subcall flipDir, __flipDir_return
+2	57	77	#line 57 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	58	77	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	59	77		set BLSF, 0
 2	58	80	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	59	80		jmp __NXC_Label_519
-2	59	82	#line 59 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	60	82		subcall moveFwd, __moveFwd_return
-2	59	84	#line 59 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	63	84	#line 63 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	64	84	#line 64 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	64	84	#line 64 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	58	80	#line 58 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	60	80	#line 60 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	61	80		jmp __NXC_Label_521
+2	61	82	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	62	82		subcall moveFwd, __moveFwd_return
+2	61	84	#line 61 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	65	84	#line 65 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
 2	66	84	#line 66 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	67	84		jmp __NXC_Label_497
-2	66	86	#line 66 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-2	67	86		exit -1, -1
-3	67	0	#line 67 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	68	0		set __D0checkLights, 1
-3	68	3	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	69	3		tst 5, __zfcheckLights, __D0checkLights
-3	68	6	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	69	6		brtst 4, __NXC_Label_521, __zfcheckLights
-3	68	9	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	69	9		mov __signed_stack_001checkLights, dir
-3	68	11	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	68	11	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	69	11		set __D0checkLights, 1
-3	68	14	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	69	14		cmp 4, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
-3	68	18	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	69	18		mov __D0checkLights, __zfcheckLights
-3	69	20	#line 69 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	70	20		brtst 4, __NXC_Label_526, __zfcheckLights
-3	69	23	#line 69 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	70	23		getin __signed_stack_001checkLights, __constVal0, 4
-3	69	27	#line 69 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	69	27	#line 69 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	70	27		set __D0checkLights, 350
-3	69	30	#line 69 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	70	30		cmp 3, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
-3	69	34	#line 69 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	70	34		mov __D0checkLights, __zfcheckLights
-3	70	36	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	71	36		brtst 4, __NXC_Label_529, __zfcheckLights
-3	71	39	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	72	39		set FLSF, 1
-3	71	42	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	71	42	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	66	84	#line 66 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	68	84	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	69	84		jmp __NXC_Label_499
+2	68	86	#line 68 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+2	69	86		exit -1, -1
+3	69	0	#line 69 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	70	0		set __D0checkLights, 1
+3	70	3	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	71	3		tst 5, __zfcheckLights, __D0checkLights
+3	70	6	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	71	6		brtst 4, __NXC_Label_523, __zfcheckLights
+3	70	9	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	71	9		mov __signed_stack_001checkLights, dir
+3	70	11	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	70	11	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	71	11		set __D0checkLights, 1
+3	70	14	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	71	14		cmp 4, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
+3	70	18	#line 70 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	71	18		mov __D0checkLights, __zfcheckLights
+3	71	20	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	72	20		brtst 4, __NXC_Label_528, __zfcheckLights
+3	71	23	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	72	23		getin __signed_stack_001checkLights, __constVal0, 4
+3	71	27	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	71	27	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	72	27		set __D0checkLights, 350
+3	71	30	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	72	30		cmp 3, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
+3	71	34	#line 71 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	72	34		mov __D0checkLights, __zfcheckLights
+3	72	36	#line 72 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	73	36		brtst 4, __NXC_Label_531, __zfcheckLights
+3	73	39	#line 73 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	74	39		set FLSF, 1
 3	73	42	#line 73 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	74	42		jmp __NXC_Label_532
-3	74	44	#line 74 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	75	44		set FLSF, 0
-3	74	47	#line 74 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	74	47	#line 74 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	73	42	#line 73 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	75	42	#line 75 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	76	42		jmp __NXC_Label_534
+3	76	44	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	77	44		set FLSF, 0
 3	76	47	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
 3	76	47	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	77	47		jmp __NXC_Label_535
-3	76	49	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	77	49		mov __signed_stack_001checkLights, dir
-3	76	51	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	76	51	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	77	51		mov __D0checkLights, __constValNeg1
-3	76	53	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	77	53		cmp 4, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
-3	76	57	#line 76 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	77	57		mov __D0checkLights, __zfcheckLights
-3	77	59	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	78	59		brtst 4, __NXC_Label_538, __zfcheckLights
-3	77	62	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	78	62		getin __signed_stack_001checkLights, __constVal1, 4
-3	77	66	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	77	66	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	78	66		set __D0checkLights, 35
-3	77	69	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	78	69		cmp 3, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
-3	77	73	#line 77 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	78	73		mov __D0checkLights, __zfcheckLights
-3	78	75	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	79	75		brtst 4, __NXC_Label_541, __zfcheckLights
-3	79	78	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	80	78		set BLSF, 1
-3	79	81	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	79	81	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	78	47	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	78	47	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	79	47		jmp __NXC_Label_537
+3	78	49	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	79	49		mov __signed_stack_001checkLights, dir
+3	78	51	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	78	51	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	79	51		mov __D0checkLights, __constValNeg1
+3	78	53	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	79	53		cmp 4, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
+3	78	57	#line 78 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	79	57		mov __D0checkLights, __zfcheckLights
+3	79	59	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	80	59		brtst 4, __NXC_Label_540, __zfcheckLights
+3	79	62	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	80	62		getin __signed_stack_001checkLights, __constVal1, 4
+3	79	66	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	79	66	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	80	66		set __D0checkLights, 35
+3	79	69	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	80	69		cmp 3, __zfcheckLights, __signed_stack_001checkLights, __D0checkLights
+3	79	73	#line 79 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	80	73		mov __D0checkLights, __zfcheckLights
+3	80	75	#line 80 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	81	75		brtst 4, __NXC_Label_543, __zfcheckLights
+3	81	78	#line 81 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	82	78		set BLSF, 1
 3	81	81	#line 81 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	82	81		jmp __NXC_Label_544
-3	82	83	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	83	83		set BLSF, 0
-3	82	86	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	82	86	#line 82 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	81	81	#line 81 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	83	81	#line 83 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	84	81		jmp __NXC_Label_546
+3	84	83	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	85	83		set BLSF, 0
 3	84	86	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	85	86	#line 85 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	85	86	#line 85 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	84	86	#line 84 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	86	86	#line 86 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
 3	87	86	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	88	86		jmp __NXC_Label_520
-3	87	88	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-3	88	88		exit -1, -1
-4	89	0	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-4	89	0	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-4	90	0		mul dir, dir, __constValNeg1
-4	89	4	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	87	86	#line 87 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	89	86	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	90	86		jmp __NXC_Label_522
+3	89	88	#line 89 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+3	90	88		exit -1, -1
+4	91	0	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+4	91	0	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+4	92	0		mul dir, dir, __constValNeg1
 4	91	4	#line 91 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-4	92	4		subret __flipDir_return
-5	92	0	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	0	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	0	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	0	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	93	0		mul __signed_stack_001moveFwd, max, dir
-5	92	4	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	4	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	93	4		set __signed_stack_002moveFwd, 0
-5	92	7	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	7	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	7	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	7	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	92	7	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	93	7		mul __D0moveFwd, __constVal100, dir
-5	92	11	#line 92 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	93	11		sub __D0moveFwd, __signed_stack_002moveFwd, __D0moveFwd
-5	93	15	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	94	15	#pragma macro 7
-5	94	15		setout __OUT_AC, 2, __signed_stack_001moveFwd, 1, __constVal7, 8, __constVal2, 7, __D0moveFwd, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	4162	38	#line 4162 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	93	38	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+4	93	4	#line 93 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+4	94	4		subret __flipDir_return
+5	94	0	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	0	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	0	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	0	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	95	0		mul __signed_stack_001moveFwd, max, dir
+5	94	4	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	4	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	95	4		set __signed_stack_002moveFwd, 0
+5	94	7	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	7	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	7	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	7	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	94	7	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	95	7		mul __D0moveFwd, __constVal100, dir
+5	94	11	#line 94 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	95	11		sub __D0moveFwd, __signed_stack_002moveFwd, __D0moveFwd
+5	95	15	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	96	15	#pragma macro 7
+5	96	15		setout __OUT_AC, 2, __signed_stack_001moveFwd, 1, __constVal7, 8, __constVal2, 7, __D0moveFwd, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4221	38	#line 4221 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
 5	95	38	#line 95 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-5	96	38		subret __moveFwd_return
-6	96	0	#line 96 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
-6	97	0		subret ____initialize_global_data_return
+5	97	38	#line 97 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+5	98	38		subret __moveFwd_return
+6	98	0	#line 98 "C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc"
+6	99	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
-1	__ResetSensorSubroutine	58	NXTDefs.h
-2	move	71	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
-3	checkLights	160	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
-4	flipDir	251	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
-5	moveFwd	257	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
-6	__initialize_global_data	297	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
+1	__ResetSensorSubroutine	66	NXTDefs.h
+2	move	79	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
+3	checkLights	168	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
+4	flipDir	259	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
+5	moveFwd	265	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc
+6	__initialize_global_data	305	C:\Users\Lshi\Documents\Extracurriculars\Gov School\Robotics\GSET_Robotics\Sumo\UltraObfuscate.nxc

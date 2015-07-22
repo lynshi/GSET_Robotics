@@ -32,6 +32,8 @@ void flipDir(); //flips the direction of movement
 void moveFwd();
 
 task main(){
+     OnFwd;
+     Wait(10000);
      SetSensorType(FLSP,SENSOR_TYPE_LIGHT);
      SetSensorLight(BLSP,1);
      //SetSensorUltrasonic(USSP);
@@ -40,7 +42,6 @@ task main(){
 }
 
 task move(){
-     //turn a little to avoid head on collision <-------------------------------------------------
      while(1){
           if(dir == 1){
                if(FLSF == 1){ //if hits edge while moving "forward"

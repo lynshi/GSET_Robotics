@@ -32,6 +32,8 @@ void flipDir(); //flips the direction of movement
 void moveFwd();
 
 task main(){
+     moveFwd();
+     Wait(10000);
      SetSensorType(FLSP,SENSOR_TYPE_LIGHT);
      SetSensorLight(BLSP,1);
      //SetSensorUltrasonic(USSP);
